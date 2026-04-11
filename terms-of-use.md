@@ -2,11 +2,11 @@
 
   *Last updated: April 11, 2026*
 
-  By using King of Spins ("the App"), you agree to these Terms of Use.
+  By using Lucky Decisions ("the App"), you agree to these Terms of Use.
 
   ## Subscriptions
 
-  The App offers King of Spins Premium as an auto-renewable subscription with
+  The App offers Lucky Decisions Premium as an auto-renewable subscription with
   the following options:
   - Monthly subscription
   - Yearly subscription
