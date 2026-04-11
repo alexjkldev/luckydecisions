@@ -2,7 +2,7 @@
 
   *Last updated: April 11, 2026*
 
-  King of Spins ("the App") is developed by AlexJKL. This Privacy Policy
+  Lucky Decisions ("the App") is developed by AlexJKL. This Privacy Policy
   describes how your information is collected, used, and shared when you use the
    App.
 
