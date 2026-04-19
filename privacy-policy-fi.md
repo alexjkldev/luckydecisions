@@ -1,6 +1,6 @@
 # Tietosuojakäytäntö
 
-*Viimeksi päivitetty: 11. huhtikuuta 2026*
+*Viimeksi päivitetty: 19. huhtikuuta 2026*
 
 Lucky Decisions ("Sovellus") on AlexJKL:n kehittämä. Tämä tietosuojakäytäntö kuvaa, miten tietojasi kerätään, käytetään ja jaetaan, kun käytät Sovellusta.
 
