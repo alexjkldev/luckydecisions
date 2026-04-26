@@ -1,32 +1,32 @@
 # Privacy Policy
 
-*Останнє оновлення: 19 квітня 2026 р.*
+*Last updated: April 19, 2026*
 
-Lucky Decisions ("Додаток") розроблений AlexJKL. Ця Політика конфіденційності описує, як ваша інформація збирається, використовується та передається під час використання Додатку.
+Lucky Decisions ("the App") is developed by AlexJKL. This Privacy Policy describes how your information is collected, used, and shared when you use the App.
 
 ## Information We Collect
 
-Додаток зберігає весь створений користувачем контент (колеса, сектори, історію обертань, налаштування) локально на вашому пристрої. Ми не збираємо персональну інформацію, таку як імена, електронні адреси або облікові записи.
+The App stores all user-created content (wheels, sectors, spin logs, settings) locally on your device. We do not collect personal information such as names, email addresses, or accounts.
 
-У Додатку використовуються такі сторонні сервіси, які можуть збирати певні дані:
+The following third-party services are used in the App and may collect certain data:
 
-- **Google AdMob** — збирає рекламний ідентифікатор та інформацію про пристрій для показу реклами. На iOS персоналізована реклама потребує вашої згоди через App Tracking Transparency. [Політика конфіденційності Google](https://policies.google.com/privacy)
-- **Yandex Mobile Ads** — показує рекламу та збирає рекламний ідентифікатор і інформацію про пристрій. [Політика конфіденційності Yandex](https://yandex.com/legal/confidential/)
-- **RevenueCat** — обробляє підписки та зберігає анонімний ідентифікатор користувача. [Політика конфіденційності RevenueCat](https://www.revenuecat.com/privacy)
-- **Firebase Analytics & Crashlytics** (лише Android) — збирає статистику використання додатку, звіти про збої та інформацію про пристрій. [Політика конфіденційності Firebase](https://firebase.google.com/support/privacy)
+- **Google AdMob** — Collects advertising ID and device information to serve ads. On iOS, personalized ads require your consent via App Tracking Transparency. [Google Privacy Policy](https://policies.google.com/privacy)
+- **Yandex Mobile Ads** — Serves ads and collects advertising ID and device information. [Yandex Privacy Policy](https://yandex.com/legal/confidential/)
+- **RevenueCat** — Processes subscription purchases and stores an anonymous user ID. [RevenueCat Privacy Policy](https://www.revenuecat.com/privacy)
+- **Firebase Analytics & Crashlytics** (Android only) — Collects app usage statistics, crash reports, and device information. [Firebase Privacy Policy](https://firebase.google.com/support/privacy)
 
 ## Data Storage
 
-Усі дані додатку зберігаються локально на вашому пристрої. Жодні персональні дані не передаються на наші сервери.
+All app data is stored locally on your device. No personal data is transmitted to our servers.
 
 ## Children's Privacy
 
-Додаток свідомо не збирає персональну інформацію від дітей. Зазначені вище сторонні сервіси можуть мати власні вікові обмеження.
+The App does not knowingly collect personal information from children. The third-party services listed above may have their own age restrictions.
 
 ## Changes to This Policy
 
-Ми можемо час від часу оновлювати цю Політику конфіденційності. Зміни будуть опубліковані в Додатку або на цій сторінці.
+We may update this Privacy Policy from time to time. Changes will be posted within the App or on this page.
 
 ## Contact
 
-З питань щодо цієї Політики конфіденційності звертайтеся через сторінку Додатку в App Store або Google Play Store.
+For questions about this Privacy Policy, please contact us through the App Store or Google Play Store listing.
