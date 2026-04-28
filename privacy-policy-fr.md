@@ -6,7 +6,7 @@ Lucky Decisions (« l’Application ») est développée par AlexJKL. Cette Poli
 
 ## Informations que nous collectons
 
-L’Application stocke tout le contenu créé par l’utilisateur (roues, secteurs, historiques des tirages, paramètres) localement sur votre appareil. Nous ne collectons pas d’informations personnelles telles que le nom, l’adresse e-mail ou les comptes.
+L’Application stocke tout le contenu créé par l’utilisateur (roues, secteurs, historiques des tirages, paramètres) localement sur votre appareil. Nous ne collectons pas d’informations personnelles telles que nom, adresse e-mail ou compte.
 
 Les services tiers suivants sont utilisés dans l’Application et peuvent collecter certaines données :
 
