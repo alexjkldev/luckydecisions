@@ -1,6 +1,6 @@
 # Tietosuojakäytäntö
 
-*Viimeksi päivitetty: 19. huhtikuuta 2026*
+*Viimeksi päivitetty: 30. huhtikuuta 2026*
 
 Lucky Decisions ("Sovellus") on AlexJKL:n kehittämä. Tämä tietosuojakäytäntö kuvaa, miten tietojasi kerätään, käytetään ja jaetaan, kun käytät Sovellusta.
 
@@ -10,10 +10,9 @@ Sovellus tallentaa kaiken käyttäjän luoman sisällön (pyörät, sektorit, py
 
 Sovelluksessa käytetään seuraavia kolmannen osapuolen palveluja, jotka voivat kerätä tiettyjä tietoja:
 
-- **Google AdMob** — Kerää mainostunnisteen ja laitetietoja mainosten näyttämiseksi. iOS:ssä personoidut mainokset edellyttävät suostumustasi App Tracking Transparency -toiminnon kautta. [Googlen tietosuojakäytäntö](https://policies.google.com/privacy)
-- **Yandex Mobile Ads** — Näyttää mainoksia ja kerää mainostunnisteen ja laitetietoja. [Yandexin tietosuojakäytäntö](https://yandex.com/legal/confidential/)
-- **RevenueCat** — Käsittelee tilausostot ja tallentaa anonyymin käyttäjätunnuksen. [RevenueCatin tietosuojakäytäntö](https://www.revenuecat.com/privacy)
-- **Firebase Analytics ja Crashlytics** (vain Android) — Kerää sovelluksen käyttötilastoja, virheraporteja ja laitetietoja. [Firebasen tietosuojakäytäntö](https://firebase.google.com/support/privacy)
+- **Google AdMob** — Kerää mainostunnisteen, laitetietoja, tietoa mainosvuorovaikutuksista (klikkaukset, näytöt, näkemäsi mainokset) ja SDK-diagnostiikkaa (kaatumis- ja suorituskykytiedot) mainosten näyttämistä ja mittaamista varten. iOS:ssä personoidut mainokset edellyttävät suostumustasi App Tracking Transparency -toiminnon kautta. [Googlen tietosuojakäytäntö](https://policies.google.com/privacy)
+- **Yandex Mobile Ads** — Näyttää mainoksia ja kerää mainostunnisteen, laitetietoja, tietoa mainosvuorovaikutuksista ja SDK-diagnostiikkaa. [Yandexin tietosuojakäytäntö](https://yandex.com/legal/confidential/)
+- **RevenueCat** — Käsittelee tilausostot, tallentaa ostohistoriasi ja antaa anonyymin käyttäjätunnuksen. [RevenueCatin tietosuojakäytäntö](https://www.revenuecat.com/privacy)
 
 ## Tietojen tallennus
 

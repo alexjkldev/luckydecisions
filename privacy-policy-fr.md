@@ -1,6 +1,6 @@
 # Politique de confidentialité
 
-*Dernière mise à jour : 19 avril 2026*
+*Dernière mise à jour : 30 avril 2026*
 
 Lucky Decisions (« l’Application ») est développée par AlexJKL. Cette Politique de confidentialité décrit comment vos informations sont collectées, utilisées et partagées lorsque vous utilisez l’Application.
 
@@ -10,10 +10,9 @@ L’Application stocke tout le contenu créé par l’utilisateur (roues, secteu
 
 Les services tiers suivants sont utilisés dans l’Application et peuvent collecter certaines données :
 
-- **Google AdMob** — collecte l’identifiant publicitaire et des informations sur l’appareil afin d’afficher des publicités. Sur iOS, les publicités personnalisées nécessitent votre consentement via App Tracking Transparency. [Politique de confidentialité Google](https://policies.google.com/privacy)
-- **Yandex Mobile Ads** — diffuse des publicités et collecte l’identifiant publicitaire ainsi que des informations sur l’appareil. [Politique de confidentialité Yandex](https://yandex.com/legal/confidential/)
-- **RevenueCat** — traite les achats d’abonnement et stocke un identifiant utilisateur anonyme. [Politique de confidentialité RevenueCat](https://www.revenuecat.com/privacy)
-- **Firebase Analytics & Crashlytics** (Android uniquement) — collecte des statistiques d’utilisation de l’application, des rapports de plantage et des informations sur l’appareil. [Politique de confidentialité Firebase](https://firebase.google.com/support/privacy)
+- **Google AdMob** — collecte l’identifiant publicitaire, des informations sur l’appareil, des données d’interaction avec les publicités (clics, impressions, publicités vues) et des diagnostics du SDK (rapports de plantage et de performance) afin d’afficher et de mesurer des publicités. Sur iOS, les publicités personnalisées nécessitent votre consentement via App Tracking Transparency. [Politique de confidentialité Google](https://policies.google.com/privacy)
+- **Yandex Mobile Ads** — diffuse des publicités et collecte l’identifiant publicitaire, des informations sur l’appareil, des données d’interaction avec les publicités ainsi que des diagnostics du SDK. [Politique de confidentialité Yandex](https://yandex.com/legal/confidential/)
+- **RevenueCat** — traite les achats d’abonnement, stocke votre historique d’achats et attribue un identifiant utilisateur anonyme. [Politique de confidentialité RevenueCat](https://www.revenuecat.com/privacy)
 
 ## Stockage des données
 

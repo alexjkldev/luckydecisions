@@ -1,6 +1,6 @@
 # Privacy Policy
 
-*Last updated: April 19, 2026*
+*Last updated: April 30, 2026*
 
 Lucky Decisions ("the App") is developed by AlexJKL. This Privacy Policy describes how your information is collected, used, and shared when you use the App.
 
@@ -10,10 +10,9 @@ The App stores all user-created content (wheels, sectors, spin logs, settings) l
 
 The following third-party services are used in the App and may collect certain data:
 
-- **Google AdMob** — Collects advertising ID and device information to serve ads. On iOS, personalized ads require your consent via App Tracking Transparency. [Google Privacy Policy](https://policies.google.com/privacy)
-- **Yandex Mobile Ads** — Serves ads and collects advertising ID and device information. [Yandex Privacy Policy](https://yandex.com/legal/confidential/)
-- **RevenueCat** — Processes subscription purchases and stores an anonymous user ID. [RevenueCat Privacy Policy](https://www.revenuecat.com/privacy)
-- **Firebase Analytics & Crashlytics** (Android only) — Collects app usage statistics, crash reports, and device information. [Firebase Privacy Policy](https://firebase.google.com/support/privacy)
+- **Google AdMob** — Collects advertising ID, device information, ad interactions (clicks, impressions, which ads you have seen), and SDK diagnostics (crash and performance data) to serve and measure ads. On iOS, personalized ads require your consent via App Tracking Transparency. [Google Privacy Policy](https://policies.google.com/privacy)
+- **Yandex Mobile Ads** — Serves ads and collects advertising ID, device information, ad interactions, and SDK diagnostics. [Yandex Privacy Policy](https://yandex.com/legal/confidential/)
+- **RevenueCat** — Processes subscription purchases, stores your purchase history, and assigns an anonymous user ID. [RevenueCat Privacy Policy](https://www.revenuecat.com/privacy)
 
 ## Data Storage
 

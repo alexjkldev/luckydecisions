@@ -1,6 +1,6 @@
 # Zásady ochrany osobných údajov
 
-*Posledná aktualizácia: 19. apríl 2026*
+*Posledná aktualizácia: 30. apríl 2026*
 
 Lucky Decisions („Aplikácia“) je vyvinutá AlexJKL. Tieto zásady ochrany osobných údajov opisujú, ako sa vaše informácie zhromažďujú, používajú a zdieľajú pri používaní Aplikácie.
 
@@ -10,10 +10,9 @@ Aplikácia ukladá všetok obsah vytvorený používateľom (kolesá, sektory, z
 
 V Aplikácii sa používajú nasledujúce služby tretích strán, ktoré môžu zhromažďovať určité údaje:
 
-- **Google AdMob** — zhromažďuje reklamný identifikátor a informácie o zariadení na zobrazovanie reklám. Na iOS si personalizované reklamy vyžadujú váš súhlas prostredníctvom App Tracking Transparency. [Zásady ochrany osobných údajov Google](https://policies.google.com/privacy)
-- **Yandex Mobile Ads** — zobrazuje reklamy a zhromažďuje reklamný identifikátor a informácie o zariadení. [Zásady ochrany osobných údajov Yandex](https://yandex.com/legal/confidential/)
-- **RevenueCat** — spracúva nákupy predplatného a ukladá anonymný identifikátor používateľa. [Zásady ochrany osobných údajov RevenueCat](https://www.revenuecat.com/privacy)
-- **Firebase Analytics & Crashlytics** (iba Android) — zhromažďuje štatistiky používania aplikácie, správy o pádoch a informácie o zariadení. [Zásady ochrany osobných údajov Firebase](https://firebase.google.com/support/privacy)
+- **Google AdMob** — zhromažďuje reklamný identifikátor, informácie o zariadení, údaje o interakcii s reklamami (kliknutia, zobrazenia, ktoré reklamy ste videli) a diagnostiku SDK (údaje o pádoch a výkone) na zobrazovanie a meranie reklám. Na iOS si personalizované reklamy vyžadujú váš súhlas prostredníctvom App Tracking Transparency. [Zásady ochrany osobných údajov Google](https://policies.google.com/privacy)
+- **Yandex Mobile Ads** — zobrazuje reklamy a zhromažďuje reklamný identifikátor, informácie o zariadení, údaje o interakcii s reklamami a diagnostiku SDK. [Zásady ochrany osobných údajov Yandex](https://yandex.com/legal/confidential/)
+- **RevenueCat** — spracúva nákupy predplatného, ukladá vašu históriu nákupov a priraďuje anonymný identifikátor používateľa. [Zásady ochrany osobných údajov RevenueCat](https://www.revenuecat.com/privacy)
 
 ## Ukladanie údajov
 
