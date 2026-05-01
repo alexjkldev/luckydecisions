@@ -1,6 +1,6 @@
 # Tietosuojakäytäntö
 
-*Viimeksi päivitetty: 30. huhtikuuta 2026*
+*Viimeksi päivitetty: 2. toukokuuta 2026*
 
 Lucky Decisions ("Sovellus") on AlexJKL:n kehittämä. Tämä tietosuojakäytäntö kuvaa, miten tietojasi kerätään, käytetään ja jaetaan, kun käytät Sovellusta.
 
@@ -28,4 +28,4 @@ Voimme päivittää tätä tietosuojakäytäntöä ajoittain. Muutokset julkaist
 
 ## Yhteystiedot
 
-Tätä tietosuojakäytäntöä koskevissa kysymyksissä ota meihin yhteyttä App Storen tai Google Play Storen sovelluslistauksen kautta.
+Jos sinulla on kysyttävää tästä tietosuojakäytännöstä tai haluat ottaa yhteyttä kehittäjään, voit lähettää meille sähköpostia osoitteeseen drams-remix2k@icloud.com tai ottaa yhteyttä App Storen tai Google Play Storen sovelluslistauksen kautta. Kun otat meihin yhteyttä sähköpostitse, saamme sähköpostiosoitteesi, viestisi sisällön ja mahdolliset liitteet. Käytämme näitä tietoja yksinomaan kyselyysi vastaamiseen ja Sovelluksen parantamiseen. Emme jaa niitä kolmansille osapuolille.

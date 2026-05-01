@@ -1,6 +1,6 @@
 # Politique de confidentialité
 
-*Dernière mise à jour : 30 avril 2026*
+*Dernière mise à jour : 2 mai 2026*
 
 Lucky Decisions (« l’Application ») est développée par AlexJKL. Cette Politique de confidentialité décrit comment vos informations sont collectées, utilisées et partagées lorsque vous utilisez l’Application.
 
@@ -28,4 +28,4 @@ Nous pouvons mettre à jour cette Politique de confidentialité de temps à autr
 
 ## Contact
 
-Pour toute question concernant cette Politique de confidentialité, veuillez nous contacter via la fiche de l’App Store ou du Google Play Store.
+Pour toute question concernant cette Politique de confidentialité ou pour contacter le développeur, vous pouvez nous envoyer un e-mail à drams-remix2k@icloud.com ou nous contacter via la fiche de l’App Store ou du Google Play Store. Lorsque vous nous contactez par e-mail, nous recevons votre adresse e-mail, le contenu de votre message et toute pièce jointe. Ces informations sont utilisées uniquement pour répondre à votre demande et améliorer l’Application. Nous ne les partageons pas avec des tiers.
