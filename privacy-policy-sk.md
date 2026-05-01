@@ -28,4 +28,4 @@ Tieto zásady ochrany osobných údajov môžeme z času na čas aktualizovať. 
 
 ## Kontakt
 
-Ak máte otázky týkajúce sa týchto zásad ochrany osobných údajov alebo chcete kontaktovať vývojára, môžete nám napísať na drams-remix2k@icloud.com alebo nás kontaktovať prostredníctvom stránky Aplikácie v App Store alebo Google Play Store. Keď nás kontaktujete e-mailom, dostávame vašu e-mailovú adresu, obsah vašej správy a všetky prílohy. Tieto informácie používame výhradne na odpoveď na vašu žiadosť a zlepšenie Aplikácie. Nezdieľame ich s tretími stranami.
+Ak máte otázky týkajúce sa týchto zásad ochrany osobných údajov alebo chcete kontaktovať vývojára, môžete nás kontaktovať prostredníctvom Aplikácie alebo cez stránku Aplikácie v App Store alebo Google Play Store. Keď nás kontaktujete e-mailom, dostávame vašu e-mailovú adresu, obsah vašej správy a všetky prílohy. Tieto informácie používame výhradne na odpoveď na vašu žiadosť a zlepšenie Aplikácie. Nezdieľame ich s tretími stranami.

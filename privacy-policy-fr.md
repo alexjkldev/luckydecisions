@@ -28,4 +28,4 @@ Nous pouvons mettre à jour cette Politique de confidentialité de temps à autr
 
 ## Contact
 
-Pour toute question concernant cette Politique de confidentialité ou pour contacter le développeur, vous pouvez nous envoyer un e-mail à drams-remix2k@icloud.com ou nous contacter via la fiche de l’App Store ou du Google Play Store. Lorsque vous nous contactez par e-mail, nous recevons votre adresse e-mail, le contenu de votre message et toute pièce jointe. Ces informations sont utilisées uniquement pour répondre à votre demande et améliorer l’Application. Nous ne les partageons pas avec des tiers.
+Pour toute question concernant cette Politique de confidentialité ou pour contacter le développeur, vous pouvez nous joindre via l’Application ou la fiche de l’App Store ou du Google Play Store. Lorsque vous nous contactez par e-mail, nous recevons votre adresse e-mail, le contenu de votre message et toute pièce jointe. Ces informations sont utilisées uniquement pour répondre à votre demande et améliorer l’Application. Nous ne les partageons pas avec des tiers.

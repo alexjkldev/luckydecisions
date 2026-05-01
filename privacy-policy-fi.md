@@ -28,4 +28,4 @@ Voimme päivittää tätä tietosuojakäytäntöä ajoittain. Muutokset julkaist
 
 ## Yhteystiedot
 
-Jos sinulla on kysyttävää tästä tietosuojakäytännöstä tai haluat ottaa yhteyttä kehittäjään, voit lähettää meille sähköpostia osoitteeseen drams-remix2k@icloud.com tai ottaa yhteyttä App Storen tai Google Play Storen sovelluslistauksen kautta. Kun otat meihin yhteyttä sähköpostitse, saamme sähköpostiosoitteesi, viestisi sisällön ja mahdolliset liitteet. Käytämme näitä tietoja yksinomaan kyselyysi vastaamiseen ja Sovelluksen parantamiseen. Emme jaa niitä kolmansille osapuolille.
+Jos sinulla on kysyttävää tästä tietosuojakäytännöstä tai haluat ottaa yhteyttä kehittäjään, voit ottaa meihin yhteyttä Sovelluksen kautta tai App Storen tai Google Play Storen sovelluslistauksen kautta. Kun otat meihin yhteyttä sähköpostitse, saamme sähköpostiosoitteesi, viestisi sisällön ja mahdolliset liitteet. Käytämme näitä tietoja yksinomaan kyselyysi vastaamiseen ja Sovelluksen parantamiseen. Emme jaa niitä kolmansille osapuolille.

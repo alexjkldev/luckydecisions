@@ -28,4 +28,4 @@ We may update this Privacy Policy from time to time. Changes will be posted with
 
 ## Contact
 
-If you have questions about this Privacy Policy or want to contact the developer, you can email us at drams-remix2k@icloud.com or reach out through the App Store or Google Play Store listing. When you contact us by email, we receive your email address, the content of your message and any attachments. This information is used solely to respond to your inquiry and improve the App. We do not share it with third parties.
+If you have questions about this Privacy Policy or want to contact the developer, you can reach out through the App or via the App Store or Google Play Store listing. When you contact us by email, we receive your email address, the content of your message and any attachments. This information is used solely to respond to your inquiry and improve the App. We do not share it with third parties.

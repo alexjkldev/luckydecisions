@@ -28,4 +28,4 @@ Potremmo aggiornare periodicamente questa Informativa sulla privacy. Le modifich
 
 ## Contatti
 
-Per domande su questa Informativa sulla privacy o per contattare lo sviluppatore, puoi inviarci un'e-mail a drams-remix2k@icloud.com o contattarci tramite la pagina dell'App nell'App Store o Google Play Store. Quando ci contatti via e-mail, riceviamo il tuo indirizzo e-mail, il contenuto del tuo messaggio e qualsiasi allegato. Queste informazioni vengono utilizzate esclusivamente per rispondere alla tua richiesta e migliorare l'App. Non le condividiamo con terze parti.
+Per domande su questa Informativa sulla privacy o per contattare lo sviluppatore, puoi contattarci tramite l'App o la pagina dell'App nell'App Store o Google Play Store. Quando ci contatti via e-mail, riceviamo il tuo indirizzo e-mail, il contenuto del tuo messaggio e qualsiasi allegato. Queste informazioni vengono utilizzate esclusivamente per rispondere alla tua richiesta e migliorare l'App. Non le condividiamo con terze parti.
