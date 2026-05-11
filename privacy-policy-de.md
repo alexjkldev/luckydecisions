@@ -1,39 +1,31 @@
-# Nutzungsbedingungen
+# Datenschutzrichtlinie
 
-*Zuletzt aktualisiert: 11. April 2026*
+*Zuletzt aktualisiert: 11. Mai 2026*
 
-Durch die Nutzung von Lucky Decisions („die App“) stimmen Sie diesen Nutzungsbedingungen zu.
+Lucky Decisions („die App“) wird von AlexJKL entwickelt. Diese Datenschutzrichtlinie beschreibt, wie Informationen bei der Nutzung der App erhoben, verwendet und weitergegeben werden.
 
-## Abonnements
+## Welche Informationen wir erfassen
 
-Die App bietet Lucky Decisions Premium als automatisch verlängerbares Abonnement mit folgenden Optionen an:
-- Monatliches Abonnement  
-- Jährliches Abonnement  
+Die App speichert alle vom Nutzer erstellten Inhalte (Räder, Segmente, Drehprotokolle, Einstellungen) lokal auf Ihrem Gerät. Wir erfassen keine personenbezogenen Daten wie Namen, E-Mail-Adressen oder Konten.
 
-Die Zahlung wird bei Bestätigung des Kaufs Ihrer Apple-ID oder Ihrem Google-Play-Konto belastet. Abonnements verlängern sich automatisch, sofern sie nicht mindestens 24 Stunden vor Ablauf des aktuellen Zeitraums gekündigt werden. Ihr Konto wird innerhalb von 24 Stunden vor Ende des aktuellen Zeitraums für die Verlängerung belastet.
+Die folgenden Drittanbieterdienste werden in der App verwendet und können bestimmte Daten erfassen:
 
-## Verwaltung von Abonnements
+- **Google AdMob** — Erfasst Werbe-ID, Geräteinformationen, Anzeigeninteraktionen (Klicks, Impressionen, welche Anzeigen Sie gesehen haben) sowie SDK-Diagnosedaten (Absturz- und Leistungsdaten), um Werbung bereitzustellen und zu messen. Unter iOS erfordern personalisierte Anzeigen Ihre Zustimmung über App Tracking Transparency. [Google-Datenschutzerklärung](https://policies.google.com/privacy)
+- **Yandex Mobile Ads** — Zeigt Werbung an und erfasst Werbe-ID, Geräteinformationen, Anzeigeninteraktionen sowie SDK-Diagnosedaten. [Yandex-Datenschutzerklärung](https://yandex.com/legal/confidential/)
+- **RevenueCat** — Verarbeitet Abonnementkäufe, speichert Ihren Kaufverlauf und weist eine anonyme Benutzer-ID zu. [RevenueCat-Datenschutzerklärung](https://www.revenuecat.com/privacy)
 
-Sie können Ihr Abonnement in den Einstellungen Ihres Geräts verwalten oder kündigen:
-- **iOS:** Einstellungen → Apple-ID → Abonnements
-- **Android:** Google Play Store → Abonnements
+## Datenspeicherung
 
-## Werbung
+Alle App-Daten werden lokal auf Ihrem Gerät gespeichert. Es werden keine personenbezogenen Daten an unsere Server übertragen.
 
-Die kostenlose Version der App zeigt Werbung von Google AdMob an. Premium-Abonnenten genießen eine werbefreie Nutzung.
+## Datenschutz für Kinder
 
-## Inhalte
+Die App sammelt wissentlich keine personenbezogenen Informationen von Kindern. Die oben genannten Drittanbieterdienste können eigene Altersbeschränkungen haben.
 
-Die App wird „wie besehen“ ohne jegliche Garantien bereitgestellt. Wir übernehmen keine Verantwortung für Entscheidungen, die mithilfe der App getroffen werden.
+## Änderungen dieser Richtlinie
 
-## Haftungsbeschränkung
-
-Soweit gesetzlich zulässig, haftet der Entwickler nicht für indirekte, zufällige oder Folgeschäden, die aus der Nutzung der App entstehen.
-
-## Änderungen dieser Bedingungen
-
-Wir können diese Nutzungsbedingungen von Zeit zu Zeit aktualisieren. Die fortgesetzte Nutzung der App gilt als Zustimmung zu den aktualisierten Bedingungen.
+Wir können diese Datenschutzrichtlinie von Zeit zu Zeit aktualisieren. Änderungen werden innerhalb der App oder auf dieser Seite veröffentlicht.
 
 ## Kontakt
 
-Bei Fragen zu diesen Nutzungsbedingungen kontaktieren Sie uns bitte über den Eintrag im App Store oder Google Play Store.
+Wenn Sie Fragen zu dieser Datenschutzrichtlinie haben oder den Entwickler kontaktieren möchten, können Sie uns über die App oder über den Eintrag im App Store oder Google Play Store erreichen. Wenn Sie uns per E-Mail kontaktieren, erhalten wir Ihre E-Mail-Adresse, den Inhalt Ihrer Nachricht sowie etwaige Anhänge. Diese Informationen werden ausschließlich verwendet, um Ihre Anfrage zu beantworten und die App zu verbessern. Wir geben sie nicht an Dritte weiter.
