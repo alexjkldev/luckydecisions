@@ -1,6 +1,6 @@
 # Politique de confidentialité
 
-*Dernière mise à jour : 2 mai 2026*
+*Dernière mise à jour : 18 mai 2026*
 
 Lucky Decisions (« l’Application ») est développée par AlexJKL. Cette Politique de confidentialité décrit comment vos informations sont collectées, utilisées et partagées lorsque vous utilisez l’Application.
 
@@ -13,6 +13,7 @@ Les services tiers suivants sont utilisés dans l’Application et peuvent colle
 - **Google AdMob** — collecte l’identifiant publicitaire, des informations sur l’appareil, des données d’interaction avec les publicités (clics, impressions, publicités vues) et des diagnostics du SDK (rapports de plantage et de performance) afin d’afficher et de mesurer des publicités. Sur iOS, les publicités personnalisées nécessitent votre consentement via App Tracking Transparency. [Politique de confidentialité Google](https://policies.google.com/privacy)
 - **Yandex Mobile Ads** — diffuse des publicités et collecte l’identifiant publicitaire, des informations sur l’appareil, des données d’interaction avec les publicités ainsi que des diagnostics du SDK. [Politique de confidentialité Yandex](https://yandex.com/legal/confidential/)
 - **RevenueCat** — traite les achats d’abonnement, stocke votre historique d’achats et attribue un identifiant utilisateur anonyme. [Politique de confidentialité RevenueCat](https://www.revenuecat.com/privacy)
+- **Firebase (Google)** — Crashlytics collecte des rapports de plantages et d’erreurs : traces de pile, version du système d’exploitation, modèle d’appareil et identifiant d’installation. Firebase Analytics collecte des événements d’utilisation anonymes de l’application et l’identifiant de l’appareil. [Politique de confidentialité Google](https://policies.google.com/privacy)
 
 ## Stockage des données
 

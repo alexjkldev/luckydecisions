@@ -1,6 +1,6 @@
 # Zásady ochrany osobných údajov
 
-*Posledná aktualizácia: 2. máj 2026*
+*Posledná aktualizácia: 18. máj 2026*
 
 Lucky Decisions („Aplikácia“) je vyvinutá AlexJKL. Tieto zásady ochrany osobných údajov opisujú, ako sa vaše informácie zhromažďujú, používajú a zdieľajú pri používaní Aplikácie.
 
@@ -13,6 +13,7 @@ V Aplikácii sa používajú nasledujúce služby tretích strán, ktoré môžu
 - **Google AdMob** — zhromažďuje reklamný identifikátor, informácie o zariadení, údaje o interakcii s reklamami (kliknutia, zobrazenia, ktoré reklamy ste videli) a diagnostiku SDK (údaje o pádoch a výkone) na zobrazovanie a meranie reklám. Na iOS si personalizované reklamy vyžadujú váš súhlas prostredníctvom App Tracking Transparency. [Zásady ochrany osobných údajov Google](https://policies.google.com/privacy)
 - **Yandex Mobile Ads** — zobrazuje reklamy a zhromažďuje reklamný identifikátor, informácie o zariadení, údaje o interakcii s reklamami a diagnostiku SDK. [Zásady ochrany osobných údajov Yandex](https://yandex.com/legal/confidential/)
 - **RevenueCat** — spracúva nákupy predplatného, ukladá vašu históriu nákupov a priraďuje anonymný identifikátor používateľa. [Zásady ochrany osobných údajov RevenueCat](https://www.revenuecat.com/privacy)
+- **Firebase (Google)** — Crashlytics zhromažďuje správy o pádoch a chybách: trasovanie zásobníka, verziu OS, model zariadenia a identifikátor inštalácie. Firebase Analytics zhromažďuje anonymné udalosti používania aplikácie a identifikátor zariadenia. [Zásady ochrany súkromia Google](https://policies.google.com/privacy)
 
 ## Ukladanie údajov
 

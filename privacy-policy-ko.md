@@ -1,6 +1,6 @@
 # 개인정보 처리방침
 
-*최종 업데이트: 2026년 5월 2일*
+*최종 업데이트: 2026년 5월 18일*
 
 Lucky Decisions(이하 "앱")는 AlexJKL이 개발했습니다. 본 개인정보 처리방침은 앱 사용 시 정보가 어떻게 수집, 사용 및 공유되는지를 설명합니다.
 
@@ -13,6 +13,7 @@ Lucky Decisions(이하 "앱")는 AlexJKL이 개발했습니다. 본 개인정보
 - **Google AdMob** — 광고 제공 및 측정을 위해 광고 ID, 기기 정보, 광고 상호작용(클릭, 노출, 사용자가 본 광고) 및 SDK 진단 정보(충돌 및 성능 데이터)를 수집합니다. iOS에서는 맞춤형 광고 제공을 위해 App Tracking Transparency를 통한 사용자의 동의가 필요합니다. [Google 개인정보처리방침](https://policies.google.com/privacy)
 - **Yandex Mobile Ads** — 광고를 제공하며 광고 ID, 기기 정보, 광고 상호작용 및 SDK 진단 정보를 수집합니다. [Yandex 개인정보처리방침](https://yandex.com/legal/confidential/)
 - **RevenueCat** — 구독 구매를 처리하고 구매 기록을 저장하며 익명 사용자 ID를 할당합니다. [RevenueCat 개인정보처리방침](https://www.revenuecat.com/privacy)
+- **Firebase (Google)** — Crashlytics는 충돌 및 오류 보고서를 수집합니다: 스택 추적, OS 버전, 기기 모델 및 설치 식별자. Firebase Analytics는 익명 앱 사용 이벤트 및 기기 식별자를 수집합니다. [Google 개인정보처리방침](https://policies.google.com/privacy)
 
 ## 데이터 저장
 

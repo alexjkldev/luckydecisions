@@ -1,6 +1,6 @@
 # Datenschutzrichtlinie
 
-*Zuletzt aktualisiert: 11. Mai 2026*
+*Zuletzt aktualisiert: 18. Mai 2026*
 
 Lucky Decisions („die App“) wird von AlexJKL entwickelt. Diese Datenschutzrichtlinie beschreibt, wie Informationen bei der Nutzung der App erhoben, verwendet und weitergegeben werden.
 
@@ -13,6 +13,7 @@ Die folgenden Drittanbieterdienste werden in der App verwendet und können besti
 - **Google AdMob** — Erfasst Werbe-ID, Geräteinformationen, Anzeigeninteraktionen (Klicks, Impressionen, welche Anzeigen Sie gesehen haben) sowie SDK-Diagnosedaten (Absturz- und Leistungsdaten), um Werbung bereitzustellen und zu messen. Unter iOS erfordern personalisierte Anzeigen Ihre Zustimmung über App Tracking Transparency. [Google-Datenschutzerklärung](https://policies.google.com/privacy)
 - **Yandex Mobile Ads** — Zeigt Werbung an und erfasst Werbe-ID, Geräteinformationen, Anzeigeninteraktionen sowie SDK-Diagnosedaten. [Yandex-Datenschutzerklärung](https://yandex.com/legal/confidential/)
 - **RevenueCat** — Verarbeitet Abonnementkäufe, speichert Ihren Kaufverlauf und weist eine anonyme Benutzer-ID zu. [RevenueCat-Datenschutzerklärung](https://www.revenuecat.com/privacy)
+- **Firebase (Google)** — Crashlytics erfasst Absturz- und Fehlerberichte: Stack-Traces, OS-Version, Gerätemodell und Installations-ID. Firebase Analytics erfasst anonyme App-Nutzungsereignisse und Geräte-ID. [Google-Datenschutzerklärung](https://policies.google.com/privacy)
 
 ## Datenspeicherung
 

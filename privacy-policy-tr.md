@@ -1,6 +1,6 @@
 # Gizlilik Politikası
 
-*Son güncelleme: 2 Mayıs 2026*
+*Son güncelleme: 18 Mayıs 2026*
 
 Lucky Decisions ("Uygulama"), AlexJKL tarafından geliştirilmiştir. Bu Gizlilik Politikası, Uygulamayı kullandığınızda bilgilerinizin nasıl toplandığını, kullanıldığını ve paylaşıldığını açıklar.
 
@@ -13,6 +13,7 @@ Uygulamada aşağıdaki üçüncü taraf hizmetler kullanılmaktadır ve bunlar 
 - **Google AdMob** — Reklam sunmak ve ölçmek amacıyla reklam kimliği, cihaz bilgileri, reklam etkileşimleri (tıklamalar, gösterimler, gördüğünüz reklamlar) ve SDK tanılama verilerini (çökme ve performans verileri) toplar. iOS'ta kişiselleştirilmiş reklamlar için App Tracking Transparency aracılığıyla izniniz gereklidir. [Google Gizlilik Politikası](https://policies.google.com/privacy)
 - **Yandex Mobile Ads** — Reklam sunar ve reklam kimliği, cihaz bilgileri, reklam etkileşimleri ve SDK tanılama verilerini toplar. [Yandex Gizlilik Politikası](https://yandex.com/legal/confidential/)
 - **RevenueCat** — Abonelik satın alımlarını işler, satın alma geçmişinizi saklar ve anonim bir kullanıcı kimliği atar. [RevenueCat Gizlilik Politikası](https://www.revenuecat.com/privacy)
+- **Firebase (Google)** — Crashlytics, çökme ve hata raporları toplar: yığın izleri, işletim sistemi sürümü, cihaz modeli ve kurulum tanımlayıcısı. Firebase Analytics, anonim uygulama kullanım etkinlikleri ve cihaz tanımlayıcısı toplar. [Google Gizlilik Politikası](https://policies.google.com/privacy)
 
 ## Veri Saklama
 

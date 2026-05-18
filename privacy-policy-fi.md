@@ -1,6 +1,6 @@
 # Tietosuojakäytäntö
 
-*Viimeksi päivitetty: 2. toukokuuta 2026*
+*Viimeksi päivitetty: 18. toukokuuta 2026*
 
 Lucky Decisions ("Sovellus") on AlexJKL:n kehittämä. Tämä tietosuojakäytäntö kuvaa, miten tietojasi kerätään, käytetään ja jaetaan, kun käytät Sovellusta.
 
@@ -13,6 +13,7 @@ Sovelluksessa käytetään seuraavia kolmannen osapuolen palveluja, jotka voivat
 - **Google AdMob** — Kerää mainostunnisteen, laitetietoja, tietoa mainosvuorovaikutuksista (klikkaukset, näytöt, näkemäsi mainokset) ja SDK-diagnostiikkaa (kaatumis- ja suorituskykytiedot) mainosten näyttämistä ja mittaamista varten. iOS:ssä personoidut mainokset edellyttävät suostumustasi App Tracking Transparency -toiminnon kautta. [Googlen tietosuojakäytäntö](https://policies.google.com/privacy)
 - **Yandex Mobile Ads** — Näyttää mainoksia ja kerää mainostunnisteen, laitetietoja, tietoa mainosvuorovaikutuksista ja SDK-diagnostiikkaa. [Yandexin tietosuojakäytäntö](https://yandex.com/legal/confidential/)
 - **RevenueCat** — Käsittelee tilausostot, tallentaa ostohistoriasi ja antaa anonyymin käyttäjätunnuksen. [RevenueCatin tietosuojakäytäntö](https://www.revenuecat.com/privacy)
+- **Firebase (Google)** — Crashlytics kerää kaatumis- ja virheraportteja: pinojäljet, käyttöjärjestelmäversion, laitemallin ja asennustunnisteen. Firebase Analytics kerää anonyymejä sovelluksen käyttötapahtumia ja laitetunnisteen. [Googlen tietosuojakäytäntö](https://policies.google.com/privacy)
 
 ## Tietojen tallennus
 

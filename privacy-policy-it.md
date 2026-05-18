@@ -1,6 +1,6 @@
 # Informativa sulla privacy
 
-*Ultimo aggiornamento: 2 maggio 2026*
+*Ultimo aggiornamento: 18 maggio 2026*
 
 Lucky Decisions ("l'App") è sviluppata da AlexJKL. Questa Informativa sulla privacy descrive come vengono raccolte, utilizzate e condivise le tue informazioni quando utilizzi l'App.
 
@@ -13,6 +13,7 @@ Nell'App vengono utilizzati i seguenti servizi di terze parti, che possono racco
 - **Google AdMob** — raccoglie l'identificatore pubblicitario, informazioni sul dispositivo, dati di interazione con le pubblicità (clic, impression, annunci visualizzati) e diagnostica dell'SDK (dati di crash e prestazioni) per mostrare e misurare gli annunci. Su iOS, gli annunci personalizzati richiedono il tuo consenso tramite App Tracking Transparency. [Informativa sulla privacy di Google](https://policies.google.com/privacy)
 - **Yandex Mobile Ads** — mostra annunci e raccoglie l'identificatore pubblicitario, informazioni sul dispositivo, dati di interazione con le pubblicità e diagnostica dell'SDK. [Informativa sulla privacy di Yandex](https://yandex.com/legal/confidential/)
 - **RevenueCat** — elabora gli acquisti degli abbonamenti, memorizza la cronologia degli acquisti e assegna un identificatore utente anonimo. [Informativa sulla privacy di RevenueCat](https://www.revenuecat.com/privacy)
+- **Firebase (Google)** — Crashlytics raccoglie report di crash ed errori: stack trace, versione del sistema operativo, modello del dispositivo e identificatore di installazione. Firebase Analytics raccoglie eventi anonimi di utilizzo dell'app e identificatore del dispositivo. [Informativa sulla privacy di Google](https://policies.google.com/privacy)
 
 ## Memorizzazione dei dati
 
