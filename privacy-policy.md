@@ -12,6 +12,7 @@ The following third-party services are used in the App and may collect certain d
 
 - **Google AdMob** — Collects advertising ID, device information, ad interactions (clicks, impressions, which ads you have seen), and SDK diagnostics (crash and performance data) to serve and measure ads. On iOS, personalized ads require your consent via App Tracking Transparency. [Google Privacy Policy](https://policies.google.com/privacy)
 - **Yandex Mobile Ads** — Serves ads and collects advertising ID, device information, ad interactions, and SDK diagnostics. [Yandex Privacy Policy](https://yandex.com/legal/confidential/)
+- **Meta Audience Network** — Serves ads and collects advertising ID, device information, ad interactions, and SDK diagnostics. [Meta Privacy Policy](https://www.facebook.com/privacy/explanation)
 - **RevenueCat** — Processes subscription purchases, stores your purchase history, and assigns an anonymous user ID. [RevenueCat Privacy Policy](https://www.revenuecat.com/privacy)
 - **Firebase (Google)** — Crashlytics collects crash and error reports: stack traces, OS version, device model, and installation identifier. Firebase Analytics collects anonymous app usage events and device identifier. [Google Privacy Policy](https://policies.google.com/privacy)
 

@@ -12,6 +12,7 @@ Sovelluksessa käytetään seuraavia kolmannen osapuolen palveluja, jotka voivat
 
 - **Google AdMob** — Kerää mainostunnisteen, laitetietoja, tietoa mainosvuorovaikutuksista (klikkaukset, näytöt, näkemäsi mainokset) ja SDK-diagnostiikkaa (kaatumis- ja suorituskykytiedot) mainosten näyttämistä ja mittaamista varten. iOS:ssä personoidut mainokset edellyttävät suostumustasi App Tracking Transparency -toiminnon kautta. [Googlen tietosuojakäytäntö](https://policies.google.com/privacy)
 - **Yandex Mobile Ads** — Näyttää mainoksia ja kerää mainostunnisteen, laitetietoja, tietoa mainosvuorovaikutuksista ja SDK-diagnostiikkaa. [Yandexin tietosuojakäytäntö](https://yandex.com/legal/confidential/)
+- **Meta Audience Network** — Näyttää mainoksia ja kerää mainostunnisteen, laitetietoja, tietoa mainosvuorovaikutuksista ja SDK-diagnostiikkaa. [Metan tietosuojakäytäntö](https://www.facebook.com/privacy/explanation)
 - **RevenueCat** — Käsittelee tilausostot, tallentaa ostohistoriasi ja antaa anonyymin käyttäjätunnuksen. [RevenueCatin tietosuojakäytäntö](https://www.revenuecat.com/privacy)
 - **Firebase (Google)** — Crashlytics kerää kaatumis- ja virheraportteja: pinojäljet, käyttöjärjestelmäversion, laitemallin ja asennustunnisteen. Firebase Analytics kerää anonyymejä sovelluksen käyttötapahtumia ja laitetunnisteen. [Googlen tietosuojakäytäntö](https://policies.google.com/privacy)
 

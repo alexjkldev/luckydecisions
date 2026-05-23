@@ -12,6 +12,7 @@ Die folgenden Drittanbieterdienste werden in der App verwendet und können besti
 
 - **Google AdMob** — Erfasst Werbe-ID, Geräteinformationen, Anzeigeninteraktionen (Klicks, Impressionen, welche Anzeigen Sie gesehen haben) sowie SDK-Diagnosedaten (Absturz- und Leistungsdaten), um Werbung bereitzustellen und zu messen. Unter iOS erfordern personalisierte Anzeigen Ihre Zustimmung über App Tracking Transparency. [Google-Datenschutzerklärung](https://policies.google.com/privacy)
 - **Yandex Mobile Ads** — Zeigt Werbung an und erfasst Werbe-ID, Geräteinformationen, Anzeigeninteraktionen sowie SDK-Diagnosedaten. [Yandex-Datenschutzerklärung](https://yandex.com/legal/confidential/)
+- **Meta Audience Network** — Zeigt Werbung an und erfasst Werbe-ID, Geräteinformationen, Anzeigeninteraktionen sowie SDK-Diagnosedaten. [Meta-Datenschutzerklärung](https://www.facebook.com/privacy/explanation)
 - **RevenueCat** — Verarbeitet Abonnementkäufe, speichert Ihren Kaufverlauf und weist eine anonyme Benutzer-ID zu. [RevenueCat-Datenschutzerklärung](https://www.revenuecat.com/privacy)
 - **Firebase (Google)** — Crashlytics erfasst Absturz- und Fehlerberichte: Stack-Traces, OS-Version, Gerätemodell und Installations-ID. Firebase Analytics erfasst anonyme App-Nutzungsereignisse und Geräte-ID. [Google-Datenschutzerklärung](https://policies.google.com/privacy)
 
