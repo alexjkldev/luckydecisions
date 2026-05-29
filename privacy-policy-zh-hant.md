@@ -13,6 +13,7 @@ Lucky Decisions（以下簡稱「本 App」）由 AlexJKL 開發。本隱私政�
 - **Google AdMob** —— 收集廣告 ID、裝置資訊、廣告互動資料（點擊、曝光、您已觀看的廣告）以及 SDK 診斷資料（當機與效能資料），用於提供與衡量廣告效果。在 iOS 上，個人化廣告需要您透過 App Tracking Transparency 提供同意。[Google 隱私政策](https://policies.google.com/privacy)
 - **Yandex Mobile Ads** —— 提供廣告服務，並收集廣告 ID、裝置資訊、廣告互動資料以及 SDK 診斷資料。[Yandex 隱私政策](https://yandex.com/legal/confidential/)
 - **Meta Audience Network** —— 提供廣告服務，並收集廣告 ID、裝置資訊、廣告互動資料以及 SDK 診斷資料。[Meta 隱私權政策](https://www.facebook.com/privacy/explanation)
+- **Unity Ads** —— 提供廣告服務，並收集廣告 ID、裝置資訊、廣告互動資料以及 SDK 診斷資料。[Unity 隱私權政策](https://unity.com/legal/privacy-policy)
 - **RevenueCat** —— 處理訂閱購買、儲存您的購買紀錄，並分配匿名使用者 ID。[RevenueCat 隱私政策](https://www.revenuecat.com/privacy)
 - **Firebase（Google）** —— Crashlytics 收集當機和錯誤報告：堆疊追蹤、作業系統版本、裝置型號和安裝識別碼。Firebase Analytics 收集匿名 App 使用事件和裝置識別碼。[Google 隱私政策](https://policies.google.com/privacy)
 
