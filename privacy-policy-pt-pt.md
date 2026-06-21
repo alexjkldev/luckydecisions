@@ -6,20 +6,20 @@ O Lucky Decisions ("a App") é desenvolvido pela AlexJKL. Esta Política de Priv
 
 ## Informação que recolhemos
 
-A App armazena todo o conteúdo criado pelo utilizador (rodas, setores, registos de jogadas, definições) localmente no seu dispositivo. Não recolhemos informação pessoal como nome, endereço de e-mail ou contas.
+A App armazena todo o conteúdo criado pelo utilizador (rodas, setores, registos de giros, definições) localmente no seu dispositivo. Não recolhemos informação pessoal como nome, endereço de e-mail ou contas.
 
 Os seguintes serviços de terceiros são utilizados na App e podem recolher determinados dados:
 
-- **Google AdMob** — Recolhe o ID de publicidade, informação do dispositivo, interações com anúncios (cliques, impressões, que anúncios viu) e diagnósticos do SDK (dados de falhas e desempenho) para apresentar e medir anúncios. No iOS, anúncios personalizados exigem o seu consentimento através da App Tracking Transparency. [Política de Privacidade da Google](https://policies.google.com/privacy)
+- **Google AdMob** — Recolhe o ID de publicidade, informação do dispositivo, interações com anúncios (cliques, impressões, anúncios visualizados) e diagnósticos do SDK (dados de falhas e desempenho) para apresentar e medir anúncios. No iOS, anúncios personalizados exigem o seu consentimento através da App Tracking Transparency. [Política de Privacidade da Google](https://policies.google.com/privacy)
 - **Yandex Mobile Ads** — Apresenta anúncios e recolhe o ID de publicidade, informação do dispositivo, interações com anúncios e diagnósticos do SDK. [Política de Privacidade da Yandex](https://yandex.com/legal/confidential/)
 - **Meta Audience Network** — Apresenta anúncios e recolhe o ID de publicidade, informação do dispositivo, interações com anúncios e diagnósticos do SDK. [Política de Privacidade da Meta](https://www.facebook.com/privacy/explanation)
 - **Unity Ads** — Apresenta anúncios e recolhe o ID de publicidade, informação do dispositivo, interações com anúncios e diagnósticos do SDK. [Política de Privacidade da Unity](https://unity.com/legal/privacy-policy)
-- **RevenueCat** — Processa compras de subscrição, armazena o seu histórico de compras e atribui um ID de utilizador anónimo. [Política de Privacidade da RevenueCat](https://www.revenuecat.com/privacy)
-- **Firebase (Google)** — O Crashlytics recolhe relatórios de falhas e erros: stack traces, versão do sistema operativo, modelo do dispositivo e identificador de instalação. O Firebase Analytics recolhe eventos anónimos de utilização da app e identificador do dispositivo. [Política de Privacidade da Google](https://policies.google.com/privacy)
+- **RevenueCat** — Processa compras de subscrição, armazena informações sobre as suas compras e atribui um ID de utilizador anónimo. [Política de Privacidade da RevenueCat](https://www.revenuecat.com/privacy)
+- **Firebase (Google)** — O Crashlytics recolhe relatórios de falhas e erros: stack traces, versão do sistema operativo, modelo do dispositivo e identificador de instalação. O Firebase Analytics recolhe eventos anónimos de utilização da App e identificador do dispositivo. [Política de Privacidade da Google](https://policies.google.com/privacy)
 
 ## Armazenamento de dados
 
-Todos os dados da app são armazenados localmente no seu dispositivo. Nenhum dado pessoal é transmitido para os nossos servidores.
+Todos os dados da App são armazenados localmente no seu dispositivo. Não transmitimos dados pessoais para os nossos próprios servidores.
 
 ## Privacidade de menores
 
@@ -31,4 +31,4 @@ Podemos atualizar esta Política de Privacidade periodicamente. As alterações 
 
 ## Contacto
 
-Se tiver dúvidas sobre esta Política de Privacidade ou quiser contactar o programador, pode fazê-lo através da App ou da página da App na App Store ou Google Play Store. Quando nos contacta por e-mail, recebemos o seu endereço de e-mail, o conteúdo da sua mensagem e quaisquer anexos. Esta informação é utilizada exclusivamente para responder à sua questão e melhorar a App. Não a partilhamos com terceiros.
+Se tiver dúvidas sobre esta Política de Privacidade ou quiser contactar o programador, pode fazê-lo através da App ou da página da App na App Store ou Google Play Store. Caso entre em contacto connosco por e-mail, recebemos o seu endereço de e-mail, o conteúdo da sua mensagem e quaisquer anexos. Esta informação é utilizada exclusivamente para responder à sua questão e melhorar a App. Não a partilhamos com terceiros.
