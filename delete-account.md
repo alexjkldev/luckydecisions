@@ -25,4 +25,4 @@ All your cloud data will be permanently deleted immediately.
 
 ## Contact
 
-For questions, reach us through the App Store or Google Play Store listing.
+For questions or to request deletion without app access, use the **Contact Developer** option in the App Store or Google Play Store listing, or reach out through the in-app feedback option in Settings.
