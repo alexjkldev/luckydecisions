@@ -23,10 +23,6 @@ All your cloud data will be permanently deleted immediately.
 - **iOS:** Settings → Apple ID → Subscriptions → Lucky Decisions
 - **Android:** Google Play → Subscriptions → Lucky Decisions
 
-## Request deletion by email
-
-If you cannot access the app, you can request account deletion by contacting us at **alexspamm@icloud.com** with the subject line "Account Deletion Request". Please include the email address associated with your account (Google or Apple). We will delete your data within 30 days.
-
 ## Contact
 
-Questions? Reach us at **alexspamm@icloud.com**
+For questions, reach us through the App Store or Google Play Store listing.
