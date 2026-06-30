@@ -1,12 +1,20 @@
 # Kebijakan Privasi
 
-*Terakhir diperbarui: 29 Mei 2026*
+*30 Juni 2026*
 
 Lucky Decisions ("Aplikasi") dikembangkan oleh AlexJKL. Kebijakan Privasi ini menjelaskan bagaimana informasi Anda dikumpulkan, digunakan, dan dibagikan saat Anda menggunakan Aplikasi.
 
 ## Informasi yang Kami Kumpulkan
 
-Aplikasi menyimpan semua konten yang dibuat pengguna (roda, sektor, log putaran, pengaturan) secara lokal di perangkat Anda. Kami tidak mengumpulkan informasi pribadi seperti nama, alamat email, atau akun.
+Aplikasi menyimpan semua konten yang dibuat pengguna (roda, sektor, log putaran, pengaturan) secara lokal di perangkat Anda.
+
+Pelanggan Premium dapat mengaktifkan **sinkronisasi data** secara sukarela — fitur pencadangan cloud. Saat menggunakan fitur ini:
+
+- Anda masuk melalui Google atau Apple
+- Kami menerima alamat email dan pengidentifikasi akun unik Anda
+- Data aplikasi Anda (roda, pengaturan, preferensi) disimpan di Firebase Firestore (penyimpanan cloud Google)
+
+Penggunaan sinkronisasi data sepenuhnya opsional. Jika Anda tidak masuk, tidak ada data pribadi yang dikirimkan kepada kami atau pihak ketiga.
 
 Layanan pihak ketiga berikut digunakan dalam Aplikasi dan mungkin mengumpulkan data tertentu:
 
@@ -15,11 +23,20 @@ Layanan pihak ketiga berikut digunakan dalam Aplikasi dan mungkin mengumpulkan d
 - **Meta Audience Network** — Menayangkan iklan dan mengumpulkan ID periklanan, informasi perangkat, interaksi iklan, dan diagnostik SDK. [Kebijakan Privasi Meta](https://www.facebook.com/privacy/explanation)
 - **Unity Ads** — Menayangkan iklan dan mengumpulkan ID periklanan, informasi perangkat, interaksi iklan, dan diagnostik SDK. [Kebijakan Privasi Unity](https://unity.com/legal/privacy-policy)
 - **RevenueCat** — Memproses pembelian langganan, menyimpan riwayat pembelian Anda, dan menetapkan ID pengguna anonim. [Kebijakan Privasi RevenueCat](https://www.revenuecat.com/privacy)
-- **Firebase (Google)** — Crashlytics mengumpulkan laporan crash dan error: stack trace, versi OS, model perangkat, dan pengidentifikasi instalasi. Firebase Analytics mengumpulkan event penggunaan aplikasi anonim dan pengidentifikasi perangkat. [Kebijakan Privasi Google](https://policies.google.com/privacy)
+- **Firebase (Google)** — Crashlytics mengumpulkan laporan crash dan error: stack trace, versi OS, model perangkat, dan pengidentifikasi instalasi. Firebase Analytics mengumpulkan event penggunaan aplikasi anonim dan pengidentifikasi perangkat. Firebase Authentication digunakan untuk masuk melalui Google dan Apple saat menggunakan sinkronisasi data. Firebase Firestore menyimpan cadangan data aplikasi untuk pelanggan Premium yang mengaktifkan sinkronisasi. [Kebijakan Privasi Google](https://policies.google.com/privacy)
 
 ## Penyimpanan Data
 
-Semua data aplikasi disimpan secara lokal di perangkat Anda. Tidak ada data pribadi yang dikirimkan ke server kami.
+Secara default, semua data aplikasi disimpan secara lokal di perangkat Anda. Jika Anda mengaktifkan sinkronisasi data (khusus Premium), data aplikasi Anda juga disimpan di Firebase Firestore — layanan cloud Google yang berlokasi di Eropa (wilayah eur3).
+
+## Penghapusan Akun
+
+Anda dapat menghapus akun dan semua data terkait kapan saja:
+
+- **Di aplikasi:** Pengaturan → Sinkronisasi Data → Hapus Akun
+- **Di web:** [alexjkldev.github.io/luckydecisions/delete-account](https://alexjkldev.github.io/luckydecisions/delete-account)
+
+Menghapus akun Anda akan menghapus semua data cloud dan catatan Firebase Authentication Anda secara permanen. Penghapusan akun tidak secara otomatis membatalkan langganan Premium Anda.
 
 ## Privasi Anak-anak
 

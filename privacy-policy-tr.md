@@ -1,12 +1,20 @@
 # Gizlilik Politikası
 
-*Son güncelleme: 18 Mayıs 2026*
+*30 Haziran 2026*
 
 Lucky Decisions ("Uygulama"), AlexJKL tarafından geliştirilmiştir. Bu Gizlilik Politikası, Uygulamayı kullandığınızda bilgilerinizin nasıl toplandığını, kullanıldığını ve paylaşıldığını açıklar.
 
 ## Topladığımız Bilgiler
 
-Uygulama, kullanıcı tarafından oluşturulan tüm içerikleri (çarklar, bölümler, çevirme kayıtları, ayarlar) cihazınızda yerel olarak saklar. İsimler, e-posta adresleri veya hesaplar gibi kişisel bilgileri toplamıyoruz.
+Uygulama, kullanıcı tarafından oluşturulan tüm içerikleri (çarklar, bölümler, çevirme kayıtları, ayarlar) cihazınızda yerel olarak saklar.
+
+Premium aboneler, **veri senkronizasyonunu** — bir bulut yedekleme özelliğini isteğe bağlı olarak etkinleştirebilir. Bu özelliği kullanırken:
+
+- Google veya Apple ile giriş yaparsınız
+- E-posta adresinizi ve benzersiz bir hesap tanımlayıcısı alırız
+- Uygulama verileriniz (çarklar, ayarlar, tercihler) Firebase Firestore'a (Google'ın bulut depolama alanı) kaydedilir
+
+Veri senkronizasyonunun kullanımı tamamen isteğe bağlıdır. Giriş yapmazsanız, bize veya üçüncü taraflara hiçbir kişisel veri iletilmez.
 
 Uygulamada aşağıdaki üçüncü taraf hizmetler kullanılmaktadır ve bunlar belirli verileri toplayabilir:
 
@@ -15,11 +23,20 @@ Uygulamada aşağıdaki üçüncü taraf hizmetler kullanılmaktadır ve bunlar 
 - **Meta Audience Network** — Reklam sunar ve reklam kimliği, cihaz bilgileri, reklam etkileşimleri ve SDK tanılama verilerini toplar. [Meta Gizlilik Politikası](https://www.facebook.com/privacy/explanation)
 - **Unity Ads** — Reklam sunar ve reklam kimliği, cihaz bilgileri, reklam etkileşimleri ve SDK tanılama verilerini toplar. [Unity Gizlilik Politikası](https://unity.com/legal/privacy-policy)
 - **RevenueCat** — Abonelik satın alımlarını işler, satın alma geçmişinizi saklar ve anonim bir kullanıcı kimliği atar. [RevenueCat Gizlilik Politikası](https://www.revenuecat.com/privacy)
-- **Firebase (Google)** — Crashlytics, çökme ve hata raporları toplar: yığın izleri, işletim sistemi sürümü, cihaz modeli ve kurulum tanımlayıcısı. Firebase Analytics, anonim uygulama kullanım etkinlikleri ve cihaz tanımlayıcısı toplar. [Google Gizlilik Politikası](https://policies.google.com/privacy)
+- **Firebase (Google)** — Crashlytics, çökme ve hata raporları toplar: yığın izleri, işletim sistemi sürümü, cihaz modeli ve kurulum tanımlayıcısı. Firebase Analytics, anonim uygulama kullanım etkinlikleri ve cihaz tanımlayıcısı toplar. Firebase Authentication, Veri Senkronizasyonu kullanılırken Google ve Apple ile giriş yapmak için kullanılır. Firebase Firestore, senkronizasyonu etkinleştiren Premium aboneler için uygulama verisi yedeklerini depolar. [Google Gizlilik Politikası](https://policies.google.com/privacy)
 
 ## Veri Saklama
 
-Tüm uygulama verileri cihazınızda yerel olarak saklanır. Hiçbir kişisel veri sunucularımıza aktarılmaz.
+Varsayılan olarak tüm uygulama verileri cihazınızda yerel olarak depolanır. Veri Senkronizasyonunu etkinleştirirseniz (yalnızca Premium), uygulama verileriniz ayrıca Avrupa'da bulunan Google'ın bulut hizmeti Firebase Firestore'da da depolanır (eur3 bölgesi).
+
+## Hesap Silme
+
+Hesabınızı ve ilgili tüm verileri istediğiniz zaman silebilirsiniz:
+
+- **Uygulama içinde:** Ayarlar → Veri Senkronizasyonu → Hesabı Sil
+- **Web üzerinden:** [alexjkldev.github.io/luckydecisions/delete-account](https://alexjkldev.github.io/luckydecisions/delete-account)
+
+Hesabınızı silmek, tüm bulut verilerinizi ve Firebase Authentication kaydınızı kalıcı olarak kaldırır. Hesap silinmesi Premium aboneliğinizi otomatik olarak iptal etmez.
 
 ## Çocukların Gizliliği
 

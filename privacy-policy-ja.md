@@ -1,12 +1,20 @@
 # プライバシーポリシー
 
-*最終更新日：2026年5月18日*
+*2026年6月30日*
 
 Lucky Decisions（以下「本アプリ」）は AlexJKL によって開発されています。本プライバシーポリシーでは、本アプリの利用時に情報がどのように収集、使用、および共有されるかについて説明します。
 
 ## 収集する情報
 
-本アプリは、ユーザーが作成したすべてのコンテンツ（ルーレット、セクター、スピン履歴、設定）をデバイス内にローカル保存します。氏名、メールアドレス、アカウント情報などの個人情報は収集しません。
+本アプリは、ユーザーが作成したすべてのコンテンツ（ルーレット、セクター、スピン履歴、設定）をデバイス内にローカル保存します。
+
+Premiumサブスクライバーは、**データ同期**（クラウドバックアップ機能）を任意で有効にできます。この機能を使用する場合：
+
+- GoogleまたはAppleでサインインします
+- お客様のメールアドレスと一意のアカウントIDを受け取ります
+- アプリデータ（ホイール、設定、環境設定）がFirebase Firestore（Googleのクラウドストレージ）に保存されます
+
+データ同期の使用は完全に任意です。サインインしない場合、個人データは当社または第三者に送信されません。
 
 本アプリでは以下のサードパーティサービスを使用しており、それぞれ特定のデータを収集する場合があります：
 
@@ -15,11 +23,20 @@ Lucky Decisions（以下「本アプリ」）は AlexJKL によって開発さ�
 - **Meta Audience Network** — 広告を配信し、広告ID、デバイス情報、広告とのやり取り、およびSDK診断情報を収集します。 [Meta プライバシーポリシー](https://www.facebook.com/privacy/explanation)
 - **Unity Ads** — 広告を配信し、広告ID、デバイス情報、広告とのやり取り、およびSDK診断情報を収集します。 [Unity プライバシーポリシー](https://unity.com/legal/privacy-policy)
 - **RevenueCat** — サブスクリプション購入を処理し、購入履歴を保存し、匿名ユーザーIDを割り当てます。 [RevenueCat プライバシーポリシー](https://www.revenuecat.com/privacy)
-- **Firebase (Google)** — Crashlytics はクラッシュおよびエラーレポートを収集します：スタックトレース、OS バージョン、デバイスモデル、インストール識別子。Firebase Analytics はアプリの匿名使用イベントとデバイス識別子を収集します。 [Google プライバシーポリシー](https://policies.google.com/privacy)
+- **Firebase (Google)** — Crashlytics はクラッシュおよびエラーレポートを収集します：スタックトレース、OS バージョン、デバイスモデル、インストール識別子。Firebase Analytics はアプリの匿名使用イベントとデバイス識別子を収集します。 Firebase Authenticationは、データ同期を使用する際のGoogleおよびAppleサインインに使用されます。Firebase Firestoreは、同期を有効にしたPremiumサブスクライバーのアプリデータバックアップを保存します。 [Google プライバシーポリシー](https://policies.google.com/privacy)
 
 ## データ保存
 
-すべてのアプリデータはユーザーのデバイス内にローカル保存されます。個人データが当社のサーバーへ送信されることはありません。
+デフォルトでは、すべてのアプリデータはデバイスにローカルで保存されます。データ同期を有効にした場合（Premiumのみ）、アプリデータはさらにFirebase Firestoreにも保存されます（ヨーロッパ地域eur3のGoogleクラウドサービス）。
+
+## アカウントの削除
+
+アカウントとすべての関連データはいつでも削除できます：
+
+- **アプリ内：** 設定 → データ同期 → アカウントを削除
+- **ウェブ：** [alexjkldev.github.io/luckydecisions/delete-account](https://alexjkldev.github.io/luckydecisions/delete-account)
+
+アカウントを削除すると、すべてのクラウドデータとFirebase Authenticationのレコードが完全に削除されます。アカウントを削除してもPremiumサブスクリプションは自動的にキャンセルされません。
 
 ## 子どものプライバシー
 

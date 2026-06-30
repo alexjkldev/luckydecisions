@@ -1,12 +1,20 @@
 # Zásady ochrany osobných údajov
 
-*Posledná aktualizácia: 18. máj 2026*
+*30. júna 2026*
 
 Lucky Decisions („Aplikácia“) je vyvinutá AlexJKL. Tieto zásady ochrany osobných údajov opisujú, ako sa vaše informácie zhromažďujú, používajú a zdieľajú pri používaní Aplikácie.
 
 ## Informácie, ktoré zhromažďujeme
 
-Aplikácia ukladá všetok obsah vytvorený používateľom (kolesá, sektory, záznamy otáčaní, nastavenia) lokálne vo vašom zariadení. Nezhromažďujeme osobné údaje, ako sú mená, e-mailové adresy alebo účty.
+Aplikácia ukladá všetok obsah vytvorený používateľom (kolesá, sektory, záznamy otáčaní, nastavenia) lokálne vo vašom zariadení.
+
+Predplatitelia Premium môžu dobrovoľne aktivovať **synchronizáciu údajov** — funkciu zálohovania v cloude. Pri jej používaní:
+
+- Prihlásite sa cez Google alebo Apple
+- Získame vašu e-mailovú adresu a jedinečný identifikátor účtu
+- Vaše údaje aplikácie (kolesá, nastavenia, preferencie) sa uložia do Firebase Firestore (cloudové úložisko Google)
+
+Používanie synchronizácie údajov je úplne dobrovoľné. Ak sa neprihlasujete, žiadne osobné údaje sa nám ani tretím stranám neodovzdávajú.
 
 V Aplikácii sa používajú nasledujúce služby tretích strán, ktoré môžu zhromažďovať určité údaje:
 
@@ -15,11 +23,20 @@ V Aplikácii sa používajú nasledujúce služby tretích strán, ktoré môžu
 - **Meta Audience Network** — zobrazuje reklamy a zhromažďuje reklamný identifikátor, informácie o zariadení, údaje o interakcii s reklamami a diagnostiku SDK. [Zásady ochrany osobných údajov Meta](https://www.facebook.com/privacy/explanation)
 - **Unity Ads** — zobrazuje reklamy a zhromažďuje reklamný identifikátor, informácie o zariadení, údaje o interakciách s reklamami a diagnostické údaje SDK. [Zásady ochrany osobných údajov Unity](https://unity.com/legal/privacy-policy)
 - **RevenueCat** — spracúva nákupy predplatného, ukladá vašu históriu nákupov a priraďuje anonymný identifikátor používateľa. [Zásady ochrany osobných údajov RevenueCat](https://www.revenuecat.com/privacy)
-- **Firebase (Google)** — Crashlytics zhromažďuje správy o pádoch a chybách: trasovanie zásobníka, verziu OS, model zariadenia a identifikátor inštalácie. Firebase Analytics zhromažďuje anonymné udalosti používania aplikácie a identifikátor zariadenia. [Zásady ochrany súkromia Google](https://policies.google.com/privacy)
+- **Firebase (Google)** — Crashlytics zhromažďuje správy o pádoch a chybách: trasovanie zásobníka, verziu OS, model zariadenia a identifikátor inštalácie. Firebase Analytics zhromažďuje anonymné udalosti používania aplikácie a identifikátor zariadenia. Firebase Authentication sa používa na prihlásenie cez Google a Apple pri používaní synchronizácie údajov. Firebase Firestore ukladá zálohy údajov aplikácie pre predplatiteľov Premium, ktorí majú aktivovanú synchronizáciu. [Zásady ochrany súkromia Google](https://policies.google.com/privacy)
 
 ## Ukladanie údajov
 
-Všetky údaje aplikácie sú uložené lokálne vo vašom zariadení. Žiadne osobné údaje sa neprenášajú na naše servery.
+V predvolenom nastavení sú všetky údaje aplikácie uložené lokálne na vašom zariadení. Ak aktivujete synchronizáciu údajov (iba Premium), vaše údaje aplikácie sa navyše uložia vo Firebase Firestore — cloudovej službe Google umiestnenej v Európe (región eur3).
+
+## Vymazanie účtu
+
+Váš účet a všetky súvisiace údaje môžete kedykoľvek vymazať:
+
+- **V aplikácii:** Nastavenia → Synchronizácia údajov → Vymazať účet
+- **Na webe:** [alexjkldev.github.io/luckydecisions/delete-account](https://alexjkldev.github.io/luckydecisions/delete-account)
+
+Vymazaním účtu sa natrvalo odstránia všetky vaše cloudové údaje a záznam Firebase Authentication. Vymazanie účtu automaticky nezruší vaše predplatné Premium.
 
 ## Ochrana súkromia detí
 

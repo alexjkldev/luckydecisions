@@ -1,12 +1,20 @@
 # Privacy Policy
 
-*Last updated: May 29, 2026*
+*Last updated: June 30, 2026*
 
 Lucky Decisions ("the App") is developed by AlexJKL. This Privacy Policy describes how your information is collected, used, and shared when you use the App.
 
 ## Information We Collect
 
-The App stores all user-created content (wheels, sectors, spin logs, settings) locally on your device. We do not collect personal information such as names, email addresses, or accounts.
+The App stores all user-created content (wheels, sectors, spin logs, settings) locally on your device.
+
+Premium subscribers may voluntarily enable **Data Sync** — a cloud backup feature. When using this feature:
+
+- You sign in via Google or Apple
+- We receive your email address and a unique account identifier
+- Your app data (wheels, settings, preferences) is saved to Firebase Firestore (Google's cloud storage)
+
+Use of Data Sync is entirely optional. If you do not sign in, no personal data is transmitted to us or any third party.
 
 The following third-party services are used in the App and may collect certain data:
 
@@ -15,11 +23,20 @@ The following third-party services are used in the App and may collect certain d
 - **Meta Audience Network** — Serves ads and collects advertising ID, device information, ad interactions, and SDK diagnostics. [Meta Privacy Policy](https://www.facebook.com/privacy/explanation)
 - **Unity Ads** — Serves ads and collects advertising ID, device information, ad interactions, and SDK diagnostics. [Unity Privacy Policy](https://unity.com/legal/privacy-policy)
 - **RevenueCat** — Processes subscription purchases, stores your purchase history, and assigns an anonymous user ID. [RevenueCat Privacy Policy](https://www.revenuecat.com/privacy)
-- **Firebase (Google)** — Crashlytics collects crash and error reports: stack traces, OS version, device model, and installation identifier. Firebase Analytics collects anonymous app usage events and device identifier. [Google Privacy Policy](https://policies.google.com/privacy)
+- **Firebase (Google)** — Crashlytics collects crash and error reports: stack traces, OS version, device model, and installation identifier. Firebase Analytics collects anonymous app usage events and device identifier. Firebase Authentication is used for Google and Apple sign-in when using Data Sync. Firebase Firestore stores app data backups for Premium subscribers who enable sync. [Google Privacy Policy](https://policies.google.com/privacy)
 
 ## Data Storage
 
-All app data is stored locally on your device. No personal data is transmitted to our servers.
+By default, all app data is stored locally on your device. If you enable Data Sync (Premium only), your app data is additionally stored in Firebase Firestore — a Google cloud service located in Europe (region eur3).
+
+## Account Deletion
+
+You can delete your account and all associated data at any time:
+
+- **In-app:** Settings → Data Sync → Delete Account
+- **Web:** [alexjkldev.github.io/luckydecisions/delete-account](https://alexjkldev.github.io/luckydecisions/delete-account)
+
+Deleting your account permanently removes all your cloud data and your Firebase Authentication record. Account deletion does not automatically cancel your Premium subscription.
 
 ## Children's Privacy
 

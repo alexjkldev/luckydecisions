@@ -1,12 +1,20 @@
 # Política de privacidad
 
-*Última actualización: 18 de mayo de 2026*
+*30 de junio de 2026*
 
 Lucky Decisions ("la App") está desarrollada por AlexJKL. Esta Política de privacidad describe cómo se recopila, utiliza y comparte tu información cuando usas la App.
 
 ## Información que recopilamos
 
-La App almacena todo el contenido creado por el usuario (ruletas, sectores, registros de giros, ajustes) localmente en tu dispositivo. No recopilamos información personal como nombres, direcciones de correo electrónico o cuentas.
+La App almacena todo el contenido creado por el usuario (ruletas, sectores, registros de giros, ajustes) localmente en tu dispositivo.
+
+Los suscriptores Premium pueden habilitar voluntariamente la **sincronización de datos** — una función de copia de seguridad en la nube. Al usar esta función:
+
+- Inicias sesión con Google o Apple
+- Recibimos tu dirección de correo electrónico y un identificador de cuenta único
+- Los datos de tu aplicación (ruedas, ajustes, preferencias) se guardan en Firebase Firestore (almacenamiento en la nube de Google)
+
+El uso de la sincronización de datos es completamente voluntario. Si no inicias sesión, no se transmiten datos personales a nosotros ni a terceros.
 
 En la App se utilizan los siguientes servicios de terceros, que pueden recopilar ciertos datos:
 
@@ -15,11 +23,20 @@ En la App se utilizan los siguientes servicios de terceros, que pueden recopilar
 - **Meta Audience Network** — Muestra anuncios y recopila el identificador publicitario, información del dispositivo, datos de interacción con anuncios y diagnósticos del SDK. [Política de privacidad de Meta](https://www.facebook.com/privacy/explanation)
 - **Unity Ads** — Muestra anuncios y recopila el identificador publicitario, información del dispositivo, datos de interacción con anuncios y diagnósticos del SDK. [Política de privacidad de Unity](https://unity.com/legal/privacy-policy)
 - **RevenueCat** — Procesa las compras de suscripción, almacena tu historial de compras y asigna un identificador de usuario anónimo. [Política de privacidad de RevenueCat](https://www.revenuecat.com/privacy)
-- **Firebase (Google)** — Crashlytics recopila informes de errores y fallos: trazas de pila, versión del SO, modelo del dispositivo e identificador de instalación. Firebase Analytics recopila eventos anónimos de uso de la aplicación e identificador del dispositivo. [Política de privacidad de Google](https://policies.google.com/privacy)
+- **Firebase (Google)** — Crashlytics recopila informes de errores y fallos: trazas de pila, versión del SO, modelo del dispositivo e identificador de instalación. Firebase Analytics recopila eventos anónimos de uso de la aplicación e identificador del dispositivo. Firebase Authentication se utiliza para el inicio de sesión con Google y Apple al usar la sincronización de datos. Firebase Firestore almacena copias de seguridad de los datos de la app para los suscriptores Premium que han habilitado la sincronización. [Política de privacidad de Google](https://policies.google.com/privacy)
 
 ## Almacenamiento de datos
 
-Todos los datos de la app se almacenan localmente en tu dispositivo. No se transmite ningún dato personal a nuestros servidores.
+De forma predeterminada, todos los datos de la aplicación se almacenan localmente en tu dispositivo. Si habilitas la sincronización de datos (solo Premium), tus datos también se almacenan en Firebase Firestore — un servicio en la nube de Google ubicado en Europa (región eur3).
+
+## Eliminación de cuenta
+
+Puedes eliminar tu cuenta y todos los datos asociados en cualquier momento:
+
+- **En la app:** Configuración → Sincronización de datos → Eliminar cuenta
+- **En la web:** [alexjkldev.github.io/luckydecisions/delete-account](https://alexjkldev.github.io/luckydecisions/delete-account)
+
+Eliminar tu cuenta borra permanentemente todos tus datos en la nube y tu registro de Firebase Authentication. La eliminación de la cuenta no cancela automáticamente tu suscripción Premium.
 
 ## Privacidad de los menores
 

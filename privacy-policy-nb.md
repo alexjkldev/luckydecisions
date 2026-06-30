@@ -1,12 +1,20 @@
 # Personvernerklæring
 
-*Sist oppdatert: 29. mai 2026*
+*30. juni 2026*
 
 Lucky Decisions ("Appen") er utviklet av AlexJKL. Denne Personvernerklæringen beskriver hvordan informasjonen din samles inn, brukes og deles når du bruker Appen.
 
 ## Informasjon vi samler inn
 
-Appen lagrer alt brukeropprettet innhold (hjul, sektorer, snurrelogger, innstillinger) lokalt på enheten din. Vi samler ikke inn personlig informasjon som navn, e-postadresser eller kontoer.
+Appen lagrer alt brukeropprettet innhold (hjul, sektorer, snurrelogger, innstillinger) lokalt på enheten din.
+
+Premium-abonnenter kan frivillig aktivere **datasynkronisering** — en skybackup-funksjon. Når du bruker denne funksjonen:
+
+- Logger du inn via Google eller Apple
+- Mottar vi e-postadressen din og en unik konto-ID
+- Lagres appdataene dine (hjul, innstillinger, preferanser) i Firebase Firestore (Googles skylagring)
+
+Bruk av datasynkronisering er helt frivillig. Hvis du ikke logger inn, overføres ingen personopplysninger til oss eller tredjeparter.
 
 Følgende tredjepartstjenester brukes i Appen og kan samle inn visse data:
 
@@ -15,11 +23,20 @@ Følgende tredjepartstjenester brukes i Appen og kan samle inn visse data:
 - **Meta Audience Network** — Viser annonser og samler inn reklamerings-ID, enhetsinformasjon, annonseinteraksjoner og SDK-diagnostikk. [Metas personvernregler](https://www.facebook.com/privacy/explanation)
 - **Unity Ads** — Viser annonser og samler inn reklamerings-ID, enhetsinformasjon, annonseinteraksjoner og SDK-diagnostikk. [Unitys personvernregler](https://unity.com/legal/privacy-policy)
 - **RevenueCat** — Behandler abonnementsinnkjøp, lagrer kjøpshistorikken din og tildeler en anonym bruker-ID. [RevenueCats personvernregler](https://www.revenuecat.com/privacy)
-- **Firebase (Google)** — Crashlytics samler inn krasj- og feilrapporter: stack traces, OS-versjon, enhetsmodell og installasjonsidentifikator. Firebase Analytics samler inn anonyme app-brukshendelser og enhetsidentifikator. [Googles personvernregler](https://policies.google.com/privacy)
+- **Firebase (Google)** — Crashlytics samler inn krasj- og feilrapporter: stack traces, OS-versjon, enhetsmodell og installasjonsidentifikator. Firebase Analytics samler inn anonyme app-brukshendelser og enhetsidentifikator. Firebase Authentication brukes til innlogging via Google og Apple ved bruk av datasynkronisering. Firebase Firestore lagrer sikkerhetskopiering av appdata for Premium-abonnenter som har aktivert synkronisering. [Googles personvernregler](https://policies.google.com/privacy)
 
 ## Datalagring
 
-Alle appdata lagres lokalt på enheten din. Ingen personlige data overføres til våre servere.
+Som standard lagres alle appdata lokalt på enheten din. Hvis du aktiverer datasynkronisering (kun Premium), lagres appdataene dine også i Firebase Firestore — en Google-skytjeneste i Europa (region eur3).
+
+## Sletting av konto
+
+Du kan slette kontoen din og alle tilknyttede data når som helst:
+
+- **I appen:** Innstillinger → Datasynkronisering → Slett konto
+- **På nettet:** [alexjkldev.github.io/luckydecisions/delete-account](https://alexjkldev.github.io/luckydecisions/delete-account)
+
+Å slette kontoen din fjerner permanent alle skydataene dine og Firebase Authentication-posten din. Sletting av konto kansellerer ikke Premium-abonnementet ditt automatisk.
 
 ## Barns personvern
 

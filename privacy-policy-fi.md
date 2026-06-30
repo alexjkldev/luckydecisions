@@ -1,12 +1,20 @@
 # Tietosuojakäytäntö
 
-*Viimeksi päivitetty: 18. toukokuuta 2026*
+*30. kesäkuuta 2026*
 
 Lucky Decisions ("Sovellus") on AlexJKL:n kehittämä. Tämä tietosuojakäytäntö kuvaa, miten tietojasi kerätään, käytetään ja jaetaan, kun käytät Sovellusta.
 
 ## Keräämämme tiedot
 
-Sovellus tallentaa kaiken käyttäjän luoman sisällön (pyörät, sektorit, pyörityslokit, asetukset) paikallisesti laitteellesi. Emme kerää henkilötietoja, kuten nimiä, sähköpostiosoitteita tai tilejä.
+Sovellus tallentaa kaiken käyttäjän luoman sisällön (pyörät, sektorit, pyörityslokit, asetukset) paikallisesti laitteellesi.
+
+Premium-tilaajat voivat vapaaehtoisesti ottaa käyttöön **Tietojen synkronointi** -ominaisuuden — pilvivarmuuskopiointiominaisuuden. Tätä ominaisuutta käytettäessä:
+
+- Kirjaudut sisään Googlella tai Applella
+- Saamme sähköpostiosoitteesi ja yksilöllisen tilitunnisteen
+- Sovelluksesi tiedot (pyörät, asetukset, suosikit) tallennetaan Firebase Firestoreen (Googlen pilvitallennus)
+
+Tietojen synkronoinnin käyttö on täysin vapaaehtoista. Jos et kirjaudu sisään, henkilötietoja ei siirretä meille tai kolmansille osapuolille.
 
 Sovelluksessa käytetään seuraavia kolmannen osapuolen palveluja, jotka voivat kerätä tiettyjä tietoja:
 
@@ -15,11 +23,20 @@ Sovelluksessa käytetään seuraavia kolmannen osapuolen palveluja, jotka voivat
 - **Meta Audience Network** — Näyttää mainoksia ja kerää mainostunnisteen, laitetietoja, tietoa mainosvuorovaikutuksista ja SDK-diagnostiikkaa. [Metan tietosuojakäytäntö](https://www.facebook.com/privacy/explanation)
 - **Unity Ads** — Näyttää mainoksia ja kerää mainostunnisteen, laitetietoja, tietoa mainosvuorovaikutuksista sekä SDK-diagnostiikkaa. [Unityn tietosuojakäytäntö](https://unity.com/legal/privacy-policy)
 - **RevenueCat** — Käsittelee tilausostot, tallentaa ostohistoriasi ja antaa anonyymin käyttäjätunnuksen. [RevenueCatin tietosuojakäytäntö](https://www.revenuecat.com/privacy)
-- **Firebase (Google)** — Crashlytics kerää kaatumis- ja virheraportteja: pinojäljet, käyttöjärjestelmäversion, laitemallin ja asennustunnisteen. Firebase Analytics kerää anonyymejä sovelluksen käyttötapahtumia ja laitetunnisteen. [Googlen tietosuojakäytäntö](https://policies.google.com/privacy)
+- **Firebase (Google)** — Crashlytics kerää kaatumis- ja virheraportteja: pinojäljet, käyttöjärjestelmäversion, laitemallin ja asennustunnisteen. Firebase Analytics kerää anonyymejä sovelluksen käyttötapahtumia ja laitetunnisteen. Firebase Authentication -palvelua käytetään Google- ja Apple-kirjautumiseen, kun käytät Tietojen synkronointia. Firebase Firestore tallentaa sovelluksen tietojen varmuuskopiot Premium-tilaajille, jotka ovat ottaneet synkronoinnin käyttöön. [Googlen tietosuojakäytäntö](https://policies.google.com/privacy)
 
 ## Tietojen tallennus
 
-Kaikki sovelluksen tiedot tallennetaan paikallisesti laitteellesi. Henkilötietoja ei siirretä palvelimillemme.
+Oletusarvoisesti kaikki sovelluksen tiedot tallennetaan paikallisesti laitteellesi. Jos otat Tietojen synkronoinnin käyttöön (vain Premium), sovelluksesi tiedot tallennetaan myös Firebase Firestoreen – Googlen pilvipalveluun, joka sijaitsee Euroopassa (alue eur3).
+
+## Tilin poistaminen
+
+Voit poistaa tilisi ja kaikki siihen liittyvät tiedot milloin tahansa:
+
+- **Sovelluksessa:** Asetukset → Tietojen synkronointi → Poista tili
+- **Verkossa:** [alexjkldev.github.io/luckydecisions/delete-account](https://alexjkldev.github.io/luckydecisions/delete-account)
+
+Tilin poistaminen poistaa pysyvästi kaikki pilvipalvelun tietosi ja Firebase Authentication -tietueesi. Tilin poistaminen ei automaattisesti peruuta Premium-tilaustasi.
 
 ## Lasten yksityisyys
 
