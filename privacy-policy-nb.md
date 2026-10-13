@@ -1,6 +1,6 @@
 # Personvernerklæring
 
-*30. juni 2026*
+*13. oktober 2026*
 
 Lucky Decisions ("Appen") er utviklet av AlexJKL. Denne Personvernerklæringen beskriver hvordan informasjonen din samles inn, brukes og deles når du bruker Appen.
 
@@ -19,9 +19,9 @@ Bruk av datasynkronisering er helt frivillig. Hvis du ikke logger inn, overføre
 Følgende tredjepartstjenester brukes i Appen og kan samle inn visse data:
 
 - **Google AdMob** — Samler inn reklamerings-ID, enhetsinformasjon, annonseinteraksjoner (klikk, visninger, hvilke annonser du har sett) og SDK-diagnostikk (krasj- og ytelsesdata) for å vise og måle annonser. På iOS krever personaliserte annonser ditt samtykke via App Tracking Transparency. [Googles personvernregler](https://policies.google.com/privacy)
-- **Yandex Mobile Ads** — Viser annonser og samler inn reklamerings-ID, enhetsinformasjon, annonseinteraksjoner og SDK-diagnostikk. [Yandex personvernregler](https://yandex.com/legal/confidential/)
-- **Meta Audience Network** — Viser annonser og samler inn reklamerings-ID, enhetsinformasjon, annonseinteraksjoner og SDK-diagnostikk. [Metas personvernregler](https://www.facebook.com/privacy/explanation)
 - **Unity Ads** — Viser annonser og samler inn reklamerings-ID, enhetsinformasjon, annonseinteraksjoner og SDK-diagnostikk. [Unitys personvernregler](https://unity.com/legal/privacy-policy)
+- **Liftoff Monetize (Vungle)** — Viser annonser og samler inn reklamerings-ID, enhetsinformasjon, annonseinteraksjoner og SDK-diagnostikk. [Liftoffs personvernregler](https://liftoff.io/privacy-policy/)
+- **Pangle** — Viser annonser og samler inn reklamerings-ID, enhetsinformasjon, annonseinteraksjoner og SDK-diagnostikk. [Pangles personvernregler](https://www.pangleglobal.com/privacy/enduser-en)
 - **RevenueCat** — Behandler abonnementsinnkjøp, lagrer kjøpshistorikken din og tildeler en anonym bruker-ID. [RevenueCats personvernregler](https://www.revenuecat.com/privacy)
 - **Firebase (Google)** — Crashlytics samler inn krasj- og feilrapporter: stack traces, OS-versjon, enhetsmodell og installasjonsidentifikator. Firebase Analytics samler inn anonyme app-brukshendelser og enhetsidentifikator. Firebase Authentication brukes til innlogging via Google og Apple ved bruk av datasynkronisering. Firebase Firestore lagrer sikkerhetskopiering av appdata for Premium-abonnenter som har aktivert synkronisering. [Googles personvernregler](https://policies.google.com/privacy)
 

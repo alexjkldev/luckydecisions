@@ -1,6 +1,6 @@
 # プライバシーポリシー
 
-*2026年6月30日*
+*2026年10月13日*
 
 Lucky Decisions（以下「本アプリ」）は AlexJKL によって開発されています。本プライバシーポリシーでは、本アプリの利用時に情報がどのように収集、使用、および共有されるかについて説明します。
 
@@ -19,9 +19,9 @@ Premiumサブスクライバーは、**データ同期**（クラウドバック
 本アプリでは以下のサードパーティサービスを使用しており、それぞれ特定のデータを収集する場合があります：
 
 - **Google AdMob** — 広告配信および効果測定のため、広告ID、デバイス情報、広告とのやり取り（クリック、インプレッション、閲覧した広告）、SDK診断情報（クラッシュおよびパフォーマンスデータ）を収集します。iOSでは、パーソナライズ広告に App Tracking Transparency を通じたユーザーの同意が必要です。 [Google プライバシーポリシー](https://policies.google.com/privacy)
-- **Yandex Mobile Ads** — 広告を配信し、広告ID、デバイス情報、広告とのやり取り、およびSDK診断情報を収集します。 [Yandex プライバシーポリシー](https://yandex.com/legal/confidential/)
-- **Meta Audience Network** — 広告を配信し、広告ID、デバイス情報、広告とのやり取り、およびSDK診断情報を収集します。 [Meta プライバシーポリシー](https://www.facebook.com/privacy/explanation)
 - **Unity Ads** — 広告を配信し、広告ID、デバイス情報、広告とのやり取り、およびSDK診断情報を収集します。 [Unity プライバシーポリシー](https://unity.com/legal/privacy-policy)
+- **Liftoff Monetize (Vungle)** — 広告を配信し、広告ID、デバイス情報、広告とのやり取り、およびSDK診断情報を収集します。 [Liftoff プライバシーポリシー](https://liftoff.io/privacy-policy/)
+- **Pangle** — 広告を配信し、広告ID、デバイス情報、広告とのやり取り、およびSDK診断情報を収集します。 [Pangle プライバシーポリシー](https://www.pangleglobal.com/privacy/enduser-en)
 - **RevenueCat** — サブスクリプション購入を処理し、購入履歴を保存し、匿名ユーザーIDを割り当てます。 [RevenueCat プライバシーポリシー](https://www.revenuecat.com/privacy)
 - **Firebase (Google)** — Crashlytics はクラッシュおよびエラーレポートを収集します：スタックトレース、OS バージョン、デバイスモデル、インストール識別子。Firebase Analytics はアプリの匿名使用イベントとデバイス識別子を収集します。 Firebase Authenticationは、データ同期を使用する際のGoogleおよびAppleサインインに使用されます。Firebase Firestoreは、同期を有効にしたPremiumサブスクライバーのアプリデータバックアップを保存します。 [Google プライバシーポリシー](https://policies.google.com/privacy)
 

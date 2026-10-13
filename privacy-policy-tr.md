@@ -1,6 +1,6 @@
 # Gizlilik Politikası
 
-*30 Haziran 2026*
+*13 Ekim 2026*
 
 Lucky Decisions ("Uygulama"), AlexJKL tarafından geliştirilmiştir. Bu Gizlilik Politikası, Uygulamayı kullandığınızda bilgilerinizin nasıl toplandığını, kullanıldığını ve paylaşıldığını açıklar.
 
@@ -19,9 +19,9 @@ Veri senkronizasyonunun kullanımı tamamen isteğe bağlıdır. Giriş yapmazsa
 Uygulamada aşağıdaki üçüncü taraf hizmetler kullanılmaktadır ve bunlar belirli verileri toplayabilir:
 
 - **Google AdMob** — Reklam sunmak ve ölçmek amacıyla reklam kimliği, cihaz bilgileri, reklam etkileşimleri (tıklamalar, gösterimler, gördüğünüz reklamlar) ve SDK tanılama verilerini (çökme ve performans verileri) toplar. iOS'ta kişiselleştirilmiş reklamlar için App Tracking Transparency aracılığıyla izniniz gereklidir. [Google Gizlilik Politikası](https://policies.google.com/privacy)
-- **Yandex Mobile Ads** — Reklam sunar ve reklam kimliği, cihaz bilgileri, reklam etkileşimleri ve SDK tanılama verilerini toplar. [Yandex Gizlilik Politikası](https://yandex.com/legal/confidential/)
-- **Meta Audience Network** — Reklam sunar ve reklam kimliği, cihaz bilgileri, reklam etkileşimleri ve SDK tanılama verilerini toplar. [Meta Gizlilik Politikası](https://www.facebook.com/privacy/explanation)
 - **Unity Ads** — Reklam sunar ve reklam kimliği, cihaz bilgileri, reklam etkileşimleri ve SDK tanılama verilerini toplar. [Unity Gizlilik Politikası](https://unity.com/legal/privacy-policy)
+- **Liftoff Monetize (Vungle)** — Reklam sunar ve reklam kimliği, cihaz bilgileri, reklam etkileşimleri ve SDK tanılama verilerini toplar. [Liftoff Gizlilik Politikası](https://liftoff.io/privacy-policy/)
+- **Pangle** — Reklam sunar ve reklam kimliği, cihaz bilgileri, reklam etkileşimleri ve SDK tanılama verilerini toplar. [Pangle Gizlilik Politikası](https://www.pangleglobal.com/privacy/enduser-en)
 - **RevenueCat** — Abonelik satın alımlarını işler, satın alma geçmişinizi saklar ve anonim bir kullanıcı kimliği atar. [RevenueCat Gizlilik Politikası](https://www.revenuecat.com/privacy)
 - **Firebase (Google)** — Crashlytics, çökme ve hata raporları toplar: yığın izleri, işletim sistemi sürümü, cihaz modeli ve kurulum tanımlayıcısı. Firebase Analytics, anonim uygulama kullanım etkinlikleri ve cihaz tanımlayıcısı toplar. Firebase Authentication, Veri Senkronizasyonu kullanılırken Google ve Apple ile giriş yapmak için kullanılır. Firebase Firestore, senkronizasyonu etkinleştiren Premium aboneler için uygulama verisi yedeklerini depolar. [Google Gizlilik Politikası](https://policies.google.com/privacy)
 

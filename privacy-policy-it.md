@@ -1,6 +1,6 @@
 # Informativa sulla privacy
 
-*30 giugno 2026*
+*13 ottobre 2026*
 
 Lucky Decisions ("l'App") è sviluppata da AlexJKL. Questa Informativa sulla privacy descrive come vengono raccolte, utilizzate e condivise le tue informazioni quando utilizzi l'App.
 
@@ -19,9 +19,9 @@ L'uso della sincronizzazione dei dati è completamente facoltativo. Se non acced
 Nell'App vengono utilizzati i seguenti servizi di terze parti, che possono raccogliere determinati dati:
 
 - **Google AdMob** — raccoglie l'identificatore pubblicitario, informazioni sul dispositivo, dati di interazione con le pubblicità (clic, impression, annunci visualizzati) e diagnostica dell'SDK (dati di crash e prestazioni) per mostrare e misurare gli annunci. Su iOS, gli annunci personalizzati richiedono il tuo consenso tramite App Tracking Transparency. [Informativa sulla privacy di Google](https://policies.google.com/privacy)
-- **Yandex Mobile Ads** — mostra annunci e raccoglie l'identificatore pubblicitario, informazioni sul dispositivo, dati di interazione con le pubblicità e diagnostica dell'SDK. [Informativa sulla privacy di Yandex](https://yandex.com/legal/confidential/)
-- **Meta Audience Network** — mostra annunci e raccoglie l'identificatore pubblicitario, informazioni sul dispositivo, dati di interazione con le pubblicità e diagnostica dell'SDK. [Informativa sulla privacy di Meta](https://www.facebook.com/privacy/explanation)
 - **Unity Ads** — mostra annunci e raccoglie l'identificatore pubblicitario, informazioni sul dispositivo, dati sulle interazioni con gli annunci e diagnostica SDK. [Informativa sulla privacy di Unity](https://unity.com/legal/privacy-policy)
+- **Liftoff Monetize (Vungle)** — mostra annunci e raccoglie l'identificatore pubblicitario, informazioni sul dispositivo, dati sulle interazioni con gli annunci e diagnostica SDK. [Informativa sulla privacy di Liftoff](https://liftoff.io/privacy-policy/)
+- **Pangle** — mostra annunci e raccoglie l'identificatore pubblicitario, informazioni sul dispositivo, dati sulle interazioni con gli annunci e diagnostica SDK. [Informativa sulla privacy di Pangle](https://www.pangleglobal.com/privacy/enduser-en)
 - **RevenueCat** — elabora gli acquisti degli abbonamenti, memorizza la cronologia degli acquisti e assegna un identificatore utente anonimo. [Informativa sulla privacy di RevenueCat](https://www.revenuecat.com/privacy)
 - **Firebase (Google)** — Crashlytics raccoglie report di crash ed errori: stack trace, versione del sistema operativo, modello del dispositivo e identificatore di installazione. Firebase Analytics raccoglie eventi anonimi di utilizzo dell'app e identificatore del dispositivo. Firebase Authentication viene utilizzato per l'accesso tramite Google e Apple durante l'uso della sincronizzazione dei dati. Firebase Firestore memorizza i backup dei dati dell'app per gli abbonati Premium che hanno abilitato la sincronizzazione. [Informativa sulla privacy di Google](https://policies.google.com/privacy)
 

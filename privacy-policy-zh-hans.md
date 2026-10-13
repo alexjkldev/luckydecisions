@@ -1,6 +1,6 @@
 # 隐私政策
 
-*2026年6月30日*
+*2026年10月13日*
 
 Lucky Decisions（以下简称“本应用”）由 AlexJKL 开发。本隐私政策说明您在使用本应用时，我们如何收集、使用和共享您的信息。
 
@@ -19,9 +19,9 @@ Premium 订阅者可以自愿启用**数据同步**——一项云备份功能�
 本应用使用以下第三方服务，这些服务可能会收集部分数据：
 
 - **Google AdMob** —— 收集广告 ID、设备信息、广告互动数据（点击、展示、您已查看的广告）以及 SDK 诊断数据（崩溃和性能数据），用于展示和衡量广告效果。在 iOS 上，个性化广告需要您通过 App Tracking Transparency 提供同意。[Google 隐私政策](https://policies.google.com/privacy)
-- **Yandex Mobile Ads** —— 提供广告服务，并收集广告 ID、设备信息、广告互动数据以及 SDK 诊断数据。[Yandex 隐私政策](https://yandex.com/legal/confidential/)
-- **Meta Audience Network** —— 提供广告服务，并收集广告 ID、设备信息、广告互动数据以及 SDK 诊断数据。[Meta 隐私政策](https://www.facebook.com/privacy/explanation)
 - **Unity Ads** —— 提供广告服务，并收集广告 ID、设备信息、广告互动数据以及 SDK 诊断数据。[Unity 隐私政策](https://unity.com/legal/privacy-policy)
+- **Liftoff Monetize (Vungle)** —— 提供广告服务，并收集广告 ID、设备信息、广告互动数据以及 SDK 诊断数据。[Liftoff 隐私政策](https://liftoff.io/privacy-policy/)
+- **Pangle** —— 提供广告服务，并收集广告 ID、设备信息、广告互动数据以及 SDK 诊断数据。[Pangle 隐私政策](https://www.pangleglobal.com/privacy/enduser-en)
 - **RevenueCat** —— 处理订阅购买、存储您的购买记录，并分配匿名用户 ID。[RevenueCat 隐私政策](https://www.revenuecat.com/privacy)
 - **Firebase（Google）** —— Crashlytics 收集崩溃和错误报告：堆栈跟踪、操作系统版本、设备型号和安装标识符。Firebase Analytics 收集匿名应用使用事件和设备标识符。[Google 隐私政策](https://policies.google.com/privacy)
 

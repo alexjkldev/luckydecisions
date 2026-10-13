@@ -1,6 +1,6 @@
 # Privacybeleid
 
-*30 juni 2026*
+*13 oktober 2026*
 
 Lucky Decisions ("de App") is ontwikkeld door AlexJKL. Dit Privacybeleid beschrijft hoe uw informatie wordt verzameld, gebruikt en gedeeld wanneer u de App gebruikt.
 
@@ -19,9 +19,9 @@ Het gebruik van gegevenssynchronisatie is volledig vrijwillig. Als u niet inlogt
 De volgende diensten van derden worden gebruikt in de App en kunnen bepaalde gegevens verzamelen:
 
 - **Google AdMob** — Verzamelt advertentie-ID, apparaatinformatie, advertentie-interacties (klikken, vertoningen, welke advertenties u heeft gezien) en SDK-diagnostiek (crash- en prestatiegegevens) om advertenties te tonen en te meten. Op iOS is uw toestemming vereist via App Tracking Transparency voor gepersonaliseerde advertenties. [Google Privacybeleid](https://policies.google.com/privacy)
-- **Yandex Mobile Ads** — Toont advertenties en verzamelt advertentie-ID, apparaatinformatie, advertentie-interacties en SDK-diagnostiek. [Yandex Privacybeleid](https://yandex.com/legal/confidential/)
-- **Meta Audience Network** — Toont advertenties en verzamelt advertentie-ID, apparaatinformatie, advertentie-interacties en SDK-diagnostiek. [Meta Privacybeleid](https://www.facebook.com/privacy/explanation)
 - **Unity Ads** — Toont advertenties en verzamelt advertentie-ID, apparaatinformatie, advertentie-interacties en SDK-diagnostiek. [Unity Privacybeleid](https://unity.com/legal/privacy-policy)
+- **Liftoff Monetize (Vungle)** — Toont advertenties en verzamelt advertentie-ID, apparaatinformatie, advertentie-interacties en SDK-diagnostiek. [Liftoff Privacybeleid](https://liftoff.io/privacy-policy/)
+- **Pangle** — Toont advertenties en verzamelt advertentie-ID, apparaatinformatie, advertentie-interacties en SDK-diagnostiek. [Pangle Privacybeleid](https://www.pangleglobal.com/privacy/enduser-en)
 - **RevenueCat** — Verwerkt abonnementsaankopen, slaat uw aankoopgeschiedenis op en wijst een anonieme gebruikers-ID toe. [RevenueCat Privacybeleid](https://www.revenuecat.com/privacy)
 - **Firebase (Google)** — Crashlytics verzamelt crash- en foutrapporten: stack traces, OS-versie, apparaatmodel en installatieherkenner. Firebase Analytics verzamelt anonieme app-gebruiksgebeurtenissen en apparaatherkenner. Firebase Authentication wordt gebruikt voor aanmelding via Google en Apple bij gebruik van gegevenssynchronisatie. Firebase Firestore slaat app-gegevensback-ups op voor Premium-abonnees die synchronisatie hebben ingeschakeld. [Google Privacybeleid](https://policies.google.com/privacy)
 

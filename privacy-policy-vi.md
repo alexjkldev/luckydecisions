@@ -1,6 +1,6 @@
 # Chính Sách Quyền Riêng Tư
 
-*Ngày 30 tháng 6 năm 2026*
+*Ngày 13 tháng 10 năm 2026*
 
 Lucky Decisions ("Ứng dụng") được phát triển bởi AlexJKL. Chính Sách Quyền Riêng Tư này mô tả cách thông tin của bạn được thu thập, sử dụng và chia sẻ khi bạn sử dụng Ứng dụng.
 
@@ -19,9 +19,9 @@ Việc sử dụng đồng bộ hóa dữ liệu hoàn toàn tự nguyện. Nế
 Các dịch vụ bên thứ ba sau đây được sử dụng trong Ứng dụng và có thể thu thập một số dữ liệu nhất định:
 
 - **Google AdMob** — Thu thập ID quảng cáo, thông tin thiết bị, tương tác quảng cáo (nhấp chuột, lượt hiển thị, quảng cáo bạn đã xem) và chẩn đoán SDK (dữ liệu sự cố và hiệu suất) để phục vụ và đo lường quảng cáo. Trên iOS, quảng cáo được cá nhân hóa yêu cầu sự đồng ý của bạn qua App Tracking Transparency. [Chính Sách Quyền Riêng Tư của Google](https://policies.google.com/privacy)
-- **Yandex Mobile Ads** — Phục vụ quảng cáo và thu thập ID quảng cáo, thông tin thiết bị, tương tác quảng cáo và chẩn đoán SDK. [Chính Sách Quyền Riêng Tư của Yandex](https://yandex.com/legal/confidential/)
-- **Meta Audience Network** — Phục vụ quảng cáo và thu thập ID quảng cáo, thông tin thiết bị, tương tác quảng cáo và chẩn đoán SDK. [Chính Sách Quyền Riêng Tư của Meta](https://www.facebook.com/privacy/explanation)
 - **Unity Ads** — Phục vụ quảng cáo và thu thập ID quảng cáo, thông tin thiết bị, tương tác quảng cáo và chẩn đoán SDK. [Chính Sách Quyền Riêng Tư của Unity](https://unity.com/legal/privacy-policy)
+- **Liftoff Monetize (Vungle)** — Phục vụ quảng cáo và thu thập ID quảng cáo, thông tin thiết bị, tương tác quảng cáo và chẩn đoán SDK. [Chính Sách Quyền Riêng Tư của Liftoff](https://liftoff.io/privacy-policy/)
+- **Pangle** — Phục vụ quảng cáo và thu thập ID quảng cáo, thông tin thiết bị, tương tác quảng cáo và chẩn đoán SDK. [Chính Sách Quyền Riêng Tư của Pangle](https://www.pangleglobal.com/privacy/enduser-en)
 - **RevenueCat** — Xử lý mua hàng đăng ký, lưu trữ lịch sử mua hàng của bạn và gán ID người dùng ẩn danh. [Chính Sách Quyền Riêng Tư của RevenueCat](https://www.revenuecat.com/privacy)
 - **Firebase (Google)** — Crashlytics thu thập báo cáo sự cố và lỗi: stack trace, phiên bản hệ điều hành, mẫu thiết bị và định danh cài đặt. Firebase Analytics thu thập các sự kiện sử dụng ứng dụng ẩn danh và định danh thiết bị. Firebase Authentication được sử dụng để đăng nhập qua Google và Apple khi sử dụng đồng bộ hóa dữ liệu. Firebase Firestore lưu trữ bản sao lưu dữ liệu ứng dụng cho người đăng ký Premium đã bật đồng bộ hóa. [Chính Sách Quyền Riêng Tư của Google](https://policies.google.com/privacy)
 

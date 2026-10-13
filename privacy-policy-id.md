@@ -1,6 +1,6 @@
 # Kebijakan Privasi
 
-*30 Juni 2026*
+*13 Oktober 2026*
 
 Lucky Decisions ("Aplikasi") dikembangkan oleh AlexJKL. Kebijakan Privasi ini menjelaskan bagaimana informasi Anda dikumpulkan, digunakan, dan dibagikan saat Anda menggunakan Aplikasi.
 
@@ -19,9 +19,9 @@ Penggunaan sinkronisasi data sepenuhnya opsional. Jika Anda tidak masuk, tidak a
 Layanan pihak ketiga berikut digunakan dalam Aplikasi dan mungkin mengumpulkan data tertentu:
 
 - **Google AdMob** — Mengumpulkan ID periklanan, informasi perangkat, interaksi iklan (klik, tayangan, iklan yang telah Anda lihat), dan diagnostik SDK (data crash dan performa) untuk menayangkan dan mengukur iklan. Di iOS, iklan yang dipersonalisasi memerlukan persetujuan Anda melalui App Tracking Transparency. [Kebijakan Privasi Google](https://policies.google.com/privacy)
-- **Yandex Mobile Ads** — Menayangkan iklan dan mengumpulkan ID periklanan, informasi perangkat, interaksi iklan, dan diagnostik SDK. [Kebijakan Privasi Yandex](https://yandex.com/legal/confidential/)
-- **Meta Audience Network** — Menayangkan iklan dan mengumpulkan ID periklanan, informasi perangkat, interaksi iklan, dan diagnostik SDK. [Kebijakan Privasi Meta](https://www.facebook.com/privacy/explanation)
 - **Unity Ads** — Menayangkan iklan dan mengumpulkan ID periklanan, informasi perangkat, interaksi iklan, dan diagnostik SDK. [Kebijakan Privasi Unity](https://unity.com/legal/privacy-policy)
+- **Liftoff Monetize (Vungle)** — Menayangkan iklan dan mengumpulkan ID periklanan, informasi perangkat, interaksi iklan, dan diagnostik SDK. [Kebijakan Privasi Liftoff](https://liftoff.io/privacy-policy/)
+- **Pangle** — Menayangkan iklan dan mengumpulkan ID periklanan, informasi perangkat, interaksi iklan, dan diagnostik SDK. [Kebijakan Privasi Pangle](https://www.pangleglobal.com/privacy/enduser-en)
 - **RevenueCat** — Memproses pembelian langganan, menyimpan riwayat pembelian Anda, dan menetapkan ID pengguna anonim. [Kebijakan Privasi RevenueCat](https://www.revenuecat.com/privacy)
 - **Firebase (Google)** — Crashlytics mengumpulkan laporan crash dan error: stack trace, versi OS, model perangkat, dan pengidentifikasi instalasi. Firebase Analytics mengumpulkan event penggunaan aplikasi anonim dan pengidentifikasi perangkat. Firebase Authentication digunakan untuk masuk melalui Google dan Apple saat menggunakan sinkronisasi data. Firebase Firestore menyimpan cadangan data aplikasi untuk pelanggan Premium yang mengaktifkan sinkronisasi. [Kebijakan Privasi Google](https://policies.google.com/privacy)
 

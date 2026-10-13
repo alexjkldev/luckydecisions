@@ -1,6 +1,6 @@
 # Datenschutzrichtlinie
 
-*30. Juni 2026*
+*13. Oktober 2026*
 
 Lucky Decisions („die App“) wird von AlexJKL entwickelt. Diese Datenschutzrichtlinie beschreibt, wie Informationen bei der Nutzung der App erhoben, verwendet und weitergegeben werden.
 
@@ -19,9 +19,9 @@ Die Nutzung der Datensynchronisierung ist vollständig freiwillig. Wenn Sie sich
 Die folgenden Drittanbieterdienste werden in der App verwendet und können bestimmte Daten erfassen:
 
 - **Google AdMob** — Erfasst Werbe-ID, Geräteinformationen, Anzeigeninteraktionen (Klicks, Impressionen, welche Anzeigen Sie gesehen haben) sowie SDK-Diagnosedaten (Absturz- und Leistungsdaten), um Werbung bereitzustellen und zu messen. Unter iOS erfordern personalisierte Anzeigen Ihre Zustimmung über App Tracking Transparency. [Google-Datenschutzerklärung](https://policies.google.com/privacy)
-- **Yandex Mobile Ads** — Zeigt Werbung an und erfasst Werbe-ID, Geräteinformationen, Anzeigeninteraktionen sowie SDK-Diagnosedaten. [Yandex-Datenschutzerklärung](https://yandex.com/legal/confidential/)
-- **Meta Audience Network** — Zeigt Werbung an und erfasst Werbe-ID, Geräteinformationen, Anzeigeninteraktionen sowie SDK-Diagnosedaten. [Meta-Datenschutzerklärung](https://www.facebook.com/privacy/explanation)
 - **Unity Ads** — Zeigt Werbung an und erfasst Werbe-ID, Geräteinformationen, Anzeigeninteraktionen sowie SDK-Diagnosedaten. [Unity Datenschutzerklärung](https://unity.com/legal/privacy-policy)
+- **Liftoff Monetize (Vungle)** — Zeigt Werbung an und erfasst Werbe-ID, Geräteinformationen, Anzeigeninteraktionen sowie SDK-Diagnosedaten. [Liftoff Datenschutzerklärung](https://liftoff.io/privacy-policy/)
+- **Pangle** — Zeigt Werbung an und erfasst Werbe-ID, Geräteinformationen, Anzeigeninteraktionen sowie SDK-Diagnosedaten. [Pangle Datenschutzerklärung](https://www.pangleglobal.com/privacy/enduser-en)
 - **RevenueCat** — Verarbeitet Abonnementkäufe, speichert Ihren Kaufverlauf und weist eine anonyme Benutzer-ID zu. [RevenueCat-Datenschutzerklärung](https://www.revenuecat.com/privacy)
 - **Firebase (Google)** — Crashlytics erfasst Absturz- und Fehlerberichte: Stack-Traces, OS-Version, Gerätemodell und Installations-ID. Firebase Analytics erfasst anonyme App-Nutzungsereignisse und Geräte-ID. Firebase Authentication wird für die Anmeldung über Google und Apple bei der Nutzung der Datensynchronisierung verwendet. Firebase Firestore speichert App-Datensicherungen für Premium-Abonnenten, die die Synchronisierung aktiviert haben. [Google-Datenschutzerklärung](https://policies.google.com/privacy)
 

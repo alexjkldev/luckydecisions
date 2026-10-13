@@ -1,6 +1,6 @@
 # Tietosuojakäytäntö
 
-*30. kesäkuuta 2026*
+*13. lokakuuta 2026*
 
 Lucky Decisions ("Sovellus") on AlexJKL:n kehittämä. Tämä tietosuojakäytäntö kuvaa, miten tietojasi kerätään, käytetään ja jaetaan, kun käytät Sovellusta.
 
@@ -19,9 +19,9 @@ Tietojen synkronoinnin käyttö on täysin vapaaehtoista. Jos et kirjaudu sisä�
 Sovelluksessa käytetään seuraavia kolmannen osapuolen palveluja, jotka voivat kerätä tiettyjä tietoja:
 
 - **Google AdMob** — Kerää mainostunnisteen, laitetietoja, tietoa mainosvuorovaikutuksista (klikkaukset, näytöt, näkemäsi mainokset) ja SDK-diagnostiikkaa (kaatumis- ja suorituskykytiedot) mainosten näyttämistä ja mittaamista varten. iOS:ssä personoidut mainokset edellyttävät suostumustasi App Tracking Transparency -toiminnon kautta. [Googlen tietosuojakäytäntö](https://policies.google.com/privacy)
-- **Yandex Mobile Ads** — Näyttää mainoksia ja kerää mainostunnisteen, laitetietoja, tietoa mainosvuorovaikutuksista ja SDK-diagnostiikkaa. [Yandexin tietosuojakäytäntö](https://yandex.com/legal/confidential/)
-- **Meta Audience Network** — Näyttää mainoksia ja kerää mainostunnisteen, laitetietoja, tietoa mainosvuorovaikutuksista ja SDK-diagnostiikkaa. [Metan tietosuojakäytäntö](https://www.facebook.com/privacy/explanation)
 - **Unity Ads** — Näyttää mainoksia ja kerää mainostunnisteen, laitetietoja, tietoa mainosvuorovaikutuksista sekä SDK-diagnostiikkaa. [Unityn tietosuojakäytäntö](https://unity.com/legal/privacy-policy)
+- **Liftoff Monetize (Vungle)** — Näyttää mainoksia ja kerää mainostunnisteen, laitetietoja, tietoa mainosvuorovaikutuksista sekä SDK-diagnostiikkaa. [Liftoffin tietosuojakäytäntö](https://liftoff.io/privacy-policy/)
+- **Pangle** — Näyttää mainoksia ja kerää mainostunnisteen, laitetietoja, tietoa mainosvuorovaikutuksista sekä SDK-diagnostiikkaa. [Panglen tietosuojakäytäntö](https://www.pangleglobal.com/privacy/enduser-en)
 - **RevenueCat** — Käsittelee tilausostot, tallentaa ostohistoriasi ja antaa anonyymin käyttäjätunnuksen. [RevenueCatin tietosuojakäytäntö](https://www.revenuecat.com/privacy)
 - **Firebase (Google)** — Crashlytics kerää kaatumis- ja virheraportteja: pinojäljet, käyttöjärjestelmäversion, laitemallin ja asennustunnisteen. Firebase Analytics kerää anonyymejä sovelluksen käyttötapahtumia ja laitetunnisteen. Firebase Authentication -palvelua käytetään Google- ja Apple-kirjautumiseen, kun käytät Tietojen synkronointia. Firebase Firestore tallentaa sovelluksen tietojen varmuuskopiot Premium-tilaajille, jotka ovat ottaneet synkronoinnin käyttöön. [Googlen tietosuojakäytäntö](https://policies.google.com/privacy)
 
