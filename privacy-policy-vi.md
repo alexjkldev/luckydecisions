@@ -1,51 +1,117 @@
 # Chính Sách Quyền Riêng Tư
 
-*Ngày 13 tháng 10 năm 2026*
+*Ngày 14 tháng 10 năm 2026*
 
-Lucky Decisions ("Ứng dụng") được phát triển bởi AlexJKL. Chính Sách Quyền Riêng Tư này mô tả cách thông tin của bạn được thu thập, sử dụng và chia sẻ khi bạn sử dụng Ứng dụng.
+Chính sách quyền riêng tư này giải thích cách dữ liệu cá nhân được xử lý khi bạn sử dụng ứng dụng di động Lucky Decisions ("Ứng dụng").
 
-## Thông Tin Chúng Tôi Thu Thập
+## Bên kiểm soát dữ liệu
 
-Ứng dụng lưu trữ tất cả nội dung do người dùng tạo (vòng quay, phần, nhật ký quay, cài đặt) cục bộ trên thiết bị của bạn.
+Bên kiểm soát chịu trách nhiệm xử lý dữ liệu cá nhân của bạn là:
 
-Người đăng ký Premium có thể tự nguyện bật **đồng bộ hóa dữ liệu** — tính năng sao lưu đám mây. Khi sử dụng tính năng này:
+**AlexJKL Oy** (Phần Lan)
+Email: [support@alexjkl.fi](mailto:support@alexjkl.fi)
 
-- Bạn đăng nhập qua Google hoặc Apple
-- Chúng tôi nhận địa chỉ email và mã định danh tài khoản duy nhất của bạn
-- Dữ liệu ứng dụng của bạn (vòng quay, cài đặt, tùy chọn) được lưu vào Firebase Firestore (bộ nhớ đám mây của Google)
+## Dữ liệu lưu trên thiết bị của bạn
 
-Việc sử dụng đồng bộ hóa dữ liệu hoàn toàn tự nguyện. Nếu bạn không đăng nhập, không có dữ liệu cá nhân nào được truyền đến chúng tôi hoặc bên thứ ba.
+Mọi nội dung bạn tạo trong Ứng dụng (vòng quay, ô, nhật ký quay, cài đặt) được lưu cục bộ trên thiết bị của bạn. Nội dung này không được gửi cho chúng tôi trừ khi bạn bật Đồng bộ hóa dữ liệu.
 
-Các dịch vụ bên thứ ba sau đây được sử dụng trong Ứng dụng và có thể thu thập một số dữ liệu nhất định:
+## Đồng bộ hóa dữ liệu (tùy chọn, Premium)
 
-- **Google AdMob** — Thu thập ID quảng cáo, thông tin thiết bị, tương tác quảng cáo (nhấp chuột, lượt hiển thị, quảng cáo bạn đã xem) và chẩn đoán SDK (dữ liệu sự cố và hiệu suất) để phục vụ và đo lường quảng cáo. Trên iOS, quảng cáo được cá nhân hóa yêu cầu sự đồng ý của bạn qua App Tracking Transparency. [Chính Sách Quyền Riêng Tư của Google](https://policies.google.com/privacy)
-- **Unity Ads** — Phục vụ quảng cáo và thu thập ID quảng cáo, thông tin thiết bị, tương tác quảng cáo và chẩn đoán SDK. [Chính Sách Quyền Riêng Tư của Unity](https://unity.com/legal/privacy-policy)
-- **Liftoff Monetize (Vungle)** — Phục vụ quảng cáo và thu thập ID quảng cáo, thông tin thiết bị, tương tác quảng cáo và chẩn đoán SDK. [Chính Sách Quyền Riêng Tư của Liftoff](https://liftoff.io/privacy-policy/)
-- **Pangle** — Phục vụ quảng cáo và thu thập ID quảng cáo, thông tin thiết bị, tương tác quảng cáo và chẩn đoán SDK. [Chính Sách Quyền Riêng Tư của Pangle](https://www.pangleglobal.com/privacy/enduser-en)
-- **RevenueCat** — Xử lý mua hàng đăng ký, lưu trữ lịch sử mua hàng của bạn và gán ID người dùng ẩn danh. [Chính Sách Quyền Riêng Tư của RevenueCat](https://www.revenuecat.com/privacy)
-- **Firebase (Google)** — Crashlytics thu thập báo cáo sự cố và lỗi: stack trace, phiên bản hệ điều hành, mẫu thiết bị và định danh cài đặt. Firebase Analytics thu thập các sự kiện sử dụng ứng dụng ẩn danh và định danh thiết bị. Firebase Authentication được sử dụng để đăng nhập qua Google và Apple khi sử dụng đồng bộ hóa dữ liệu. Firebase Firestore lưu trữ bản sao lưu dữ liệu ứng dụng cho người đăng ký Premium đã bật đồng bộ hóa. [Chính Sách Quyền Riêng Tư của Google](https://policies.google.com/privacy)
+Người đăng ký Premium có thể bật **Đồng bộ hóa dữ liệu**, một tính năng sao lưu đám mây. Khi bạn sử dụng tính năng này:
 
-## Lưu Trữ Dữ Liệu
+- Bạn đăng nhập bằng Google hoặc Apple
+- Chúng tôi nhận địa chỉ email và một mã định danh tài khoản duy nhất của bạn
+- Dữ liệu ứng dụng của bạn (vòng quay, cài đặt, tùy chọn) được lưu trong Firebase Firestore (Google Cloud, khu vực eur3, châu Âu)
 
-Theo mặc định, tất cả dữ liệu ứng dụng được lưu trữ cục bộ trên thiết bị của bạn. Nếu bạn bật đồng bộ hóa dữ liệu (chỉ dành cho Premium), dữ liệu ứng dụng của bạn cũng được lưu trữ trong Firebase Firestore — dịch vụ đám mây của Google đặt tại Châu Âu (khu vực eur3).
+Đồng bộ hóa dữ liệu hoàn toàn là tùy chọn.
+
+## Dữ liệu do các dịch vụ bên thứ ba xử lý
+
+Ngay cả khi bạn không sử dụng Đồng bộ hóa dữ liệu, Ứng dụng vẫn sử dụng các dịch vụ sau, xử lý các dữ liệu như mã định danh thiết bị (ID quảng cáo, ID cài đặt), địa chỉ IP, thông tin thiết bị và hệ điều hành, cũng như tương tác với ứng dụng và quảng cáo:
+
+- **Google AdMob** — hiển thị và đo lường quảng cáo. Thu thập ID quảng cáo, thông tin thiết bị, tương tác quảng cáo (lượt nhấp, lượt hiển thị, quảng cáo bạn đã xem) và dữ liệu chẩn đoán SDK. [Chính sách quyền riêng tư của Google](https://policies.google.com/privacy)
+- **Unity Ads** — hiển thị quảng cáo thông qua dàn xếp AdMob. Thu thập ID quảng cáo, thông tin thiết bị, tương tác quảng cáo và dữ liệu chẩn đoán SDK. [Chính Sách Quyền Riêng Tư của Unity](https://unity.com/legal/privacy-policy)
+- **Liftoff Monetize (Vungle)** — hiển thị quảng cáo thông qua dàn xếp AdMob. Thu thập ID quảng cáo, thông tin thiết bị, tương tác quảng cáo và dữ liệu chẩn đoán SDK. [Chính Sách Quyền Riêng Tư của Liftoff](https://liftoff.io/privacy-policy/)
+- **Pangle** (Bytedance Pte. Ltd., Singapore) — hiển thị quảng cáo thông qua dàn xếp AdMob. Thu thập ID quảng cáo, địa chỉ IP và vị trí gần đúng suy ra từ đó, thông tin thiết bị, tương tác quảng cáo và dữ liệu chẩn đoán SDK. [Chính Sách Quyền Riêng Tư của Pangle](https://www.pangleglobal.com/privacy/enduser-en)
+- **RevenueCat** — xử lý giao dịch mua gói đăng ký, lưu lịch sử mua hàng của bạn và gán một ID người dùng ứng dụng ẩn danh. [Chính sách quyền riêng tư của RevenueCat](https://www.revenuecat.com/privacy)
+- **Firebase (Google)**:
+  - *Crashlytics* — báo cáo sự cố và lỗi: dấu vết ngăn xếp, phiên bản hệ điều hành, kiểu thiết bị, ID cài đặt.
+  - *Analytics* — các sự kiện sử dụng ứng dụng được liên kết với mã định danh phiên bản ứng dụng.
+  - *Performance Monitoring* — dữ liệu hiệu suất ứng dụng, như thời gian khởi động và thời lượng yêu cầu mạng.
+  - *Remote Config* — lấy cấu hình ứng dụng từ máy chủ của Google.
+  - *App Check* — xác minh rằng các yêu cầu đến máy chủ của chúng tôi đến từ Ứng dụng chính hãng.
+  - *Authentication* và *Firestore* — đăng nhập và sao lưu đám mây khi bạn sử dụng Đồng bộ hóa dữ liệu.
+
+  [Chính sách quyền riêng tư của Google](https://policies.google.com/privacy)
+
+Các mạng quảng cáo đóng vai trò là bên kiểm soát độc lập đối với dữ liệu họ thu thập hoặc, khi điều khoản của họ quy định, là bên đồng kiểm soát cùng chúng tôi (ví dụ: Pangle đối với một số hoạt động xử lý theo Điều 26 GDPR). Chính sách quyền riêng tư của họ, được liên kết ở trên, mô tả chi tiết việc xử lý này.
+
+Lời nhắc trong Ứng dụng được lên lịch cục bộ trên thiết bị của bạn. Chúng tôi không gửi thông báo đẩy.
+
+## Mục đích và cơ sở pháp lý
+
+| Mục đích | Cơ sở pháp lý (GDPR) |
+|---|---|
+| Quảng cáo được cá nhân hóa | Sự đồng ý của bạn (Điều 6(1)(a)) |
+| Quảng cáo không cá nhân hóa và đo lường quảng cáo | Sự đồng ý của bạn hoặc lợi ích hợp pháp của chúng tôi trong việc duy trì phiên bản miễn phí của Ứng dụng (Điều 6(1)(a) hoặc (f)), như được nêu trong biểu mẫu đồng ý |
+| Gói đăng ký Premium và Đồng bộ hóa dữ liệu | Thực hiện hợp đồng với bạn (Điều 6(1)(b)) |
+| Báo cáo sự cố, giám sát hiệu suất, cấu hình ứng dụng và chống lạm dụng | Lợi ích hợp pháp của chúng tôi trong việc giữ cho Ứng dụng ổn định và an toàn (Điều 6(1)(f)) |
+| Phân tích việc sử dụng | Lợi ích hợp pháp của chúng tôi trong việc hiểu và cải thiện Ứng dụng (Điều 6(1)(f)) |
+| Trả lời tin nhắn của bạn | Lợi ích hợp pháp của chúng tôi trong việc phản hồi bạn (Điều 6(1)(f)) |
+
+## Lựa chọn đồng ý của bạn
+
+Tại Khu vực Kinh tế châu Âu, Vương quốc Anh và Thụy Sĩ, Ứng dụng xin sự đồng ý của bạn thông qua biểu mẫu đồng ý của Google trước khi hiển thị quảng cáo được cá nhân hóa. Bạn có thể thay đổi hoặc rút lại sự đồng ý bất cứ lúc nào trong Ứng dụng tại **Cài đặt → Tùy chọn bảo mật quảng cáo**. Việc rút lại sự đồng ý không ảnh hưởng đến việc xử lý đã thực hiện trước đó.
+
+Trên iOS, quảng cáo được cá nhân hóa cũng cần sự cho phép của bạn thông qua App Tracking Transparency, bạn có thể thay đổi trong ứng dụng Cài đặt của iOS.
+
+## Chuyển dữ liệu quốc tế
+
+Một số dịch vụ nêu trên xử lý dữ liệu bên ngoài Khu vực Kinh tế châu Âu, cụ thể là tại Hoa Kỳ (Google, Unity, Liftoff, RevenueCat) và tại Singapore và Hoa Kỳ (Pangle); các công ty trong tập đoàn và nhà cung cấp dịch vụ của họ có thể truy cập dữ liệu từ các quốc gia khác. Việc chuyển dữ liệu này dựa trên Khung Quyền riêng tư Dữ liệu EU–Hoa Kỳ (EU–US Data Privacy Framework) nếu bên nhận được chứng nhận, hoặc dựa trên Điều khoản Hợp đồng Tiêu chuẩn của Ủy ban châu Âu.
+
+## Thời gian lưu trữ
+
+- **Dữ liệu đồng bộ hóa** — được lưu cho đến khi bạn xóa tài khoản.
+- **Báo cáo sự cố (Crashlytics)** — được Google lưu trong 90 ngày.
+- **Dữ liệu phân tích** — được lưu theo cài đặt lưu giữ của Google cho Firebase Analytics.
+- **Dữ liệu do các mạng quảng cáo và RevenueCat thu thập** — được lưu theo chính sách quyền riêng tư của họ.
+- **Tin nhắn bạn gửi cho chúng tôi** — được lưu trong thời gian cần thiết để xử lý yêu cầu của bạn, sau đó bị xóa.
 
 ## Xóa tài khoản
 
-Bạn có thể xóa tài khoản và tất cả dữ liệu liên quan bất kỳ lúc nào:
+Bạn có thể xóa tài khoản và mọi dữ liệu đám mây liên quan bất cứ lúc nào:
 
 - **Trong ứng dụng:** Cài đặt → Đồng bộ hóa dữ liệu → Xóa tài khoản
-- **Trên web:** [alexjkldev.github.io/luckydecisions/delete-account](https://alexjkldev.github.io/luckydecisions/delete-account)
+- **Trên web:** [alexjkl.fi/luckydecisions/delete-account](https://alexjkl.fi/luckydecisions/delete-account)
 
-Xóa tài khoản sẽ xóa vĩnh viễn tất cả dữ liệu đám mây và bản ghi Firebase Authentication của bạn. Xóa tài khoản không tự động hủy đăng ký Premium của bạn.
+Việc xóa tài khoản sẽ xóa vĩnh viễn dữ liệu đám mây và bản ghi Firebase Authentication của bạn. Gói đăng ký Premium của bạn không bị hủy; bạn quản lý gói này trong App Store hoặc Google Play.
 
-## Quyền Riêng Tư Của Trẻ Em
+## Quyền của bạn
 
-Ứng dụng không cố ý thu thập thông tin cá nhân từ trẻ em. Các dịch vụ bên thứ ba được liệt kê ở trên có thể có giới hạn độ tuổi riêng của họ.
+Theo GDPR, bạn có quyền:
 
-## Thay Đổi Chính Sách Này
+- truy cập dữ liệu cá nhân của mình và nhận bản sao
+- yêu cầu sửa dữ liệu không chính xác
+- yêu cầu xóa dữ liệu của mình
+- hạn chế việc xử lý
+- quyền di chuyển dữ liệu
+- phản đối việc xử lý dựa trên lợi ích hợp pháp
+- rút lại sự đồng ý bất cứ lúc nào
 
-Chúng tôi có thể cập nhật Chính Sách Quyền Riêng Tư này theo thời gian. Các thay đổi sẽ được đăng trong Ứng dụng hoặc trên trang này.
+Để thực hiện các quyền của mình, hãy liên hệ với chúng tôi qua [support@alexjkl.fi](mailto:support@alexjkl.fi). Vì phần lớn dữ liệu được các dịch vụ nêu trên xử lý theo mã định danh thiết bị mà chúng tôi không thể liên kết với bạn, chúng tôi có thể cần chuyển một số yêu cầu đến các dịch vụ đó. Bạn cũng có thể liên hệ trực tiếp với họ thông qua chính sách quyền riêng tư của họ.
 
-## Liên Hệ
+Bạn cũng có quyền khiếu nại lên cơ quan giám sát, đặc biệt là tại quốc gia EU nơi bạn sinh sống hoặc làm việc. Tại Phần Lan, đó là [Văn phòng Thanh tra Bảo vệ Dữ liệu](https://tietosuoja.fi/en).
 
-Nếu bạn có câu hỏi về Chính Sách Quyền Riêng Tư này hoặc muốn liên hệ với nhà phát triển, bạn có thể liên hệ qua Ứng dụng hoặc qua danh sách App Store hoặc Google Play Store. Khi bạn liên hệ với chúng tôi qua email, chúng tôi nhận được địa chỉ email của bạn, nội dung tin nhắn của bạn và bất kỳ tệp đính kèm nào. Thông tin này chỉ được sử dụng để trả lời câu hỏi của bạn và cải thiện Ứng dụng. Chúng tôi không chia sẻ nó với bên thứ ba.
+## Quyền riêng tư của trẻ em
+
+Ứng dụng không hướng đến trẻ em. Chúng tôi không cố ý thu thập dữ liệu cá nhân của trẻ em dưới độ tuổi đồng ý kỹ thuật số tại quốc gia của trẻ (13–16 tuổi tại EU). Nếu bạn cho rằng một trẻ em đã cung cấp dữ liệu cá nhân cho chúng tôi, hãy liên hệ với chúng tôi và chúng tôi sẽ xóa dữ liệu đó.
+
+## Thay đổi chính sách này
+
+Chúng tôi có thể cập nhật Chính sách quyền riêng tư này theo thời gian. Phiên bản hiện hành luôn có trên trang này, và ngày ở trên cùng cho biết lần thay đổi gần nhất.
+
+## Liên hệ
+
+AlexJKL Oy — [support@alexjkl.fi](mailto:support@alexjkl.fi)
+
+Bạn cũng có thể liên hệ với chúng tôi qua Ứng dụng hoặc qua trang của Ứng dụng trên App Store hoặc Google Play. Khi bạn liên hệ với chúng tôi, chúng tôi nhận được địa chỉ email, nội dung tin nhắn và mọi tệp đính kèm của bạn. Chúng tôi chỉ sử dụng thông tin này để trả lời bạn và cải thiện Ứng dụng, và không chia sẻ thông tin đó với bên thứ ba.

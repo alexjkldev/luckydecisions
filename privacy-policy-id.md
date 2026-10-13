@@ -1,51 +1,117 @@
 # Kebijakan Privasi
 
-*13 Oktober 2026*
+*14 Oktober 2026*
 
-Lucky Decisions ("Aplikasi") dikembangkan oleh AlexJKL. Kebijakan Privasi ini menjelaskan bagaimana informasi Anda dikumpulkan, digunakan, dan dibagikan saat Anda menggunakan Aplikasi.
+Kebijakan Privasi ini menjelaskan bagaimana data pribadi diproses saat Anda menggunakan aplikasi seluler Lucky Decisions ("Aplikasi").
 
-## Informasi yang Kami Kumpulkan
+## Pengendali Data
 
-Aplikasi menyimpan semua konten yang dibuat pengguna (roda, sektor, log putaran, pengaturan) secara lokal di perangkat Anda.
+Pengendali yang bertanggung jawab atas pemrosesan data pribadi Anda adalah:
 
-Pelanggan Premium dapat mengaktifkan **sinkronisasi data** secara sukarela — fitur pencadangan cloud. Saat menggunakan fitur ini:
+**AlexJKL Oy** (Finlandia)
+Email: [support@alexjkl.fi](mailto:support@alexjkl.fi)
 
-- Anda masuk melalui Google atau Apple
-- Kami menerima alamat email dan pengidentifikasi akun unik Anda
-- Data aplikasi Anda (roda, pengaturan, preferensi) disimpan di Firebase Firestore (penyimpanan cloud Google)
+## Data yang Disimpan di Perangkat Anda
 
-Penggunaan sinkronisasi data sepenuhnya opsional. Jika Anda tidak masuk, tidak ada data pribadi yang dikirimkan kepada kami atau pihak ketiga.
+Semua konten yang Anda buat di Aplikasi (roda, sektor, log putaran, pengaturan) disimpan secara lokal di perangkat Anda. Konten tersebut tidak dikirim kepada kami kecuali Anda mengaktifkan Sinkronisasi Data.
 
-Layanan pihak ketiga berikut digunakan dalam Aplikasi dan mungkin mengumpulkan data tertentu:
+## Sinkronisasi Data (Opsional, Premium)
 
-- **Google AdMob** — Mengumpulkan ID periklanan, informasi perangkat, interaksi iklan (klik, tayangan, iklan yang telah Anda lihat), dan diagnostik SDK (data crash dan performa) untuk menayangkan dan mengukur iklan. Di iOS, iklan yang dipersonalisasi memerlukan persetujuan Anda melalui App Tracking Transparency. [Kebijakan Privasi Google](https://policies.google.com/privacy)
-- **Unity Ads** — Menayangkan iklan dan mengumpulkan ID periklanan, informasi perangkat, interaksi iklan, dan diagnostik SDK. [Kebijakan Privasi Unity](https://unity.com/legal/privacy-policy)
-- **Liftoff Monetize (Vungle)** — Menayangkan iklan dan mengumpulkan ID periklanan, informasi perangkat, interaksi iklan, dan diagnostik SDK. [Kebijakan Privasi Liftoff](https://liftoff.io/privacy-policy/)
-- **Pangle** — Menayangkan iklan dan mengumpulkan ID periklanan, informasi perangkat, interaksi iklan, dan diagnostik SDK. [Kebijakan Privasi Pangle](https://www.pangleglobal.com/privacy/enduser-en)
-- **RevenueCat** — Memproses pembelian langganan, menyimpan riwayat pembelian Anda, dan menetapkan ID pengguna anonim. [Kebijakan Privasi RevenueCat](https://www.revenuecat.com/privacy)
-- **Firebase (Google)** — Crashlytics mengumpulkan laporan crash dan error: stack trace, versi OS, model perangkat, dan pengidentifikasi instalasi. Firebase Analytics mengumpulkan event penggunaan aplikasi anonim dan pengidentifikasi perangkat. Firebase Authentication digunakan untuk masuk melalui Google dan Apple saat menggunakan sinkronisasi data. Firebase Firestore menyimpan cadangan data aplikasi untuk pelanggan Premium yang mengaktifkan sinkronisasi. [Kebijakan Privasi Google](https://policies.google.com/privacy)
+Pelanggan Premium dapat mengaktifkan **Sinkronisasi Data**, fitur pencadangan cloud. Saat Anda menggunakannya:
 
-## Penyimpanan Data
+- Anda masuk dengan Google atau Apple
+- Kami menerima alamat email Anda dan pengenal akun unik
+- Data aplikasi Anda (roda, pengaturan, preferensi) disimpan di Firebase Firestore (Google Cloud, region eur3, Eropa)
 
-Secara default, semua data aplikasi disimpan secara lokal di perangkat Anda. Jika Anda mengaktifkan sinkronisasi data (khusus Premium), data aplikasi Anda juga disimpan di Firebase Firestore — layanan cloud Google yang berlokasi di Eropa (wilayah eur3).
+Sinkronisasi Data sepenuhnya opsional.
+
+## Data yang Diproses oleh Layanan Pihak Ketiga
+
+Meskipun Anda tidak menggunakan Sinkronisasi Data, Aplikasi menggunakan layanan berikut, yang memproses data seperti pengenal perangkat (ID iklan, ID instalasi), alamat IP, informasi perangkat dan sistem operasi, serta interaksi dengan aplikasi dan iklan:
+
+- **Google AdMob** — menayangkan dan mengukur iklan. Mengumpulkan ID iklan, informasi perangkat, interaksi iklan (klik, tayangan, iklan apa yang telah Anda lihat), dan diagnostik SDK. [Kebijakan Privasi Google](https://policies.google.com/privacy)
+- **Unity Ads** — menayangkan iklan melalui mediasi AdMob. Mengumpulkan ID iklan, informasi perangkat, interaksi iklan, dan diagnostik SDK. [Kebijakan Privasi Unity](https://unity.com/legal/privacy-policy)
+- **Liftoff Monetize (Vungle)** — menayangkan iklan melalui mediasi AdMob. Mengumpulkan ID iklan, informasi perangkat, interaksi iklan, dan diagnostik SDK. [Kebijakan Privasi Liftoff](https://liftoff.io/privacy-policy/)
+- **Pangle** (Bytedance Pte. Ltd., Singapura) — menayangkan iklan melalui mediasi AdMob. Mengumpulkan ID iklan, alamat IP dan perkiraan lokasi yang diturunkan darinya, informasi perangkat, interaksi iklan, dan diagnostik SDK. [Kebijakan Privasi Pangle](https://www.pangleglobal.com/privacy/enduser-en)
+- **RevenueCat** — memproses pembelian langganan, menyimpan riwayat pembelian Anda, dan menetapkan ID pengguna aplikasi anonim. [Kebijakan Privasi RevenueCat](https://www.revenuecat.com/privacy)
+- **Firebase (Google)**:
+  - *Crashlytics* — laporan crash dan error: stack trace, versi sistem operasi, model perangkat, ID instalasi.
+  - *Analytics* — peristiwa penggunaan aplikasi yang ditautkan ke pengenal instans aplikasi.
+  - *Performance Monitoring* — data performa aplikasi, seperti waktu startup dan durasi permintaan jaringan.
+  - *Remote Config* — mengambil konfigurasi aplikasi dari server Google.
+  - *App Check* — memverifikasi bahwa permintaan ke backend kami berasal dari Aplikasi asli.
+  - *Authentication* dan *Firestore* — masuk dan pencadangan cloud saat Anda menggunakan Sinkronisasi Data.
+
+  [Kebijakan Privasi Google](https://policies.google.com/privacy)
+
+Jaringan iklan bertindak sebagai pengendali independen atas data yang mereka kumpulkan atau, jika ketentuan mereka mengaturnya, sebagai pengendali bersama dengan kami (misalnya Pangle untuk pemrosesan tertentu berdasarkan Pasal 26 GDPR). Kebijakan privasi mereka, yang ditautkan di atas, menjelaskan pemrosesan tersebut secara rinci.
+
+Pengingat di Aplikasi dijadwalkan secara lokal di perangkat Anda. Kami tidak mengirim notifikasi push.
+
+## Tujuan dan Dasar Hukum
+
+| Tujuan | Dasar hukum (GDPR) |
+|---|---|
+| Iklan yang dipersonalisasi | Persetujuan Anda (Pasal 6(1)(a)) |
+| Iklan yang tidak dipersonalisasi dan pengukuran iklan | Persetujuan Anda atau kepentingan sah kami untuk mendanai versi gratis Aplikasi (Pasal 6(1)(a) atau (f)), sebagaimana ditunjukkan dalam formulir persetujuan |
+| Langganan Premium dan Sinkronisasi Data | Pelaksanaan kontrak dengan Anda (Pasal 6(1)(b)) |
+| Pelaporan crash, pemantauan performa, konfigurasi aplikasi, dan perlindungan dari penyalahgunaan | Kepentingan sah kami untuk menjaga Aplikasi tetap stabil dan aman (Pasal 6(1)(f)) |
+| Analitik penggunaan | Kepentingan sah kami untuk memahami dan meningkatkan Aplikasi (Pasal 6(1)(f)) |
+| Membalas pesan Anda | Kepentingan sah kami untuk menanggapi Anda (Pasal 6(1)(f)) |
+
+## Pilihan Persetujuan Anda
+
+Di Wilayah Ekonomi Eropa, Inggris Raya, dan Swiss, Aplikasi meminta persetujuan Anda melalui formulir persetujuan Google sebelum iklan yang dipersonalisasi ditampilkan. Anda dapat mengubah atau menarik persetujuan kapan saja di Aplikasi melalui **Pengaturan → Opsi privasi iklan**. Penarikan persetujuan tidak memengaruhi pemrosesan yang dilakukan sebelumnya.
+
+Di iOS, iklan yang dipersonalisasi juga memerlukan izin Anda melalui App Tracking Transparency, yang dapat Anda ubah di aplikasi Pengaturan iOS.
+
+## Transfer Internasional
+
+Beberapa layanan di atas memproses data di luar Wilayah Ekonomi Eropa, khususnya di Amerika Serikat (Google, Unity, Liftoff, RevenueCat) serta di Singapura dan Amerika Serikat (Pangle), dan perusahaan grup serta penyedia layanan mereka dapat mengakses data dari negara lain. Transfer tersebut didasarkan pada EU–US Data Privacy Framework jika penerima tersertifikasi, atau pada Klausul Kontrak Standar Komisi Eropa.
+
+## Masa Penyimpanan
+
+- **Data sinkronisasi** — disimpan hingga Anda menghapus akun.
+- **Laporan crash (Crashlytics)** — disimpan oleh Google selama 90 hari.
+- **Data analitik** — disimpan sesuai pengaturan penyimpanan Google untuk Firebase Analytics.
+- **Data yang dikumpulkan oleh jaringan iklan dan RevenueCat** — disimpan sesuai kebijakan privasi masing-masing.
+- **Pesan Anda kepada kami** — disimpan selama diperlukan untuk menangani permintaan Anda, lalu dihapus.
 
 ## Penghapusan Akun
 
-Anda dapat menghapus akun dan semua data terkait kapan saja:
+Anda dapat menghapus akun dan semua data cloud terkait kapan saja:
 
 - **Di aplikasi:** Pengaturan → Sinkronisasi Data → Hapus Akun
-- **Di web:** [alexjkldev.github.io/luckydecisions/delete-account](https://alexjkldev.github.io/luckydecisions/delete-account)
+- **Di web:** [alexjkl.fi/luckydecisions/delete-account](https://alexjkl.fi/luckydecisions/delete-account)
 
-Menghapus akun Anda akan menghapus semua data cloud dan catatan Firebase Authentication Anda secara permanen. Penghapusan akun tidak secara otomatis membatalkan langganan Premium Anda.
+Menghapus akun akan menghapus data cloud dan catatan Firebase Authentication Anda secara permanen. Langganan Premium Anda tidak dibatalkan; Anda mengelolanya di App Store atau Google Play.
 
-## Privasi Anak-anak
+## Hak Anda
 
-Aplikasi ini tidak secara sengaja mengumpulkan informasi pribadi dari anak-anak. Layanan pihak ketiga yang tercantum di atas mungkin memiliki batasan usia mereka sendiri.
+Berdasarkan GDPR, Anda berhak untuk:
 
-## Perubahan pada Kebijakan Ini
+- mengakses data pribadi Anda dan menerima salinannya
+- memperbaiki data yang tidak akurat
+- menghapus data Anda
+- membatasi pemrosesan
+- portabilitas data
+- menolak pemrosesan berdasarkan kepentingan sah
+- menarik persetujuan Anda kapan saja
 
-Kami dapat memperbarui Kebijakan Privasi ini dari waktu ke waktu. Perubahan akan diposting di dalam Aplikasi atau di halaman ini.
+Untuk menggunakan hak Anda, hubungi kami di [support@alexjkl.fi](mailto:support@alexjkl.fi). Karena sebagian besar data diproses oleh layanan di atas dengan pengenal perangkat yang tidak dapat kami kaitkan dengan Anda, kami mungkin perlu meneruskan beberapa permintaan ke layanan tersebut. Anda juga dapat menghubungi mereka secara langsung melalui kebijakan privasi mereka.
+
+Anda juga berhak mengajukan keluhan kepada otoritas pengawas, khususnya di negara UE tempat Anda tinggal atau bekerja. Di Finlandia, otoritas tersebut adalah [Kantor Ombudsman Perlindungan Data](https://tietosuoja.fi/en).
+
+## Privasi Anak
+
+Aplikasi ini tidak ditujukan untuk anak-anak. Kami tidak dengan sengaja mengumpulkan data pribadi dari anak-anak di bawah usia persetujuan digital di negaranya (13–16 tahun di UE). Jika Anda yakin seorang anak telah memberikan data pribadi kepada kami, hubungi kami dan kami akan menghapusnya.
+
+## Perubahan Kebijakan Ini
+
+Kami dapat memperbarui Kebijakan Privasi ini dari waktu ke waktu. Versi terbaru selalu tersedia di halaman ini, dan tanggal di bagian atas menunjukkan kapan terakhir diubah.
 
 ## Kontak
 
-Jika Anda memiliki pertanyaan tentang Kebijakan Privasi ini atau ingin menghubungi pengembang, Anda dapat menghubungi melalui Aplikasi atau melalui daftar App Store atau Google Play Store. Saat Anda menghubungi kami melalui email, kami menerima alamat email Anda, konten pesan Anda, dan lampiran apa pun. Informasi ini digunakan semata-mata untuk merespons pertanyaan Anda dan meningkatkan Aplikasi. Kami tidak membagikannya kepada pihak ketiga.
+AlexJKL Oy — [support@alexjkl.fi](mailto:support@alexjkl.fi)
+
+Anda juga dapat menghubungi kami melalui Aplikasi atau melalui halaman Aplikasi di App Store atau Google Play. Saat Anda menghubungi kami, kami menerima alamat email Anda, isi pesan, dan lampiran apa pun. Kami menggunakan informasi ini hanya untuk membalas Anda dan meningkatkan Aplikasi, dan kami tidak membagikannya kepada pihak ketiga.

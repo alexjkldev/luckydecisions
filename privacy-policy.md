@@ -1,51 +1,117 @@
 # Privacy Policy
 
-*Last updated: October 13, 2026*
+*Last updated: October 14, 2026*
 
-Lucky Decisions ("the App") is developed by AlexJKL. This Privacy Policy describes how your information is collected, used, and shared when you use the App.
+This Privacy Policy explains how personal data is processed when you use the Lucky Decisions mobile app ("the App").
 
-## Information We Collect
+## Controller
 
-The App stores all user-created content (wheels, sectors, spin logs, settings) locally on your device.
+The controller responsible for processing your personal data is:
 
-Premium subscribers may voluntarily enable **Data Sync** — a cloud backup feature. When using this feature:
+**AlexJKL Oy** (Finland)
+Email: [support@alexjkl.fi](mailto:support@alexjkl.fi)
 
-- You sign in via Google or Apple
+## Data Stored on Your Device
+
+All content you create in the App (wheels, sectors, spin logs, settings) is stored locally on your device. It is not sent to us unless you enable Data Sync.
+
+## Data Sync (Optional, Premium)
+
+Premium subscribers may enable **Data Sync**, a cloud backup feature. When you use it:
+
+- You sign in with Google or Apple
 - We receive your email address and a unique account identifier
-- Your app data (wheels, settings, preferences) is saved to Firebase Firestore (Google's cloud storage)
+- Your app data (wheels, settings, preferences) is stored in Firebase Firestore (Google Cloud, region eur3, Europe)
 
-Use of Data Sync is entirely optional. If you do not sign in, no personal data is transmitted to us or any third party.
+Data Sync is entirely optional.
 
-The following third-party services are used in the App and may collect certain data:
+## Data Processed by Third-Party Services
 
-- **Google AdMob** — Collects advertising ID, device information, ad interactions (clicks, impressions, which ads you have seen), and SDK diagnostics (crash and performance data) to serve and measure ads. On iOS, personalized ads require your consent via App Tracking Transparency. [Google Privacy Policy](https://policies.google.com/privacy)
-- **Unity Ads** — Serves ads and collects advertising ID, device information, ad interactions, and SDK diagnostics. [Unity Privacy Policy](https://unity.com/legal/privacy-policy)
-- **Liftoff Monetize (Vungle)** — Serves ads and collects advertising ID, device information, ad interactions, and SDK diagnostics. [Liftoff Privacy Policy](https://liftoff.io/privacy-policy/)
-- **Pangle** — Serves ads and collects advertising ID, device information, ad interactions, and SDK diagnostics. [Pangle Privacy Policy](https://www.pangleglobal.com/privacy/enduser-en)
-- **RevenueCat** — Processes subscription purchases, stores your purchase history, and assigns an anonymous user ID. [RevenueCat Privacy Policy](https://www.revenuecat.com/privacy)
-- **Firebase (Google)** — Crashlytics collects crash and error reports: stack traces, OS version, device model, and installation identifier. Firebase Analytics collects anonymous app usage events and device identifier. Firebase Authentication is used for Google and Apple sign-in when using Data Sync. Firebase Firestore stores app data backups for Premium subscribers who enable sync. [Google Privacy Policy](https://policies.google.com/privacy)
+Even if you do not use Data Sync, the App uses the following services, which process data such as device identifiers (advertising ID, installation ID), IP address, device and OS information, and app or ad interactions:
 
-## Data Storage
+- **Google AdMob** — serves and measures ads. Collects advertising ID, device information, ad interactions (clicks, impressions, which ads you have seen) and SDK diagnostics. [Google Privacy Policy](https://policies.google.com/privacy)
+- **Unity Ads** — serves ads through AdMob mediation. Collects advertising ID, device information, ad interactions and SDK diagnostics. [Unity Privacy Policy](https://unity.com/legal/privacy-policy)
+- **Liftoff Monetize (Vungle)** — serves ads through AdMob mediation. Collects advertising ID, device information, ad interactions and SDK diagnostics. [Liftoff Privacy Policy](https://liftoff.io/privacy-policy/)
+- **Pangle** (Bytedance Pte. Ltd., Singapore) — serves ads through AdMob mediation. Collects advertising ID, IP address and approximate location derived from it, device information, ad interactions and SDK diagnostics. [Pangle Privacy Policy](https://www.pangleglobal.com/privacy/enduser-en)
+- **RevenueCat** — processes subscription purchases, stores your purchase history and assigns an anonymous app user ID. [RevenueCat Privacy Policy](https://www.revenuecat.com/privacy)
+- **Firebase (Google)**:
+  - *Crashlytics* — crash and error reports: stack traces, OS version, device model, installation identifier.
+  - *Analytics* — app usage events linked to an app instance identifier.
+  - *Performance Monitoring* — app performance data such as startup time and network request timing.
+  - *Remote Config* — retrieves app configuration from Google's servers.
+  - *App Check* — verifies that requests to our backend come from the genuine App.
+  - *Authentication* and *Firestore* — sign-in and cloud backup when you use Data Sync.
 
-By default, all app data is stored locally on your device. If you enable Data Sync (Premium only), your app data is additionally stored in Firebase Firestore — a Google cloud service located in Europe (region eur3).
+  [Google Privacy Policy](https://policies.google.com/privacy)
+
+Ad networks act as independent controllers for the data they collect, or, where their terms provide so, as joint controllers with us (for example, Pangle under Art. 26 GDPR for certain processing). Their privacy policies linked above describe their processing in detail.
+
+Reminder notifications in the App are scheduled locally on your device. We do not send push notifications.
+
+## Purposes and Legal Bases
+
+| Purpose | Legal basis (GDPR) |
+|---|---|
+| Personalised ads | Your consent (Art. 6(1)(a)) |
+| Non-personalised ads and ad measurement | Your consent or our legitimate interest in funding the free version of the App (Art. 6(1)(a) or (f)), as shown in the consent form |
+| Premium subscription and Data Sync | Performance of a contract with you (Art. 6(1)(b)) |
+| Crash reporting, performance monitoring, app configuration and protection against abuse | Our legitimate interest in keeping the App stable and secure (Art. 6(1)(f)) |
+| Usage analytics | Our legitimate interest in understanding and improving the App (Art. 6(1)(f)) |
+| Answering your messages | Our legitimate interest in responding to you (Art. 6(1)(f)) |
+
+## Your Consent Choices
+
+In the European Economic Area, the United Kingdom and Switzerland, the App asks for your consent through Google's consent form before personalised ads are shown. You can change or withdraw your consent at any time in the App under **Settings → Ad privacy options**. Withdrawing consent does not affect processing carried out before the withdrawal.
+
+On iOS, personalised ads also require your permission through App Tracking Transparency, which you can change in the iOS Settings app.
+
+## International Transfers
+
+Some of the services above process data outside the European Economic Area, in particular in the United States (Google, Unity, Liftoff, RevenueCat) and in Singapore and the United States (Pangle), and their group companies and service providers may access data from other countries. Such transfers rely on the EU–US Data Privacy Framework where the recipient is certified under it, or on the European Commission's Standard Contractual Clauses.
+
+## Retention
+
+- **Data Sync data** — kept until you delete your account.
+- **Crash reports (Crashlytics)** — retained by Google for 90 days.
+- **Analytics data** — retained according to Google's retention settings for Firebase Analytics.
+- **Data collected by ad networks and RevenueCat** — retained according to their own privacy policies.
+- **Your messages to us** — kept as long as needed to handle your request, then deleted.
 
 ## Account Deletion
 
-You can delete your account and all associated data at any time:
+You can delete your account and all associated cloud data at any time:
 
-- **In-app:** Settings → Data Sync → Delete Account
-- **Web:** [alexjkldev.github.io/luckydecisions/delete-account](https://alexjkldev.github.io/luckydecisions/delete-account)
+- **In the App:** Settings → Data Sync → Delete Account
+- **On the web:** [alexjkl.fi/luckydecisions/delete-account](https://alexjkl.fi/luckydecisions/delete-account)
 
-Deleting your account permanently removes all your cloud data and your Firebase Authentication record. Account deletion does not automatically cancel your Premium subscription.
+Deleting your account permanently removes your cloud data and your Firebase Authentication record. It does not cancel your Premium subscription, which you manage in the App Store or Google Play.
+
+## Your Rights
+
+Under the GDPR you have the right to:
+
+- access your personal data and receive a copy of it
+- have inaccurate data corrected
+- have your data deleted
+- restrict processing
+- data portability
+- object to processing based on legitimate interests
+- withdraw your consent at any time
+
+To exercise your rights, contact us at [support@alexjkl.fi](mailto:support@alexjkl.fi). Because most data is processed by the services listed above under device identifiers we cannot link to you, we may need to direct some requests to those services. You can also contact them directly through their privacy policies.
+
+You also have the right to lodge a complaint with a supervisory authority, in particular in the EU country where you live or work. In Finland, this is the [Office of the Data Protection Ombudsman](https://tietosuoja.fi/en).
 
 ## Children's Privacy
 
-The App does not knowingly collect personal information from children. The third-party services listed above may have their own age restrictions.
+The App is not directed at children. We do not knowingly collect personal data from children below the age of digital consent in their country (13–16 in the EU). If you believe a child has provided us with personal data, please contact us and we will delete it.
 
 ## Changes to This Policy
 
-We may update this Privacy Policy from time to time. Changes will be posted within the App or on this page.
+We may update this Privacy Policy from time to time. The current version is always available on this page, and the "Last updated" date shows when it was last changed.
 
 ## Contact
 
-If you have questions about this Privacy Policy or want to contact the developer, you can reach out through the App or via the App Store or Google Play Store listing. When you contact us by email, we receive your email address, the content of your message and any attachments. This information is used solely to respond to your inquiry and improve the App. We do not share it with third parties.
+AlexJKL Oy — [support@alexjkl.fi](mailto:support@alexjkl.fi)
+
+You can also contact us through the App or via the App Store or Google Play listing. When you contact us, we receive your email address, the content of your message and any attachments. We use this information only to respond to you and to improve the App, and we do not share it with third parties.

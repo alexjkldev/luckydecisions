@@ -1,51 +1,117 @@
 # Tietosuojakäytäntö
 
-*13. lokakuuta 2026*
+*14. lokakuuta 2026*
 
-Lucky Decisions ("Sovellus") on AlexJKL:n kehittämä. Tämä tietosuojakäytäntö kuvaa, miten tietojasi kerätään, käytetään ja jaetaan, kun käytät Sovellusta.
+Tämä tietosuojakäytäntö kertoo, miten henkilötietoja käsitellään, kun käytät Lucky Decisions -mobiilisovellusta ("Sovellus").
 
-## Keräämämme tiedot
+## Rekisterinpitäjä
 
-Sovellus tallentaa kaiken käyttäjän luoman sisällön (pyörät, sektorit, pyörityslokit, asetukset) paikallisesti laitteellesi.
+Henkilötietojesi käsittelystä vastaava rekisterinpitäjä on:
 
-Premium-tilaajat voivat vapaaehtoisesti ottaa käyttöön **Tietojen synkronointi** -ominaisuuden — pilvivarmuuskopiointiominaisuuden. Tätä ominaisuutta käytettäessä:
+**AlexJKL Oy** (Suomi)
+Sähköposti: [support@alexjkl.fi](mailto:support@alexjkl.fi)
+
+## Laitteellesi tallennetut tiedot
+
+Kaikki Sovelluksessa luomasi sisältö (kiekot, sektorit, pyöräytyslokit, asetukset) tallennetaan paikallisesti laitteellesi. Sitä ei lähetetä meille, ellet ota tietojen synkronointia käyttöön.
+
+## Tietojen synkronointi (valinnainen, Premium)
+
+Premium-tilaajat voivat ottaa käyttöön **tietojen synkronoinnin**, joka on pilvivarmuuskopiointiominaisuus. Kun käytät sitä:
 
 - Kirjaudut sisään Googlella tai Applella
 - Saamme sähköpostiosoitteesi ja yksilöllisen tilitunnisteen
-- Sovelluksesi tiedot (pyörät, asetukset, suosikit) tallennetaan Firebase Firestoreen (Googlen pilvitallennus)
+- Sovelluksen tietosi (kiekot, asetukset, valinnat) tallennetaan Firebase Firestoreen (Google Cloud, alue eur3, Eurooppa)
 
-Tietojen synkronoinnin käyttö on täysin vapaaehtoista. Jos et kirjaudu sisään, henkilötietoja ei siirretä meille tai kolmansille osapuolille.
+Tietojen synkronointi on täysin vapaaehtoista.
 
-Sovelluksessa käytetään seuraavia kolmannen osapuolen palveluja, jotka voivat kerätä tiettyjä tietoja:
+## Kolmansien osapuolten palvelujen käsittelemät tiedot
 
-- **Google AdMob** — Kerää mainostunnisteen, laitetietoja, tietoa mainosvuorovaikutuksista (klikkaukset, näytöt, näkemäsi mainokset) ja SDK-diagnostiikkaa (kaatumis- ja suorituskykytiedot) mainosten näyttämistä ja mittaamista varten. iOS:ssä personoidut mainokset edellyttävät suostumustasi App Tracking Transparency -toiminnon kautta. [Googlen tietosuojakäytäntö](https://policies.google.com/privacy)
-- **Unity Ads** — Näyttää mainoksia ja kerää mainostunnisteen, laitetietoja, tietoa mainosvuorovaikutuksista sekä SDK-diagnostiikkaa. [Unityn tietosuojakäytäntö](https://unity.com/legal/privacy-policy)
-- **Liftoff Monetize (Vungle)** — Näyttää mainoksia ja kerää mainostunnisteen, laitetietoja, tietoa mainosvuorovaikutuksista sekä SDK-diagnostiikkaa. [Liftoffin tietosuojakäytäntö](https://liftoff.io/privacy-policy/)
-- **Pangle** — Näyttää mainoksia ja kerää mainostunnisteen, laitetietoja, tietoa mainosvuorovaikutuksista sekä SDK-diagnostiikkaa. [Panglen tietosuojakäytäntö](https://www.pangleglobal.com/privacy/enduser-en)
-- **RevenueCat** — Käsittelee tilausostot, tallentaa ostohistoriasi ja antaa anonyymin käyttäjätunnuksen. [RevenueCatin tietosuojakäytäntö](https://www.revenuecat.com/privacy)
-- **Firebase (Google)** — Crashlytics kerää kaatumis- ja virheraportteja: pinojäljet, käyttöjärjestelmäversion, laitemallin ja asennustunnisteen. Firebase Analytics kerää anonyymejä sovelluksen käyttötapahtumia ja laitetunnisteen. Firebase Authentication -palvelua käytetään Google- ja Apple-kirjautumiseen, kun käytät Tietojen synkronointia. Firebase Firestore tallentaa sovelluksen tietojen varmuuskopiot Premium-tilaajille, jotka ovat ottaneet synkronoinnin käyttöön. [Googlen tietosuojakäytäntö](https://policies.google.com/privacy)
+Vaikka et käyttäisi tietojen synkronointia, Sovellus käyttää seuraavia palveluja, jotka käsittelevät esimerkiksi laitetunnisteita (mainostunniste, asennustunniste), IP-osoitetta, laite- ja käyttöjärjestelmätietoja sekä sovellus- ja mainosvuorovaikutuksia:
 
-## Tietojen tallennus
+- **Google AdMob** — näyttää ja mittaa mainoksia. Kerää mainostunnisteen, laitetietoja, tietoa mainosvuorovaikutuksista (klikkaukset, näyttökerrat, mitä mainoksia olet nähnyt) sekä SDK-diagnostiikkaa. [Googlen tietosuojakäytäntö](https://policies.google.com/privacy)
+- **Unity Ads** — näyttää mainoksia AdMob-välityksen kautta. Kerää mainostunnisteen, laitetietoja, tietoa mainosvuorovaikutuksista sekä SDK-diagnostiikkaa. [Unityn tietosuojakäytäntö](https://unity.com/legal/privacy-policy)
+- **Liftoff Monetize (Vungle)** — näyttää mainoksia AdMob-välityksen kautta. Kerää mainostunnisteen, laitetietoja, tietoa mainosvuorovaikutuksista sekä SDK-diagnostiikkaa. [Liftoffin tietosuojakäytäntö](https://liftoff.io/privacy-policy/)
+- **Pangle** (Bytedance Pte. Ltd., Singapore) — näyttää mainoksia AdMob-välityksen kautta. Kerää mainostunnisteen, IP-osoitteen ja siitä päätellyn likimääräisen sijainnin, laitetietoja, tietoa mainosvuorovaikutuksista sekä SDK-diagnostiikkaa. [Panglen tietosuojakäytäntö](https://www.pangleglobal.com/privacy/enduser-en)
+- **RevenueCat** — käsittelee tilausostot, tallentaa ostohistoriasi ja antaa anonyymin sovelluskäyttäjätunnisteen. [RevenueCatin tietosuojakäytäntö](https://www.revenuecat.com/privacy)
+- **Firebase (Google)**:
+  - *Crashlytics* — kaatumis- ja virheraportit: pinojäljet, käyttöjärjestelmän versio, laitemalli, asennustunniste.
+  - *Analytics* — sovelluksen käyttötapahtumat, jotka on liitetty sovellusinstanssin tunnisteeseen.
+  - *Performance Monitoring* — sovelluksen suorituskykytiedot, kuten käynnistysaika ja verkkopyyntöjen kesto.
+  - *Remote Config* — hakee sovelluksen asetukset Googlen palvelimilta.
+  - *App Check* — varmistaa, että palvelimellemme tulevat pyynnöt tulevat aidosta Sovelluksesta.
+  - *Authentication* ja *Firestore* — kirjautuminen ja pilvivarmuuskopiointi, kun käytät tietojen synkronointia.
 
-Oletusarvoisesti kaikki sovelluksen tiedot tallennetaan paikallisesti laitteellesi. Jos otat Tietojen synkronoinnin käyttöön (vain Premium), sovelluksesi tiedot tallennetaan myös Firebase Firestoreen – Googlen pilvipalveluun, joka sijaitsee Euroopassa (alue eur3).
+  [Googlen tietosuojakäytäntö](https://policies.google.com/privacy)
+
+Mainosverkostot toimivat keräämiensä tietojen itsenäisinä rekisterinpitäjinä tai, jos niiden ehdoissa niin määrätään, yhteisrekisterinpitäjinä kanssamme (esimerkiksi Pangle tietyissä käsittelytoimissa GDPR:n 26 artiklan mukaisesti). Niiden tietojenkäsittely on kuvattu tarkemmin yllä linkitetyissä tietosuojakäytännöissä.
+
+Sovelluksen muistutukset ajastetaan paikallisesti laitteellesi. Emme lähetä push-ilmoituksia.
+
+## Käsittelyn tarkoitukset ja oikeusperusteet
+
+| Tarkoitus | Oikeusperuste (GDPR) |
+|---|---|
+| Personoidut mainokset | Suostumuksesi (6 artiklan 1 kohdan a alakohta) |
+| Personoimattomat mainokset ja mainosten mittaus | Suostumuksesi tai oikeutettu etumme rahoittaa Sovelluksen ilmaisversio (6 artiklan 1 kohdan a tai f alakohta) suostumuslomakkeessa esitetyn mukaisesti |
+| Premium-tilaus ja tietojen synkronointi | Kanssasi tehdyn sopimuksen täytäntöönpano (6 artiklan 1 kohdan b alakohta) |
+| Kaatumisraportit, suorituskyvyn seuranta, sovelluksen asetukset ja väärinkäytösten estäminen | Oikeutettu etumme pitää Sovellus vakaana ja turvallisena (6 artiklan 1 kohdan f alakohta) |
+| Käyttöanalytiikka | Oikeutettu etumme ymmärtää ja kehittää Sovellusta (6 artiklan 1 kohdan f alakohta) |
+| Viesteihisi vastaaminen | Oikeutettu etumme vastata sinulle (6 artiklan 1 kohdan f alakohta) |
+
+## Suostumusvalintasi
+
+Euroopan talousalueella, Yhdistyneessä kuningaskunnassa ja Sveitsissä Sovellus pyytää suostumustasi Googlen suostumuslomakkeella ennen personoitujen mainosten näyttämistä. Voit muuttaa tai peruuttaa suostumuksesi milloin tahansa Sovelluksessa kohdassa **Asetukset → Mainosten yksityisyysasetukset**. Suostumuksen peruuttaminen ei vaikuta ennen peruuttamista tehtyyn käsittelyyn.
+
+iOS-laitteilla personoidut mainokset edellyttävät lisäksi lupaasi App Tracking Transparency -toiminnon kautta. Voit muuttaa sitä iOS:n Asetukset-sovelluksessa.
+
+## Tietojen siirrot
+
+Osa edellä mainituista palveluista käsittelee tietoja Euroopan talousalueen ulkopuolella, erityisesti Yhdysvalloissa (Google, Unity, Liftoff, RevenueCat) sekä Singaporessa ja Yhdysvalloissa (Pangle), ja niiden konserniyhtiöt ja palveluntarjoajat voivat käsitellä tietoja muista maista käsin. Siirrot perustuvat EU:n ja Yhdysvaltojen väliseen tietosuojakehykseen (EU–US Data Privacy Framework), jos vastaanottaja on sertifioitu sen mukaisesti, tai Euroopan komission vakiosopimuslausekkeisiin.
+
+## Säilytysajat
+
+- **Synkronoinnin tiedot** — säilytetään, kunnes poistat tilisi.
+- **Kaatumisraportit (Crashlytics)** — Google säilyttää 90 päivää.
+- **Analytiikkatiedot** — säilytetään Firebase Analyticsin säilytysasetusten mukaisesti.
+- **Mainosverkostojen ja RevenueCatin keräämät tiedot** — säilytetään niiden omien tietosuojakäytäntöjen mukaisesti.
+- **Meille lähettämäsi viestit** — säilytetään niin kauan kuin pyyntösi käsittely vaatii, minkä jälkeen ne poistetaan.
 
 ## Tilin poistaminen
 
-Voit poistaa tilisi ja kaikki siihen liittyvät tiedot milloin tahansa:
+Voit poistaa tilisi ja kaikki siihen liittyvät pilvitiedot milloin tahansa:
 
 - **Sovelluksessa:** Asetukset → Tietojen synkronointi → Poista tili
-- **Verkossa:** [alexjkldev.github.io/luckydecisions/delete-account](https://alexjkldev.github.io/luckydecisions/delete-account)
+- **Verkossa:** [alexjkl.fi/luckydecisions/delete-account](https://alexjkl.fi/luckydecisions/delete-account)
 
-Tilin poistaminen poistaa pysyvästi kaikki pilvipalvelun tietosi ja Firebase Authentication -tietueesi. Tilin poistaminen ei automaattisesti peruuta Premium-tilaustasi.
+Tilin poistaminen poistaa pysyvästi pilvitietosi ja Firebase Authentication -tietueesi. Se ei peruuta Premium-tilaustasi, jota hallinnoit App Storessa tai Google Playssa.
+
+## Oikeutesi
+
+GDPR:n mukaan sinulla on oikeus:
+
+- saada pääsy henkilötietoihisi ja saada niistä kopio
+- oikaista virheelliset tiedot
+- poistattaa tietosi
+- rajoittaa käsittelyä
+- siirtää tiedot järjestelmästä toiseen
+- vastustaa oikeutettuun etuun perustuvaa käsittelyä
+- peruuttaa suostumuksesi milloin tahansa
+
+Voit käyttää oikeuksiasi ottamalla meihin yhteyttä osoitteeseen [support@alexjkl.fi](mailto:support@alexjkl.fi). Koska suurinta osaa tiedoista käsittelevät edellä mainitut palvelut laitetunnisteilla, joita emme voi yhdistää sinuun, saatamme joutua ohjaamaan osan pyynnöistä näille palveluille. Voit myös olla yhteydessä niihin suoraan niiden tietosuojakäytäntöjen kautta.
+
+Sinulla on myös oikeus tehdä valitus valvontaviranomaiselle, erityisesti siinä EU-maassa, jossa asut tai työskentelet. Suomessa valvontaviranomainen on [tietosuojavaltuutetun toimisto](https://tietosuoja.fi).
 
 ## Lasten yksityisyys
 
-Sovellus ei tietoisesti kerää lasten henkilötietoja. Yllä mainituilla kolmannen osapuolen palveluilla voi olla omat ikärajoituksensa.
+Sovellusta ei ole suunnattu lapsille. Emme tietoisesti kerää henkilötietoja lapsilta, jotka eivät ole saavuttaneet maansa digitaalisen suostumuksen ikärajaa (EU:ssa 13–16 vuotta). Jos uskot lapsen antaneen meille henkilötietoja, ota meihin yhteyttä, niin poistamme ne.
 
 ## Muutokset tähän käytäntöön
 
-Voimme päivittää tätä tietosuojakäytäntöä ajoittain. Muutokset julkaistaan Sovelluksessa tai tällä sivulla.
+Voimme päivittää tätä tietosuojakäytäntöä ajoittain. Voimassa oleva versio on aina saatavilla tällä sivulla, ja yläreunan päivämäärä kertoo, milloin sitä on viimeksi muutettu.
 
 ## Yhteystiedot
 
-Jos sinulla on kysyttävää tästä tietosuojakäytännöstä tai haluat ottaa yhteyttä kehittäjään, voit ottaa meihin yhteyttä Sovelluksen kautta tai App Storen tai Google Play Storen sovelluslistauksen kautta. Kun otat meihin yhteyttä sähköpostitse, saamme sähköpostiosoitteesi, viestisi sisällön ja mahdolliset liitteet. Käytämme näitä tietoja yksinomaan kyselyysi vastaamiseen ja Sovelluksen parantamiseen. Emme jaa niitä kolmansille osapuolille.
+AlexJKL Oy — [support@alexjkl.fi](mailto:support@alexjkl.fi)
+
+Voit myös ottaa meihin yhteyttä Sovelluksen kautta tai App Storen tai Google Playn sovellussivun kautta. Kun otat meihin yhteyttä, saamme sähköpostiosoitteesi, viestisi sisällön ja mahdolliset liitteet. Käytämme näitä tietoja vain sinulle vastaamiseen ja Sovelluksen kehittämiseen emmekä luovuta niitä kolmansille osapuolille.

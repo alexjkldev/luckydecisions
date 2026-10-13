@@ -1,51 +1,117 @@
 # Gizlilik Politikası
 
-*13 Ekim 2026*
+*14 Ekim 2026*
 
-Lucky Decisions ("Uygulama"), AlexJKL tarafından geliştirilmiştir. Bu Gizlilik Politikası, Uygulamayı kullandığınızda bilgilerinizin nasıl toplandığını, kullanıldığını ve paylaşıldığını açıklar.
+Bu Gizlilik Politikası, Lucky Decisions mobil uygulamasını ("Uygulama") kullandığınızda kişisel verilerin nasıl işlendiğini açıklar.
 
-## Topladığımız Bilgiler
+## Veri Sorumlusu
 
-Uygulama, kullanıcı tarafından oluşturulan tüm içerikleri (çarklar, bölümler, çevirme kayıtları, ayarlar) cihazınızda yerel olarak saklar.
+Kişisel verilerinizin işlenmesinden sorumlu veri sorumlusu:
 
-Premium aboneler, **veri senkronizasyonunu** — bir bulut yedekleme özelliğini isteğe bağlı olarak etkinleştirebilir. Bu özelliği kullanırken:
+**AlexJKL Oy** (Finlandiya)
+E-posta: [support@alexjkl.fi](mailto:support@alexjkl.fi)
 
-- Google veya Apple ile giriş yaparsınız
-- E-posta adresinizi ve benzersiz bir hesap tanımlayıcısı alırız
-- Uygulama verileriniz (çarklar, ayarlar, tercihler) Firebase Firestore'a (Google'ın bulut depolama alanı) kaydedilir
+## Cihazınızda Saklanan Veriler
 
-Veri senkronizasyonunun kullanımı tamamen isteğe bağlıdır. Giriş yapmazsanız, bize veya üçüncü taraflara hiçbir kişisel veri iletilmez.
+Uygulamada oluşturduğunuz tüm içerikler (çarklar, dilimler, çevirme kayıtları, ayarlar) cihazınızda yerel olarak saklanır. Veri Senkronizasyonunu etkinleştirmediğiniz sürece bize gönderilmez.
 
-Uygulamada aşağıdaki üçüncü taraf hizmetler kullanılmaktadır ve bunlar belirli verileri toplayabilir:
+## Veri Senkronizasyonu (İsteğe Bağlı, Premium)
 
-- **Google AdMob** — Reklam sunmak ve ölçmek amacıyla reklam kimliği, cihaz bilgileri, reklam etkileşimleri (tıklamalar, gösterimler, gördüğünüz reklamlar) ve SDK tanılama verilerini (çökme ve performans verileri) toplar. iOS'ta kişiselleştirilmiş reklamlar için App Tracking Transparency aracılığıyla izniniz gereklidir. [Google Gizlilik Politikası](https://policies.google.com/privacy)
-- **Unity Ads** — Reklam sunar ve reklam kimliği, cihaz bilgileri, reklam etkileşimleri ve SDK tanılama verilerini toplar. [Unity Gizlilik Politikası](https://unity.com/legal/privacy-policy)
-- **Liftoff Monetize (Vungle)** — Reklam sunar ve reklam kimliği, cihaz bilgileri, reklam etkileşimleri ve SDK tanılama verilerini toplar. [Liftoff Gizlilik Politikası](https://liftoff.io/privacy-policy/)
-- **Pangle** — Reklam sunar ve reklam kimliği, cihaz bilgileri, reklam etkileşimleri ve SDK tanılama verilerini toplar. [Pangle Gizlilik Politikası](https://www.pangleglobal.com/privacy/enduser-en)
-- **RevenueCat** — Abonelik satın alımlarını işler, satın alma geçmişinizi saklar ve anonim bir kullanıcı kimliği atar. [RevenueCat Gizlilik Politikası](https://www.revenuecat.com/privacy)
-- **Firebase (Google)** — Crashlytics, çökme ve hata raporları toplar: yığın izleri, işletim sistemi sürümü, cihaz modeli ve kurulum tanımlayıcısı. Firebase Analytics, anonim uygulama kullanım etkinlikleri ve cihaz tanımlayıcısı toplar. Firebase Authentication, Veri Senkronizasyonu kullanılırken Google ve Apple ile giriş yapmak için kullanılır. Firebase Firestore, senkronizasyonu etkinleştiren Premium aboneler için uygulama verisi yedeklerini depolar. [Google Gizlilik Politikası](https://policies.google.com/privacy)
+Premium aboneler bir bulut yedekleme özelliği olan **Veri Senkronizasyonunu** etkinleştirebilir. Bu özelliği kullandığınızda:
 
-## Veri Saklama
+- Google veya Apple ile oturum açarsınız
+- E-posta adresinizi ve benzersiz bir hesap kimliğini alırız
+- Uygulama verileriniz (çarklar, ayarlar, tercihler) Firebase Firestore'da saklanır (Google Cloud, eur3 bölgesi, Avrupa)
 
-Varsayılan olarak tüm uygulama verileri cihazınızda yerel olarak depolanır. Veri Senkronizasyonunu etkinleştirirseniz (yalnızca Premium), uygulama verileriniz ayrıca Avrupa'da bulunan Google'ın bulut hizmeti Firebase Firestore'da da depolanır (eur3 bölgesi).
+Veri Senkronizasyonu tamamen isteğe bağlıdır.
+
+## Üçüncü Taraf Hizmetlerin İşlediği Veriler
+
+Veri Senkronizasyonunu kullanmasanız bile Uygulama, cihaz tanımlayıcıları (reklam kimliği, kurulum kimliği), IP adresi, cihaz ve işletim sistemi bilgileri ile uygulama ve reklam etkileşimleri gibi verileri işleyen şu hizmetleri kullanır:
+
+- **Google AdMob** — reklam gösterir ve ölçer. Reklam kimliği, cihaz bilgileri, reklam etkileşimleri (tıklamalar, gösterimler, hangi reklamları gördüğünüz) ve SDK tanılama verilerini toplar. [Google Gizlilik Politikası](https://policies.google.com/privacy)
+- **Unity Ads** — AdMob uyumlulaştırması aracılığıyla reklam gösterir. Reklam kimliği, cihaz bilgileri, reklam etkileşimleri ve SDK tanılama verilerini toplar. [Unity Gizlilik Politikası](https://unity.com/legal/privacy-policy)
+- **Liftoff Monetize (Vungle)** — AdMob uyumlulaştırması aracılığıyla reklam gösterir. Reklam kimliği, cihaz bilgileri, reklam etkileşimleri ve SDK tanılama verilerini toplar. [Liftoff Gizlilik Politikası](https://liftoff.io/privacy-policy/)
+- **Pangle** (Bytedance Pte. Ltd., Singapur) — AdMob uyumlulaştırması aracılığıyla reklam gösterir. Reklam kimliği, IP adresi ve buradan çıkarılan yaklaşık konum, cihaz bilgileri, reklam etkileşimleri ve SDK tanılama verilerini toplar. [Pangle Gizlilik Politikası](https://www.pangleglobal.com/privacy/enduser-en)
+- **RevenueCat** — abonelik satın alımlarını işler, satın alma geçmişinizi saklar ve anonim bir uygulama kullanıcı kimliği atar. [RevenueCat Gizlilik Politikası](https://www.revenuecat.com/privacy)
+- **Firebase (Google)**:
+  - *Crashlytics* — çökme ve hata raporları: yığın izleri, işletim sistemi sürümü, cihaz modeli, kurulum kimliği.
+  - *Analytics* — bir uygulama örneği kimliğine bağlı uygulama kullanım olayları.
+  - *Performance Monitoring* — başlatma süresi ve ağ isteklerinin süresi gibi uygulama performans verileri.
+  - *Remote Config* — uygulama yapılandırmasını Google sunucularından alır.
+  - *App Check* — sunucumuza gelen isteklerin gerçek Uygulamadan geldiğini doğrular.
+  - *Authentication* ve *Firestore* — Veri Senkronizasyonunu kullandığınızda oturum açma ve bulut yedekleme.
+
+  [Google Gizlilik Politikası](https://policies.google.com/privacy)
+
+Reklam ağları topladıkları veriler için bağımsız veri sorumlusu olarak veya şartlarında öngörüldüğü durumlarda bizimle birlikte ortak veri sorumlusu olarak hareket eder (örneğin Pangle, belirli işlemler için GDPR'nin 26. maddesi uyarınca). Yukarıda bağlantısı verilen gizlilik politikaları, bu işlemeyi ayrıntılı olarak açıklar.
+
+Uygulamadaki hatırlatıcılar cihazınızda yerel olarak planlanır. Anlık bildirim (push) göndermeyiz.
+
+## Amaçlar ve Hukuki Dayanaklar
+
+| Amaç | Hukuki dayanak (GDPR) |
+|---|---|
+| Kişiselleştirilmiş reklamlar | Rızanız (md. 6(1)(a)) |
+| Kişiselleştirilmemiş reklamlar ve reklam ölçümü | Rızanız veya Uygulamanın ücretsiz sürümünü finanse etmeye yönelik meşru menfaatimiz (md. 6(1)(a) veya (f)), onay formunda belirtildiği şekilde |
+| Premium abonelik ve Veri Senkronizasyonu | Sizinle yapılan sözleşmenin ifası (md. 6(1)(b)) |
+| Çökme raporlama, performans izleme, uygulama yapılandırması ve kötüye kullanıma karşı koruma | Uygulamanın kararlı ve güvenli olmasına yönelik meşru menfaatimiz (md. 6(1)(f)) |
+| Kullanım analizi | Uygulamayı anlamaya ve geliştirmeye yönelik meşru menfaatimiz (md. 6(1)(f)) |
+| Mesajlarınıza yanıt verme | Size yanıt vermeye yönelik meşru menfaatimiz (md. 6(1)(f)) |
+
+## Onay Tercihleriniz
+
+Avrupa Ekonomik Alanı, Birleşik Krallık ve İsviçre'de Uygulama, kişiselleştirilmiş reklamlar gösterilmeden önce Google'ın onay formu aracılığıyla onayınızı ister. Onayınızı istediğiniz zaman Uygulamada **Ayarlar → Reklam gizlilik seçenekleri** bölümünden değiştirebilir veya geri çekebilirsiniz. Onayın geri çekilmesi, öncesinde yapılan işlemeyi etkilemez.
+
+iOS'te kişiselleştirilmiş reklamlar ayrıca App Tracking Transparency üzerinden izninizi gerektirir; bunu iOS Ayarlar uygulamasından değiştirebilirsiniz.
+
+## Uluslararası Aktarımlar
+
+Yukarıdaki hizmetlerin bazıları verileri Avrupa Ekonomik Alanı dışında, özellikle Amerika Birleşik Devletleri'nde (Google, Unity, Liftoff, RevenueCat) ve Singapur ile Amerika Birleşik Devletleri'nde (Pangle) işler; bu şirketlerin grup şirketleri ve hizmet sağlayıcıları verilere başka ülkelerden erişebilir. Bu aktarımlar, alıcı sertifikalıysa AB–ABD Veri Gizliliği Çerçevesi'ne (EU–US Data Privacy Framework) veya Avrupa Komisyonu'nun Standart Sözleşme Maddelerine dayanır.
+
+## Saklama Süreleri
+
+- **Senkronizasyon verileri** — hesabınızı silene kadar saklanır.
+- **Çökme raporları (Crashlytics)** — Google tarafından 90 gün saklanır.
+- **Analiz verileri** — Google'ın Firebase Analytics saklama ayarlarına göre saklanır.
+- **Reklam ağları ve RevenueCat tarafından toplanan veriler** — kendi gizlilik politikalarına göre saklanır.
+- **Bize gönderdiğiniz mesajlar** — talebinizi ele almak için gerektiği sürece saklanır, ardından silinir.
 
 ## Hesap Silme
 
-Hesabınızı ve ilgili tüm verileri istediğiniz zaman silebilirsiniz:
+Hesabınızı ve ilişkili tüm bulut verilerini istediğiniz zaman silebilirsiniz:
 
 - **Uygulama içinde:** Ayarlar → Veri Senkronizasyonu → Hesabı Sil
-- **Web üzerinden:** [alexjkldev.github.io/luckydecisions/delete-account](https://alexjkldev.github.io/luckydecisions/delete-account)
+- **Web üzerinden:** [alexjkl.fi/luckydecisions/delete-account](https://alexjkl.fi/luckydecisions/delete-account)
 
-Hesabınızı silmek, tüm bulut verilerinizi ve Firebase Authentication kaydınızı kalıcı olarak kaldırır. Hesap silinmesi Premium aboneliğinizi otomatik olarak iptal etmez.
+Hesabın silinmesi bulut verilerinizi ve Firebase Authentication kaydınızı kalıcı olarak kaldırır. Premium aboneliğiniz iptal edilmez; aboneliğinizi App Store veya Google Play'den yönetirsiniz.
+
+## Haklarınız
+
+GDPR kapsamında şu haklara sahipsiniz:
+
+- kişisel verilerinize erişme ve bir kopyasını alma
+- yanlış verilerin düzeltilmesini isteme
+- verilerinizin silinmesini isteme
+- işlemenin kısıtlanmasını isteme
+- veri taşınabilirliği
+- meşru menfaate dayanan işlemeye itiraz etme
+- onayınızı istediğiniz zaman geri çekme
+
+Haklarınızı kullanmak için bize [support@alexjkl.fi](mailto:support@alexjkl.fi) adresinden ulaşın. Verilerin çoğu, yukarıdaki hizmetler tarafından sizinle ilişkilendiremediğimiz cihaz tanımlayıcılarıyla işlendiğinden, bazı talepleri bu hizmetlere yönlendirmemiz gerekebilir. Onlarla doğrudan gizlilik politikaları aracılığıyla da iletişime geçebilirsiniz.
+
+Ayrıca, özellikle yaşadığınız veya çalıştığınız AB ülkesinde bir denetim makamına şikâyette bulunma hakkınız vardır. Finlandiya'da bu makam [Veri Koruma Ombudsmanlığı Ofisi](https://tietosuoja.fi/en)dir.
 
 ## Çocukların Gizliliği
 
-Uygulama bilerek çocuklardan kişisel bilgi toplamaz. Yukarıda listelenen üçüncü taraf hizmetlerin kendi yaş sınırlamaları olabilir.
+Uygulama çocuklara yönelik değildir. Ülkelerindeki dijital rıza yaşının (AB'de 13–16) altındaki çocuklardan bilerek kişisel veri toplamayız. Bir çocuğun bize kişisel veri verdiğini düşünüyorsanız lütfen bizimle iletişime geçin, bu verileri sileceğiz.
 
-## Bu Politikanın Değişiklikleri
+## Bu Politikadaki Değişiklikler
 
-Bu Gizlilik Politikasını zaman zaman güncelleyebiliriz. Değişiklikler uygulama içinde veya bu sayfada yayınlanacaktır.
+Bu Gizlilik Politikasını zaman zaman güncelleyebiliriz. Geçerli sürüm her zaman bu sayfada bulunur ve üstteki tarih en son ne zaman değiştirildiğini gösterir.
 
 ## İletişim
 
-Bu Gizlilik Politikası hakkında sorularınız varsa veya geliştiriciyle iletişime geçmek istiyorsanız, uygulama üzerinden ya da App Store veya Google Play Store listelemesi aracılığıyla bize ulaşabilirsiniz. Bizimle e-posta yoluyla iletişime geçtiğinizde, e-posta adresinizi, mesajınızın içeriğini ve varsa ek dosyaları alırız. Bu bilgiler yalnızca sorunuza yanıt vermek ve Uygulamayı geliştirmek amacıyla kullanılır. Bu bilgileri üçüncü taraflarla paylaşmayız.
+AlexJKL Oy — [support@alexjkl.fi](mailto:support@alexjkl.fi)
+
+Bizimle Uygulama üzerinden veya Uygulamanın App Store ya da Google Play sayfası üzerinden de iletişime geçebilirsiniz. Bizimle iletişime geçtiğinizde e-posta adresinizi, mesajınızın içeriğini ve eklerini alırız. Bu bilgileri yalnızca size yanıt vermek ve Uygulamayı geliştirmek için kullanır, üçüncü taraflarla paylaşmayız.

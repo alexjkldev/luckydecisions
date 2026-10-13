@@ -1,51 +1,117 @@
 # Zásady ochrany osobných údajov
 
-*13. októbra 2026*
+*14. októbra 2026*
 
-Lucky Decisions („Aplikácia“) je vyvinutá AlexJKL. Tieto zásady ochrany osobných údajov opisujú, ako sa vaše informácie zhromažďujú, používajú a zdieľajú pri používaní Aplikácie.
+Tieto Zásady ochrany osobných údajov vysvetľujú, ako sa spracúvajú osobné údaje pri používaní mobilnej aplikácie Lucky Decisions („Aplikácia").
 
-## Informácie, ktoré zhromažďujeme
+## Prevádzkovateľ
 
-Aplikácia ukladá všetok obsah vytvorený používateľom (kolesá, sektory, záznamy otáčaní, nastavenia) lokálne vo vašom zariadení.
+Prevádzkovateľom zodpovedným za spracúvanie vašich osobných údajov je:
 
-Predplatitelia Premium môžu dobrovoľne aktivovať **synchronizáciu údajov** — funkciu zálohovania v cloude. Pri jej používaní:
+**AlexJKL Oy** (Fínsko)
+E-mail: [support@alexjkl.fi](mailto:support@alexjkl.fi)
 
-- Prihlásite sa cez Google alebo Apple
-- Získame vašu e-mailovú adresu a jedinečný identifikátor účtu
-- Vaše údaje aplikácie (kolesá, nastavenia, preferencie) sa uložia do Firebase Firestore (cloudové úložisko Google)
+## Údaje uložené vo vašom zariadení
 
-Používanie synchronizácie údajov je úplne dobrovoľné. Ak sa neprihlasujete, žiadne osobné údaje sa nám ani tretím stranám neodovzdávajú.
+Všetok obsah, ktorý v Aplikácii vytvoríte (kolesá, sektory, záznamy točení, nastavenia), sa ukladá lokálne vo vašom zariadení. Neposiela sa nám, pokiaľ nezapnete synchronizáciu údajov.
 
-V Aplikácii sa používajú nasledujúce služby tretích strán, ktoré môžu zhromažďovať určité údaje:
+## Synchronizácia údajov (voliteľná, Premium)
 
-- **Google AdMob** — zhromažďuje reklamný identifikátor, informácie o zariadení, údaje o interakcii s reklamami (kliknutia, zobrazenia, ktoré reklamy ste videli) a diagnostiku SDK (údaje o pádoch a výkone) na zobrazovanie a meranie reklám. Na iOS si personalizované reklamy vyžadujú váš súhlas prostredníctvom App Tracking Transparency. [Zásady ochrany osobných údajov Google](https://policies.google.com/privacy)
-- **Unity Ads** — zobrazuje reklamy a zhromažďuje reklamný identifikátor, informácie o zariadení, údaje o interakciách s reklamami a diagnostické údaje SDK. [Zásady ochrany osobných údajov Unity](https://unity.com/legal/privacy-policy)
-- **Liftoff Monetize (Vungle)** — zobrazuje reklamy a zhromažďuje reklamný identifikátor, informácie o zariadení, údaje o interakciách s reklamami a diagnostické údaje SDK. [Zásady ochrany osobných údajov Liftoff](https://liftoff.io/privacy-policy/)
-- **Pangle** — zobrazuje reklamy a zhromažďuje reklamný identifikátor, informácie o zariadení, údaje o interakciách s reklamami a diagnostické údaje SDK. [Zásady ochrany osobných údajov Pangle](https://www.pangleglobal.com/privacy/enduser-en)
-- **RevenueCat** — spracúva nákupy predplatného, ukladá vašu históriu nákupov a priraďuje anonymný identifikátor používateľa. [Zásady ochrany osobných údajov RevenueCat](https://www.revenuecat.com/privacy)
-- **Firebase (Google)** — Crashlytics zhromažďuje správy o pádoch a chybách: trasovanie zásobníka, verziu OS, model zariadenia a identifikátor inštalácie. Firebase Analytics zhromažďuje anonymné udalosti používania aplikácie a identifikátor zariadenia. Firebase Authentication sa používa na prihlásenie cez Google a Apple pri používaní synchronizácie údajov. Firebase Firestore ukladá zálohy údajov aplikácie pre predplatiteľov Premium, ktorí majú aktivovanú synchronizáciu. [Zásady ochrany súkromia Google](https://policies.google.com/privacy)
+Predplatitelia Premium môžu zapnúť **synchronizáciu údajov**, funkciu zálohovania v cloude. Keď ju používate:
 
-## Ukladanie údajov
+- Prihlasujete sa cez Google alebo Apple
+- Dostávame vašu e-mailovú adresu a jedinečný identifikátor účtu
+- Údaje vašej aplikácie (kolesá, nastavenia, predvoľby) sa ukladajú vo Firebase Firestore (Google Cloud, región eur3, Európa)
 
-V predvolenom nastavení sú všetky údaje aplikácie uložené lokálne na vašom zariadení. Ak aktivujete synchronizáciu údajov (iba Premium), vaše údaje aplikácie sa navyše uložia vo Firebase Firestore — cloudovej službe Google umiestnenej v Európe (región eur3).
+Synchronizácia údajov je úplne dobrovoľná.
+
+## Údaje spracúvané službami tretích strán
+
+Aj keď synchronizáciu údajov nepoužívate, Aplikácia využíva nasledujúce služby, ktoré spracúvajú údaje, ako sú identifikátory zariadenia (reklamný identifikátor, identifikátor inštalácie), IP adresa, informácie o zariadení a operačnom systéme a interakcie s aplikáciou a reklamami:
+
+- **Google AdMob** — zobrazuje a meria reklamy. Zbiera reklamný identifikátor, informácie o zariadení, interakcie s reklamami (kliknutia, zobrazenia, ktoré reklamy ste videli) a diagnostiku SDK. [Zásady ochrany osobných údajov Google](https://policies.google.com/privacy)
+- **Unity Ads** — zobrazuje reklamy prostredníctvom mediácie AdMob. Zbiera reklamný identifikátor, informácie o zariadení, interakcie s reklamami a diagnostiku SDK. [Zásady ochrany osobných údajov Unity](https://unity.com/legal/privacy-policy)
+- **Liftoff Monetize (Vungle)** — zobrazuje reklamy prostredníctvom mediácie AdMob. Zbiera reklamný identifikátor, informácie o zariadení, interakcie s reklamami a diagnostiku SDK. [Zásady ochrany osobných údajov Liftoff](https://liftoff.io/privacy-policy/)
+- **Pangle** (Bytedance Pte. Ltd., Singapur) — zobrazuje reklamy prostredníctvom mediácie AdMob. Zbiera reklamný identifikátor, IP adresu a z nej odvodenú približnú polohu, informácie o zariadení, interakcie s reklamami a diagnostiku SDK. [Zásady ochrany osobných údajov Pangle](https://www.pangleglobal.com/privacy/enduser-en)
+- **RevenueCat** — spracúva nákupy predplatného, uchováva históriu vašich nákupov a prideľuje anonymný identifikátor používateľa aplikácie. [Zásady ochrany osobných údajov RevenueCat](https://www.revenuecat.com/privacy)
+- **Firebase (Google)**:
+  - *Crashlytics* — správy o pádoch a chybách: výpisy zásobníka, verzia operačného systému, model zariadenia, identifikátor inštalácie.
+  - *Analytics* — udalosti používania aplikácie prepojené s identifikátorom inštancie aplikácie.
+  - *Performance Monitoring* — údaje o výkone aplikácie, napríklad čas spustenia a trvanie sieťových požiadaviek.
+  - *Remote Config* — načítava konfiguráciu aplikácie zo serverov Google.
+  - *App Check* — overuje, že požiadavky na náš backend pochádzajú z pravej Aplikácie.
+  - *Authentication* a *Firestore* — prihlásenie a zálohovanie v cloude pri používaní synchronizácie údajov.
+
+  [Zásady ochrany osobných údajov Google](https://policies.google.com/privacy)
+
+Reklamné siete vystupujú ako samostatní prevádzkovatelia údajov, ktoré zbierajú, alebo, ak to stanovujú ich podmienky, ako spoloční prevádzkovatelia s nami (napríklad Pangle pri niektorých spracovateľských operáciách podľa článku 26 GDPR). Ich zásady ochrany osobných údajov, na ktoré odkazujeme vyššie, opisujú toto spracúvanie podrobne.
+
+Pripomienky v Aplikácii sa plánujú lokálne vo vašom zariadení. Neposielame push oznámenia.
+
+## Účely a právne základy
+
+| Účel | Právny základ (GDPR) |
+|---|---|
+| Personalizované reklamy | Váš súhlas (čl. 6 ods. 1 písm. a)) |
+| Nepersonalizované reklamy a meranie reklám | Váš súhlas alebo náš oprávnený záujem na financovaní bezplatnej verzie Aplikácie (čl. 6 ods. 1 písm. a) alebo f)), ako je uvedené vo formulári súhlasu |
+| Predplatné Premium a synchronizácia údajov | Plnenie zmluvy s vami (čl. 6 ods. 1 písm. b)) |
+| Hlásenie pádov, monitorovanie výkonu, konfigurácia aplikácie a ochrana pred zneužitím | Náš oprávnený záujem na stabilnej a bezpečnej Aplikácii (čl. 6 ods. 1 písm. f)) |
+| Analýza používania | Náš oprávnený záujem porozumieť Aplikácii a zlepšovať ju (čl. 6 ods. 1 písm. f)) |
+| Odpovede na vaše správy | Náš oprávnený záujem odpovedať vám (čl. 6 ods. 1 písm. f)) |
+
+## Vaše možnosti súhlasu
+
+V Európskom hospodárskom priestore, Spojenom kráľovstve a Švajčiarsku Aplikácia žiada o váš súhlas prostredníctvom formulára Google pred zobrazením personalizovaných reklám. Súhlas môžete kedykoľvek zmeniť alebo odvolať v Aplikácii v časti **Nastavenia → Nastavenia súkromia reklám**. Odvolanie súhlasu nemá vplyv na spracúvanie vykonané pred jeho odvolaním.
+
+V systéme iOS si personalizované reklamy vyžadujú aj vaše povolenie prostredníctvom App Tracking Transparency, ktoré môžete zmeniť v aplikácii Nastavenia systému iOS.
+
+## Prenosy do tretích krajín
+
+Niektoré z uvedených služieb spracúvajú údaje mimo Európskeho hospodárskeho priestoru, najmä v Spojených štátoch (Google, Unity, Liftoff, RevenueCat) a v Singapure a Spojených štátoch (Pangle), a spoločnosti z ich skupín a ich poskytovatelia služieb môžu k údajom pristupovať z iných krajín. Takéto prenosy sa zakladajú na Rámci ochrany osobných údajov medzi EÚ a USA (EU–US Data Privacy Framework), ak je príjemca certifikovaný, alebo na štandardných zmluvných doložkách Európskej komisie.
+
+## Doba uchovávania
+
+- **Údaje synchronizácie** — uchovávajú sa, kým nevymažete svoj účet.
+- **Správy o pádoch (Crashlytics)** — Google ich uchováva 90 dní.
+- **Analytické údaje** — uchovávajú sa podľa nastavení uchovávania Google pre Firebase Analytics.
+- **Údaje zbierané reklamnými sieťami a RevenueCat** — uchovávajú sa podľa ich vlastných zásad ochrany osobných údajov.
+- **Vaše správy nám** — uchovávajú sa, kým je to potrebné na vybavenie vašej žiadosti, potom sa vymažú.
 
 ## Vymazanie účtu
 
-Váš účet a všetky súvisiace údaje môžete kedykoľvek vymazať:
+Svoj účet a všetky súvisiace údaje v cloude môžete kedykoľvek vymazať:
 
 - **V aplikácii:** Nastavenia → Synchronizácia údajov → Vymazať účet
-- **Na webe:** [alexjkldev.github.io/luckydecisions/delete-account](https://alexjkldev.github.io/luckydecisions/delete-account)
+- **Na webe:** [alexjkl.fi/luckydecisions/delete-account](https://alexjkl.fi/luckydecisions/delete-account)
 
-Vymazaním účtu sa natrvalo odstránia všetky vaše cloudové údaje a záznam Firebase Authentication. Vymazanie účtu automaticky nezruší vaše predplatné Premium.
+Vymazaním účtu sa natrvalo odstránia vaše údaje v cloude a váš záznam vo Firebase Authentication. Predplatné Premium sa tým nezruší, spravujete ho v App Store alebo Google Play.
 
-## Ochrana súkromia detí
+## Vaše práva
 
-Aplikácia vedome nezhromažďuje osobné údaje od detí. Vyššie uvedené služby tretích strán môžu mať vlastné vekové obmedzenia.
+Podľa GDPR máte právo:
+
+- na prístup k svojim osobným údajom a na ich kópiu
+- na opravu nesprávnych údajov
+- na vymazanie svojich údajov
+- na obmedzenie spracúvania
+- na prenosnosť údajov
+- namietať proti spracúvaniu založenému na oprávnenom záujme
+- kedykoľvek odvolať svoj súhlas
+
+Ak chcete uplatniť svoje práva, napíšte nám na [support@alexjkl.fi](mailto:support@alexjkl.fi). Keďže väčšinu údajov spracúvajú uvedené služby pod identifikátormi zariadenia, ktoré nedokážeme priradiť k vám, niektoré žiadosti možno budeme musieť postúpiť týmto službám. Môžete ich kontaktovať aj priamo prostredníctvom ich zásad ochrany osobných údajov.
+
+Máte tiež právo podať sťažnosť dozornému orgánu, najmä v krajine EÚ, v ktorej žijete alebo pracujete. Vo Fínsku je to [Úrad ombudsmana pre ochranu údajov](https://tietosuoja.fi/en).
+
+## Súkromie detí
+
+Aplikácia nie je určená deťom. Vedome nezbierame osobné údaje detí, ktoré nedosiahli vek digitálneho súhlasu vo svojej krajine (13 – 16 rokov v EÚ). Ak sa domnievate, že nám dieťa poskytlo osobné údaje, kontaktujte nás a vymažeme ich.
 
 ## Zmeny týchto zásad
 
-Tieto zásady ochrany osobných údajov môžeme z času na čas aktualizovať. Zmeny budú zverejnené v Aplikácii alebo na tejto stránke.
+Tieto Zásady ochrany osobných údajov môžeme z času na čas aktualizovať. Aktuálna verzia je vždy dostupná na tejto stránke a dátum hore ukazuje, kedy bola naposledy zmenená.
 
 ## Kontakt
 
-Ak máte otázky týkajúce sa týchto zásad ochrany osobných údajov alebo chcete kontaktovať vývojára, môžete nás kontaktovať prostredníctvom Aplikácie alebo cez stránku Aplikácie v App Store alebo Google Play Store. Keď nás kontaktujete e-mailom, dostávame vašu e-mailovú adresu, obsah vašej správy a všetky prílohy. Tieto informácie používame výhradne na odpoveď na vašu žiadosť a zlepšenie Aplikácie. Nezdieľame ich s tretími stranami.
+AlexJKL Oy — [support@alexjkl.fi](mailto:support@alexjkl.fi)
+
+Môžete nás kontaktovať aj prostredníctvom Aplikácie alebo stránky Aplikácie v App Store či Google Play. Keď nás kontaktujete, dostaneme vašu e-mailovú adresu, obsah správy a prípadné prílohy. Tieto informácie používame len na to, aby sme vám odpovedali a zlepšovali Aplikáciu, a nezdieľame ich s tretími stranami.

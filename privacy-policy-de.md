@@ -1,51 +1,117 @@
 # Datenschutzrichtlinie
 
-*13. Oktober 2026*
+*14. Oktober 2026*
 
-Lucky Decisions („die App“) wird von AlexJKL entwickelt. Diese Datenschutzrichtlinie beschreibt, wie Informationen bei der Nutzung der App erhoben, verwendet und weitergegeben werden.
+Diese Datenschutzrichtlinie erläutert, wie personenbezogene Daten verarbeitet werden, wenn Sie die mobile App Lucky Decisions („die App") nutzen.
 
-## Welche Informationen wir erfassen
+## Verantwortlicher
 
-Die App speichert alle vom Nutzer erstellten Inhalte (Räder, Segmente, Drehprotokolle, Einstellungen) lokal auf Ihrem Gerät.
+Verantwortlicher für die Verarbeitung Ihrer personenbezogenen Daten ist:
 
-Premium-Abonnenten können freiwillig die **Datensynchronisierung** aktivieren — eine Cloud-Backup-Funktion. Bei der Nutzung dieser Funktion:
+**AlexJKL Oy** (Finnland)
+E-Mail: [support@alexjkl.fi](mailto:support@alexjkl.fi)
 
-- Melden Sie sich über Google oder Apple an
-- Wir erhalten Ihre E-Mail-Adresse und eine eindeutige Konto-ID
-- Ihre App-Daten (Räder, Einstellungen, Präferenzen) werden in Firebase Firestore (Google Cloud-Speicher) gespeichert
+## Auf Ihrem Gerät gespeicherte Daten
 
-Die Nutzung der Datensynchronisierung ist vollständig freiwillig. Wenn Sie sich nicht anmelden, werden keine persönlichen Daten an uns oder Dritte übermittelt.
+Alle Inhalte, die Sie in der App erstellen (Glücksräder, Sektoren, Dreh-Protokolle, Einstellungen), werden lokal auf Ihrem Gerät gespeichert. Sie werden nicht an uns gesendet, es sei denn, Sie aktivieren die Datensynchronisierung.
 
-Die folgenden Drittanbieterdienste werden in der App verwendet und können bestimmte Daten erfassen:
+## Datensynchronisierung (optional, Premium)
 
-- **Google AdMob** — Erfasst Werbe-ID, Geräteinformationen, Anzeigeninteraktionen (Klicks, Impressionen, welche Anzeigen Sie gesehen haben) sowie SDK-Diagnosedaten (Absturz- und Leistungsdaten), um Werbung bereitzustellen und zu messen. Unter iOS erfordern personalisierte Anzeigen Ihre Zustimmung über App Tracking Transparency. [Google-Datenschutzerklärung](https://policies.google.com/privacy)
-- **Unity Ads** — Zeigt Werbung an und erfasst Werbe-ID, Geräteinformationen, Anzeigeninteraktionen sowie SDK-Diagnosedaten. [Unity Datenschutzerklärung](https://unity.com/legal/privacy-policy)
-- **Liftoff Monetize (Vungle)** — Zeigt Werbung an und erfasst Werbe-ID, Geräteinformationen, Anzeigeninteraktionen sowie SDK-Diagnosedaten. [Liftoff Datenschutzerklärung](https://liftoff.io/privacy-policy/)
-- **Pangle** — Zeigt Werbung an und erfasst Werbe-ID, Geräteinformationen, Anzeigeninteraktionen sowie SDK-Diagnosedaten. [Pangle Datenschutzerklärung](https://www.pangleglobal.com/privacy/enduser-en)
-- **RevenueCat** — Verarbeitet Abonnementkäufe, speichert Ihren Kaufverlauf und weist eine anonyme Benutzer-ID zu. [RevenueCat-Datenschutzerklärung](https://www.revenuecat.com/privacy)
-- **Firebase (Google)** — Crashlytics erfasst Absturz- und Fehlerberichte: Stack-Traces, OS-Version, Gerätemodell und Installations-ID. Firebase Analytics erfasst anonyme App-Nutzungsereignisse und Geräte-ID. Firebase Authentication wird für die Anmeldung über Google und Apple bei der Nutzung der Datensynchronisierung verwendet. Firebase Firestore speichert App-Datensicherungen für Premium-Abonnenten, die die Synchronisierung aktiviert haben. [Google-Datenschutzerklärung](https://policies.google.com/privacy)
+Premium-Abonnenten können die **Datensynchronisierung** aktivieren, eine Cloud-Backup-Funktion. Wenn Sie sie nutzen:
 
-## Datenspeicherung
+- Melden Sie sich mit Google oder Apple an
+- Erhalten wir Ihre E-Mail-Adresse und eine eindeutige Konto-ID
+- Werden Ihre App-Daten (Glücksräder, Einstellungen, Präferenzen) in Firebase Firestore gespeichert (Google Cloud, Region eur3, Europa)
 
-Standardmäßig werden alle App-Daten lokal auf Ihrem Gerät gespeichert. Wenn Sie die Datensynchronisierung aktivieren (nur Premium), werden Ihre App-Daten zusätzlich in Firebase Firestore gespeichert — einem Google Cloud-Dienst in Europa (Region eur3).
+Die Datensynchronisierung ist vollständig optional.
 
-## Konto löschen
+## Datenverarbeitung durch Drittanbieterdienste
 
-Sie können Ihr Konto und alle zugehörigen Daten jederzeit löschen:
+Auch wenn Sie die Datensynchronisierung nicht nutzen, verwendet die App die folgenden Dienste, die Daten wie Gerätekennungen (Werbe-ID, Installations-ID), IP-Adresse, Geräte- und Betriebssysteminformationen sowie App- und Werbeinteraktionen verarbeiten:
+
+- **Google AdMob** — liefert und misst Werbung. Erfasst Werbe-ID, Geräteinformationen, Werbeinteraktionen (Klicks, Impressionen, welche Anzeigen Sie gesehen haben) und SDK-Diagnosedaten. [Datenschutzerklärung von Google](https://policies.google.com/privacy)
+- **Unity Ads** — liefert Werbung über die AdMob-Mediation. Erfasst Werbe-ID, Geräteinformationen, Werbeinteraktionen und SDK-Diagnosedaten. [Unity Datenschutzerklärung](https://unity.com/legal/privacy-policy)
+- **Liftoff Monetize (Vungle)** — liefert Werbung über die AdMob-Mediation. Erfasst Werbe-ID, Geräteinformationen, Werbeinteraktionen und SDK-Diagnosedaten. [Liftoff Datenschutzerklärung](https://liftoff.io/privacy-policy/)
+- **Pangle** (Bytedance Pte. Ltd., Singapur) — liefert Werbung über die AdMob-Mediation. Erfasst Werbe-ID, IP-Adresse und den daraus abgeleiteten ungefähren Standort, Geräteinformationen, Werbeinteraktionen und SDK-Diagnosedaten. [Pangle Datenschutzerklärung](https://www.pangleglobal.com/privacy/enduser-en)
+- **RevenueCat** — wickelt Abonnementkäufe ab, speichert Ihren Kaufverlauf und vergibt eine anonyme App-Nutzer-ID. [RevenueCat Datenschutzerklärung](https://www.revenuecat.com/privacy)
+- **Firebase (Google)**:
+  - *Crashlytics* — Absturz- und Fehlerberichte: Stacktraces, Betriebssystemversion, Gerätemodell, Installations-ID.
+  - *Analytics* — Nutzungsereignisse der App, verknüpft mit einer App-Instanz-ID.
+  - *Performance Monitoring* — Leistungsdaten der App wie Startzeit und Dauer von Netzwerkanfragen.
+  - *Remote Config* — ruft die App-Konfiguration von den Servern von Google ab.
+  - *App Check* — prüft, dass Anfragen an unser Backend von der echten App stammen.
+  - *Authentication* und *Firestore* — Anmeldung und Cloud-Backup bei Nutzung der Datensynchronisierung.
+
+  [Datenschutzerklärung von Google](https://policies.google.com/privacy)
+
+Werbenetzwerke handeln als eigenständige Verantwortliche für die von ihnen erhobenen Daten oder, soweit ihre Bedingungen dies vorsehen, als gemeinsam mit uns Verantwortliche (zum Beispiel Pangle für bestimmte Verarbeitungen gemäß Art. 26 DSGVO). Ihre Datenverarbeitung ist in den oben verlinkten Datenschutzerklärungen ausführlich beschrieben.
+
+Erinnerungen in der App werden lokal auf Ihrem Gerät geplant. Wir versenden keine Push-Benachrichtigungen.
+
+## Zwecke und Rechtsgrundlagen
+
+| Zweck | Rechtsgrundlage (DSGVO) |
+|---|---|
+| Personalisierte Werbung | Ihre Einwilligung (Art. 6 Abs. 1 lit. a) |
+| Nicht personalisierte Werbung und Werbemessung | Ihre Einwilligung oder unser berechtigtes Interesse an der Finanzierung der kostenlosen Version der App (Art. 6 Abs. 1 lit. a oder f), wie im Einwilligungsformular angegeben |
+| Premium-Abonnement und Datensynchronisierung | Erfüllung eines Vertrags mit Ihnen (Art. 6 Abs. 1 lit. b) |
+| Absturzberichte, Leistungsüberwachung, App-Konfiguration und Schutz vor Missbrauch | Unser berechtigtes Interesse an einer stabilen und sicheren App (Art. 6 Abs. 1 lit. f) |
+| Nutzungsanalyse | Unser berechtigtes Interesse, die App zu verstehen und zu verbessern (Art. 6 Abs. 1 lit. f) |
+| Beantwortung Ihrer Nachrichten | Unser berechtigtes Interesse, Ihnen zu antworten (Art. 6 Abs. 1 lit. f) |
+
+## Ihre Einwilligungsoptionen
+
+Im Europäischen Wirtschaftsraum, im Vereinigten Königreich und in der Schweiz fragt die App über das Einwilligungsformular von Google nach Ihrer Einwilligung, bevor personalisierte Werbung angezeigt wird. Sie können Ihre Einwilligung jederzeit in der App unter **Einstellungen → Datenschutzoptionen für Werbung** ändern oder widerrufen. Der Widerruf berührt nicht die Rechtmäßigkeit der bis dahin erfolgten Verarbeitung.
+
+Unter iOS erfordert personalisierte Werbung zusätzlich Ihre Erlaubnis über App Tracking Transparency, die Sie in der iOS-App „Einstellungen" ändern können.
+
+## Übermittlung in Drittländer
+
+Einige der oben genannten Dienste verarbeiten Daten außerhalb des Europäischen Wirtschaftsraums, insbesondere in den USA (Google, Unity, Liftoff, RevenueCat) sowie in Singapur und den USA (Pangle); ihre Konzerngesellschaften und Dienstleister können aus weiteren Ländern auf Daten zugreifen. Solche Übermittlungen stützen sich auf das EU-US Data Privacy Framework, sofern der Empfänger danach zertifiziert ist, oder auf die Standardvertragsklauseln der Europäischen Kommission.
+
+## Speicherdauer
+
+- **Daten der Datensynchronisierung** — bis Sie Ihr Konto löschen.
+- **Absturzberichte (Crashlytics)** — werden von Google 90 Tage gespeichert.
+- **Analysedaten** — werden gemäß den Aufbewahrungseinstellungen von Google für Firebase Analytics gespeichert.
+- **Von Werbenetzwerken und RevenueCat erhobene Daten** — werden gemäß deren eigenen Datenschutzerklärungen gespeichert.
+- **Ihre Nachrichten an uns** — werden so lange gespeichert, wie es zur Bearbeitung Ihrer Anfrage erforderlich ist, und danach gelöscht.
+
+## Kontolöschung
+
+Sie können Ihr Konto und alle zugehörigen Cloud-Daten jederzeit löschen:
 
 - **In der App:** Einstellungen → Datensynchronisierung → Konto löschen
-- **Im Web:** [alexjkldev.github.io/luckydecisions/delete-account](https://alexjkldev.github.io/luckydecisions/delete-account)
+- **Im Web:** [alexjkl.fi/luckydecisions/delete-account](https://alexjkl.fi/luckydecisions/delete-account)
 
-Das Löschen Ihres Kontos entfernt dauerhaft alle Ihre Cloud-Daten und Ihren Firebase Authentication-Eintrag. Das Löschen des Kontos kündigt Ihr Premium-Abonnement nicht automatisch.
+Durch das Löschen Ihres Kontos werden Ihre Cloud-Daten und Ihr Firebase-Authentication-Eintrag dauerhaft entfernt. Ihr Premium-Abonnement wird dadurch nicht gekündigt; Sie verwalten es im App Store oder bei Google Play.
 
-## Datenschutz für Kinder
+## Ihre Rechte
 
-Die App sammelt wissentlich keine personenbezogenen Informationen von Kindern. Die oben genannten Drittanbieterdienste können eigene Altersbeschränkungen haben.
+Nach der DSGVO haben Sie das Recht:
+
+- auf Auskunft über Ihre personenbezogenen Daten und eine Kopie davon
+- auf Berichtigung unrichtiger Daten
+- auf Löschung Ihrer Daten
+- auf Einschränkung der Verarbeitung
+- auf Datenübertragbarkeit
+- auf Widerspruch gegen eine auf berechtigten Interessen beruhende Verarbeitung
+- Ihre Einwilligung jederzeit zu widerrufen
+
+Um Ihre Rechte auszuüben, kontaktieren Sie uns unter [support@alexjkl.fi](mailto:support@alexjkl.fi). Da die meisten Daten von den oben genannten Diensten unter Gerätekennungen verarbeitet werden, die wir Ihnen nicht zuordnen können, müssen wir einige Anfragen möglicherweise an diese Dienste weiterleiten. Sie können sich auch direkt über deren Datenschutzerklärungen an sie wenden.
+
+Sie haben außerdem das Recht, sich bei einer Aufsichtsbehörde zu beschweren, insbesondere in dem EU-Land, in dem Sie leben oder arbeiten. In Finnland ist dies das [Büro des Datenschutzbeauftragten](https://tietosuoja.fi/en).
+
+## Datenschutz von Kindern
+
+Die App richtet sich nicht an Kinder. Wir erheben wissentlich keine personenbezogenen Daten von Kindern unterhalb des in ihrem Land geltenden Alters für die digitale Einwilligung (13–16 Jahre in der EU). Wenn Sie glauben, dass ein Kind uns personenbezogene Daten übermittelt hat, kontaktieren Sie uns bitte, und wir löschen sie.
 
 ## Änderungen dieser Richtlinie
 
-Wir können diese Datenschutzrichtlinie von Zeit zu Zeit aktualisieren. Änderungen werden innerhalb der App oder auf dieser Seite veröffentlicht.
+Wir können diese Datenschutzrichtlinie von Zeit zu Zeit aktualisieren. Die aktuelle Fassung ist immer auf dieser Seite verfügbar, und das Datum oben zeigt, wann sie zuletzt geändert wurde.
 
 ## Kontakt
 
-Wenn Sie Fragen zu dieser Datenschutzrichtlinie haben oder den Entwickler kontaktieren möchten, können Sie uns über die App oder über den Eintrag im App Store oder Google Play Store erreichen. Wenn Sie uns per E-Mail kontaktieren, erhalten wir Ihre E-Mail-Adresse, den Inhalt Ihrer Nachricht sowie etwaige Anhänge. Diese Informationen werden ausschließlich verwendet, um Ihre Anfrage zu beantworten und die App zu verbessern. Wir geben sie nicht an Dritte weiter.
+AlexJKL Oy — [support@alexjkl.fi](mailto:support@alexjkl.fi)
+
+Sie können uns auch über die App oder über den Eintrag im App Store oder bei Google Play kontaktieren. Wenn Sie uns kontaktieren, erhalten wir Ihre E-Mail-Adresse, den Inhalt Ihrer Nachricht und etwaige Anhänge. Wir verwenden diese Informationen ausschließlich, um Ihnen zu antworten und die App zu verbessern, und geben sie nicht an Dritte weiter.

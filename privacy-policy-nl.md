@@ -1,51 +1,117 @@
 # Privacybeleid
 
-*13 oktober 2026*
+*14 oktober 2026*
 
-Lucky Decisions ("de App") is ontwikkeld door AlexJKL. Dit Privacybeleid beschrijft hoe uw informatie wordt verzameld, gebruikt en gedeeld wanneer u de App gebruikt.
+Dit Privacybeleid legt uit hoe persoonsgegevens worden verwerkt wanneer u de mobiele app Lucky Decisions ("de App") gebruikt.
 
-## Informatie die wij verzamelen
+## Verwerkingsverantwoordelijke
 
-De App slaat alle door de gebruiker gemaakte inhoud (wielen, sectoren, spinsessies, instellingen) lokaal op uw apparaat op.
+De verwerkingsverantwoordelijke voor uw persoonsgegevens is:
 
-Premium-abonnees kunnen vrijwillig **gegevenssynchronisatie** inschakelen — een cloudback-upfunctie. Wanneer u deze functie gebruikt:
+**AlexJKL Oy** (Finland)
+E-mail: [support@alexjkl.fi](mailto:support@alexjkl.fi)
 
-- Logt u in via Google of Apple
+## Gegevens op uw apparaat
+
+Alle inhoud die u in de App maakt (raden, sectoren, draailogboeken, instellingen) wordt lokaal op uw apparaat opgeslagen. Deze wordt niet naar ons verzonden, tenzij u gegevenssynchronisatie inschakelt.
+
+## Gegevenssynchronisatie (optioneel, Premium)
+
+Premium-abonnees kunnen **gegevenssynchronisatie** inschakelen, een functie voor back-ups in de cloud. Wanneer u deze gebruikt:
+
+- Meldt u zich aan met Google of Apple
 - Ontvangen wij uw e-mailadres en een unieke account-ID
-- Worden uw app-gegevens (wielen, instellingen, voorkeuren) opgeslagen in Firebase Firestore (Google's cloudopslag)
+- Worden uw app-gegevens (raden, instellingen, voorkeuren) opgeslagen in Firebase Firestore (Google Cloud, regio eur3, Europa)
 
-Het gebruik van gegevenssynchronisatie is volledig vrijwillig. Als u niet inlogt, worden er geen persoonsgegevens naar ons of derden verzonden.
+Gegevenssynchronisatie is volledig optioneel.
 
-De volgende diensten van derden worden gebruikt in de App en kunnen bepaalde gegevens verzamelen:
+## Gegevens verwerkt door diensten van derden
 
-- **Google AdMob** — Verzamelt advertentie-ID, apparaatinformatie, advertentie-interacties (klikken, vertoningen, welke advertenties u heeft gezien) en SDK-diagnostiek (crash- en prestatiegegevens) om advertenties te tonen en te meten. Op iOS is uw toestemming vereist via App Tracking Transparency voor gepersonaliseerde advertenties. [Google Privacybeleid](https://policies.google.com/privacy)
-- **Unity Ads** — Toont advertenties en verzamelt advertentie-ID, apparaatinformatie, advertentie-interacties en SDK-diagnostiek. [Unity Privacybeleid](https://unity.com/legal/privacy-policy)
-- **Liftoff Monetize (Vungle)** — Toont advertenties en verzamelt advertentie-ID, apparaatinformatie, advertentie-interacties en SDK-diagnostiek. [Liftoff Privacybeleid](https://liftoff.io/privacy-policy/)
-- **Pangle** — Toont advertenties en verzamelt advertentie-ID, apparaatinformatie, advertentie-interacties en SDK-diagnostiek. [Pangle Privacybeleid](https://www.pangleglobal.com/privacy/enduser-en)
-- **RevenueCat** — Verwerkt abonnementsaankopen, slaat uw aankoopgeschiedenis op en wijst een anonieme gebruikers-ID toe. [RevenueCat Privacybeleid](https://www.revenuecat.com/privacy)
-- **Firebase (Google)** — Crashlytics verzamelt crash- en foutrapporten: stack traces, OS-versie, apparaatmodel en installatieherkenner. Firebase Analytics verzamelt anonieme app-gebruiksgebeurtenissen en apparaatherkenner. Firebase Authentication wordt gebruikt voor aanmelding via Google en Apple bij gebruik van gegevenssynchronisatie. Firebase Firestore slaat app-gegevensback-ups op voor Premium-abonnees die synchronisatie hebben ingeschakeld. [Google Privacybeleid](https://policies.google.com/privacy)
+Ook als u geen gegevenssynchronisatie gebruikt, maakt de App gebruik van de volgende diensten, die gegevens verwerken zoals apparaat-ID's (advertentie-ID, installatie-ID), IP-adres, apparaat- en besturingssysteemgegevens en interacties met de app en advertenties:
 
-## Gegevensopslag
+- **Google AdMob** — toont en meet advertenties. Verzamelt advertentie-ID, apparaatgegevens, advertentie-interacties (klikken, vertoningen, welke advertenties u hebt gezien) en SDK-diagnostiek. [Privacybeleid van Google](https://policies.google.com/privacy)
+- **Unity Ads** — toont advertenties via AdMob-mediatie. Verzamelt advertentie-ID, apparaatgegevens, advertentie-interacties en SDK-diagnostiek. [Unity Privacybeleid](https://unity.com/legal/privacy-policy)
+- **Liftoff Monetize (Vungle)** — toont advertenties via AdMob-mediatie. Verzamelt advertentie-ID, apparaatgegevens, advertentie-interacties en SDK-diagnostiek. [Liftoff Privacybeleid](https://liftoff.io/privacy-policy/)
+- **Pangle** (Bytedance Pte. Ltd., Singapore) — toont advertenties via AdMob-mediatie. Verzamelt advertentie-ID, IP-adres en de daaruit afgeleide bij benadering bepaalde locatie, apparaatgegevens, advertentie-interacties en SDK-diagnostiek. [Pangle Privacybeleid](https://www.pangleglobal.com/privacy/enduser-en)
+- **RevenueCat** — verwerkt abonnementsaankopen, bewaart uw aankoopgeschiedenis en kent een anonieme app-gebruikers-ID toe. [RevenueCat Privacybeleid](https://www.revenuecat.com/privacy)
+- **Firebase (Google)**:
+  - *Crashlytics* — crash- en foutrapporten: stacktraces, versie van het besturingssysteem, apparaatmodel, installatie-ID.
+  - *Analytics* — gebruiksgebeurtenissen van de app, gekoppeld aan een app-instance-ID.
+  - *Performance Monitoring* — prestatiegegevens van de app, zoals opstarttijd en de duur van netwerkverzoeken.
+  - *Remote Config* — haalt de app-configuratie op van de servers van Google.
+  - *App Check* — controleert of verzoeken aan onze backend afkomstig zijn van de echte App.
+  - *Authentication* en *Firestore* — aanmelden en cloud-back-up wanneer u gegevenssynchronisatie gebruikt.
 
-Standaard worden alle app-gegevens lokaal op uw apparaat opgeslagen. Als u gegevenssynchronisatie inschakelt (alleen Premium), worden uw app-gegevens ook opgeslagen in Firebase Firestore — een Google-cloudservice in Europa (regio eur3).
+  [Privacybeleid van Google](https://policies.google.com/privacy)
+
+Advertentienetwerken treden op als zelfstandige verwerkingsverantwoordelijken voor de gegevens die zij verzamelen of, waar hun voorwaarden dat bepalen, als gezamenlijke verwerkingsverantwoordelijken met ons (bijvoorbeeld Pangle voor bepaalde verwerkingen op grond van art. 26 AVG). Hun privacybeleid, hierboven gelinkt, beschrijft hun verwerking in detail.
+
+Herinneringen in de App worden lokaal op uw apparaat ingepland. Wij versturen geen pushmeldingen.
+
+## Doeleinden en rechtsgronden
+
+| Doel | Rechtsgrond (AVG) |
+|---|---|
+| Gepersonaliseerde advertenties | Uw toestemming (art. 6, lid 1, onder a) |
+| Niet-gepersonaliseerde advertenties en advertentiemeting | Uw toestemming of ons gerechtvaardigd belang bij het financieren van de gratis versie van de App (art. 6, lid 1, onder a of f), zoals vermeld in het toestemmingsformulier |
+| Premium-abonnement en gegevenssynchronisatie | Uitvoering van een overeenkomst met u (art. 6, lid 1, onder b) |
+| Crashrapportage, prestatiebewaking, app-configuratie en bescherming tegen misbruik | Ons gerechtvaardigd belang bij een stabiele en veilige App (art. 6, lid 1, onder f) |
+| Gebruiksanalyse | Ons gerechtvaardigd belang bij het begrijpen en verbeteren van de App (art. 6, lid 1, onder f) |
+| Beantwoorden van uw berichten | Ons gerechtvaardigd belang om u te antwoorden (art. 6, lid 1, onder f) |
+
+## Uw toestemmingskeuzes
+
+In de Europese Economische Ruimte, het Verenigd Koninkrijk en Zwitserland vraagt de App via het toestemmingsformulier van Google om uw toestemming voordat gepersonaliseerde advertenties worden getoond. U kunt uw toestemming op elk moment wijzigen of intrekken in de App via **Instellingen → Privacyopties voor advertenties**. Het intrekken van toestemming doet geen afbreuk aan de verwerking die daarvóór heeft plaatsgevonden.
+
+Op iOS is voor gepersonaliseerde advertenties ook uw toestemming via App Tracking Transparency nodig, die u kunt wijzigen in de iOS-app Instellingen.
+
+## Internationale doorgifte
+
+Sommige van de bovenstaande diensten verwerken gegevens buiten de Europese Economische Ruimte, met name in de Verenigde Staten (Google, Unity, Liftoff, RevenueCat) en in Singapore en de Verenigde Staten (Pangle), en hun groepsmaatschappijen en dienstverleners kunnen vanuit andere landen toegang krijgen tot gegevens. Deze doorgiften zijn gebaseerd op het EU-VS-gegevensprivacykader (EU–US Data Privacy Framework) als de ontvanger daarvoor gecertificeerd is, of op de modelcontractbepalingen van de Europese Commissie.
+
+## Bewaartermijnen
+
+- **Synchronisatiegegevens** — bewaard totdat u uw account verwijdert.
+- **Crashrapporten (Crashlytics)** — door Google 90 dagen bewaard.
+- **Analysegegevens** — bewaard volgens de bewaarinstellingen van Google voor Firebase Analytics.
+- **Gegevens verzameld door advertentienetwerken en RevenueCat** — bewaard volgens hun eigen privacybeleid.
+- **Uw berichten aan ons** — bewaard zolang nodig is om uw verzoek af te handelen en daarna verwijderd.
 
 ## Account verwijderen
 
-U kunt uw account en alle bijbehorende gegevens op elk moment verwijderen:
+U kunt uw account en alle bijbehorende cloudgegevens op elk moment verwijderen:
 
 - **In de app:** Instellingen → Gegevenssynchronisatie → Account verwijderen
-- **Via het web:** [alexjkldev.github.io/luckydecisions/delete-account](https://alexjkldev.github.io/luckydecisions/delete-account)
+- **Via het web:** [alexjkl.fi/luckydecisions/delete-account](https://alexjkl.fi/luckydecisions/delete-account)
 
-Het verwijderen van uw account verwijdert permanent al uw cloudgegevens en uw Firebase Authentication-record. Het verwijderen van het account annuleert uw Premium-abonnement niet automatisch.
+Het verwijderen van uw account wist uw cloudgegevens en uw Firebase Authentication-record permanent. Uw Premium-abonnement wordt daarmee niet opgezegd; dit beheert u in de App Store of Google Play.
+
+## Uw rechten
+
+Op grond van de AVG hebt u het recht om:
+
+- uw persoonsgegevens in te zien en er een kopie van te ontvangen
+- onjuiste gegevens te laten corrigeren
+- uw gegevens te laten wissen
+- de verwerking te beperken
+- uw gegevens over te dragen (dataportabiliteit)
+- bezwaar te maken tegen verwerking op basis van gerechtvaardigd belang
+- uw toestemming op elk moment in te trekken
+
+Om uw rechten uit te oefenen, kunt u contact met ons opnemen via [support@alexjkl.fi](mailto:support@alexjkl.fi). Omdat de meeste gegevens door de bovenstaande diensten worden verwerkt onder apparaat-ID's die wij niet aan u kunnen koppelen, moeten wij sommige verzoeken mogelijk doorverwijzen naar die diensten. U kunt hen ook rechtstreeks benaderen via hun privacybeleid.
+
+U hebt ook het recht een klacht in te dienen bij een toezichthoudende autoriteit, met name in het EU-land waar u woont of werkt. In Finland is dat het [Bureau van de Ombudsman voor gegevensbescherming](https://tietosuoja.fi/en).
 
 ## Privacy van kinderen
 
-De App verzamelt niet bewust persoonlijke informatie van kinderen. De hierboven genoemde diensten van derden kunnen hun eigen leeftijdsbeperkingen hebben.
+De App is niet bedoeld voor kinderen. Wij verzamelen niet bewust persoonsgegevens van kinderen die de leeftijd voor digitale toestemming in hun land nog niet hebben bereikt (13–16 jaar in de EU). Als u denkt dat een kind ons persoonsgegevens heeft verstrekt, neem dan contact met ons op en wij verwijderen deze.
 
 ## Wijzigingen in dit beleid
 
-Wij kunnen dit Privacybeleid van tijd tot tijd bijwerken. Wijzigingen worden gepubliceerd binnen de App of op deze pagina.
+Wij kunnen dit Privacybeleid van tijd tot tijd bijwerken. De actuele versie is altijd beschikbaar op deze pagina, en de datum bovenaan geeft aan wanneer het voor het laatst is gewijzigd.
 
 ## Contact
 
-Als u vragen heeft over dit Privacybeleid of contact wilt opnemen met de ontwikkelaar, kunt u dat doen via de App of via de App Store- of Google Play Store-vermelding. Wanneer u contact met ons opneemt per e-mail, ontvangen wij uw e-mailadres, de inhoud van uw bericht en eventuele bijlagen. Deze informatie wordt uitsluitend gebruikt om op uw vraag te reageren en de App te verbeteren. Wij delen deze niet met derden.
+AlexJKL Oy — [support@alexjkl.fi](mailto:support@alexjkl.fi)
+
+U kunt ook contact met ons opnemen via de App of via de pagina van de App in de App Store of Google Play. Wanneer u contact met ons opneemt, ontvangen wij uw e-mailadres, de inhoud van uw bericht en eventuele bijlagen. Wij gebruiken deze informatie uitsluitend om u te antwoorden en de App te verbeteren, en delen deze niet met derden.
