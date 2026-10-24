@@ -1,6 +1,6 @@
 # Gizlilik Politikası
 
-*14 Ekim 2026*
+*24 Ekim 2026*
 
 Bu Gizlilik Politikası, Lucky Decisions mobil uygulamasını ("Uygulama") kullandığınızda kişisel verilerin nasıl işlendiğini açıklar.
 
@@ -33,7 +33,7 @@ Veri Senkronizasyonunu kullanmasanız bile Uygulama, cihaz tanımlayıcıları (
 - **Unity Ads** — AdMob uyumlulaştırması aracılığıyla reklam gösterir. Reklam kimliği, cihaz bilgileri, reklam etkileşimleri ve SDK tanılama verilerini toplar. [Unity Gizlilik Politikası](https://unity.com/legal/privacy-policy)
 - **Liftoff Monetize (Vungle)** — AdMob uyumlulaştırması aracılığıyla reklam gösterir. Reklam kimliği, cihaz bilgileri, reklam etkileşimleri ve SDK tanılama verilerini toplar. [Liftoff Gizlilik Politikası](https://liftoff.io/privacy-policy/)
 - **Pangle** (Bytedance Pte. Ltd., Singapur) — AdMob uyumlulaştırması aracılığıyla reklam gösterir. Reklam kimliği, IP adresi ve buradan çıkarılan yaklaşık konum, cihaz bilgileri, reklam etkileşimleri ve SDK tanılama verilerini toplar. [Pangle Gizlilik Politikası](https://www.pangleglobal.com/privacy/enduser-en)
-- **RevenueCat** — abonelik satın alımlarını işler, satın alma geçmişinizi saklar ve anonim bir uygulama kullanıcı kimliği atar. [RevenueCat Gizlilik Politikası](https://www.revenuecat.com/privacy)
+- **RevenueCat** — abonelik satın alımlarını işler, satın alma geçmişinizi saklar ve anonim bir uygulama kullanıcı kimliği atar. iOS'ta, kendi reklamlarımızı ölçebilmemiz için Apple'ın reklam ilişkilendirme verilerini de alır (Uygulamanın bir Apple Ads kampanyasından yüklenip yüklenmediği ve hangi kampanya ve anahtar kelimeden geldiği). [RevenueCat Gizlilik Politikası](https://www.revenuecat.com/privacy)
 - **Firebase (Google)**:
   - *Crashlytics* — çökme ve hata raporları: yığın izleri, işletim sistemi sürümü, cihaz modeli, kurulum kimliği.
   - *Analytics* — bir uygulama örneği kimliğine bağlı uygulama kullanım olayları.
@@ -57,6 +57,7 @@ Uygulamadaki hatırlatıcılar cihazınızda yerel olarak planlanır. Anlık bil
 | Premium abonelik ve Veri Senkronizasyonu | Sizinle yapılan sözleşmenin ifası (md. 6(1)(b)) |
 | Çökme raporlama, performans izleme, uygulama yapılandırması ve kötüye kullanıma karşı koruma | Uygulamanın kararlı ve güvenli olmasına yönelik meşru menfaatimiz (md. 6(1)(f)) |
 | Kullanım analizi | Uygulamayı anlamaya ve geliştirmeye yönelik meşru menfaatimiz (md. 6(1)(f)) |
+| Kendi reklam kampanyalarımızın ölçülmesi (Apple Ads ilişkilendirmesi) | Hangi reklamlarımızın Uygulamaya kullanıcı getirdiğini bilmeye yönelik meşru menfaatimiz (md. 6(1)(f)) |
 | Mesajlarınıza yanıt verme | Size yanıt vermeye yönelik meşru menfaatimiz (md. 6(1)(f)) |
 
 ## Onay Tercihleriniz

@@ -1,6 +1,6 @@
 # Política de privacidad
 
-*14 de octubre de 2026*
+*24 de octubre de 2026*
 
 Esta Política de privacidad explica cómo se tratan los datos personales cuando usas la aplicación móvil Lucky Decisions ("la App").
 
@@ -33,7 +33,7 @@ Aunque no uses la sincronización de datos, la App utiliza los siguientes servic
 - **Unity Ads** — muestra anuncios a través de la mediación de AdMob. Recopila el ID de publicidad, información del dispositivo, interacciones con anuncios y diagnósticos del SDK. [Política de privacidad de Unity](https://unity.com/legal/privacy-policy)
 - **Liftoff Monetize (Vungle)** — muestra anuncios a través de la mediación de AdMob. Recopila el ID de publicidad, información del dispositivo, interacciones con anuncios y diagnósticos del SDK. [Política de privacidad de Liftoff](https://liftoff.io/privacy-policy/)
 - **Pangle** (Bytedance Pte. Ltd., Singapur) — muestra anuncios a través de la mediación de AdMob. Recopila el ID de publicidad, la dirección IP y la ubicación aproximada derivada de ella, información del dispositivo, interacciones con anuncios y diagnósticos del SDK. [Política de privacidad de Pangle](https://www.pangleglobal.com/privacy/enduser-en)
-- **RevenueCat** — procesa las compras de suscripciones, guarda tu historial de compras y asigna un ID de usuario anónimo. [Política de privacidad de RevenueCat](https://www.revenuecat.com/privacy)
+- **RevenueCat** — procesa las compras de suscripciones, guarda tu historial de compras y asigna un ID de usuario anónimo. En iOS también recibe la atribución publicitaria de Apple (si la App se instaló desde una campaña de Apple Ads, y desde qué campaña y palabra clave) para que podamos medir nuestra propia publicidad. [Política de privacidad de RevenueCat](https://www.revenuecat.com/privacy)
 - **Firebase (Google)**:
   - *Crashlytics* — informes de fallos y errores: trazas de pila, versión del sistema operativo, modelo del dispositivo, ID de instalación.
   - *Analytics* — eventos de uso de la app vinculados a un identificador de instancia de la app.
@@ -57,6 +57,7 @@ Los recordatorios de la App se programan localmente en tu dispositivo. No enviam
 | Suscripción Premium y sincronización de datos | Ejecución de un contrato contigo (art. 6.1.b) |
 | Informes de fallos, supervisión del rendimiento, configuración de la app y protección contra abusos | Nuestro interés legítimo en mantener la App estable y segura (art. 6.1.f) |
 | Analítica de uso | Nuestro interés legítimo en comprender y mejorar la App (art. 6.1.f) |
+| Medición de nuestras propias campañas publicitarias (atribución de Apple Ads) | Nuestro interés legítimo en saber qué anuncios nuestros atraen usuarios a la App (art. 6.1.f) |
 | Responder a tus mensajes | Nuestro interés legítimo en responderte (art. 6.1.f) |
 
 ## Tus opciones de consentimiento

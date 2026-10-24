@@ -1,6 +1,6 @@
 # Politique de confidentialité
 
-*14 octobre 2026*
+*24 octobre 2026*
 
 La présente Politique de confidentialité explique comment les données personnelles sont traitées lorsque vous utilisez l'application mobile Lucky Decisions (« l'Application »).
 
@@ -33,7 +33,7 @@ Même si vous n'utilisez pas la synchronisation des données, l'Application util
 - **Unity Ads** — diffuse des annonces via la médiation AdMob. Collecte l'identifiant publicitaire, des informations sur l'appareil, les interactions avec les annonces et des diagnostics du SDK. [Politique de confidentialité de Unity](https://unity.com/legal/privacy-policy)
 - **Liftoff Monetize (Vungle)** — diffuse des annonces via la médiation AdMob. Collecte l'identifiant publicitaire, des informations sur l'appareil, les interactions avec les annonces et des diagnostics du SDK. [Politique de confidentialité de Liftoff](https://liftoff.io/privacy-policy/)
 - **Pangle** (Bytedance Pte. Ltd., Singapour) — diffuse des annonces via la médiation AdMob. Collecte l'identifiant publicitaire, l'adresse IP et la localisation approximative qui en est déduite, des informations sur l'appareil, les interactions avec les annonces et des diagnostics du SDK. [Politique de confidentialité de Pangle](https://www.pangleglobal.com/privacy/enduser-en)
-- **RevenueCat** — traite les achats d'abonnement, conserve votre historique d'achats et attribue un identifiant utilisateur anonyme. [Politique de confidentialité de RevenueCat](https://www.revenuecat.com/privacy)
+- **RevenueCat** — traite les achats d'abonnement, conserve votre historique d'achats et attribue un identifiant utilisateur anonyme. Sur iOS, il reçoit aussi l'attribution publicitaire d'Apple (si l'Application a été installée depuis une campagne Apple Ads, et depuis quelle campagne et quel mot-clé) afin que nous puissions mesurer notre propre publicité. [Politique de confidentialité de RevenueCat](https://www.revenuecat.com/privacy)
 - **Firebase (Google)** :
   - *Crashlytics* — rapports de plantage et d'erreur : traces de pile, version du système, modèle de l'appareil, identifiant d'installation.
   - *Analytics* — événements d'utilisation de l'application, liés à un identifiant d'instance de l'application.
@@ -57,6 +57,7 @@ Les rappels de l'Application sont programmés localement sur votre appareil. Nou
 | Abonnement Premium et synchronisation des données | Exécution d'un contrat conclu avec vous (art. 6, par. 1, point b) |
 | Rapports de plantage, suivi des performances, configuration de l'application et protection contre les abus | Notre intérêt légitime à assurer la stabilité et la sécurité de l'Application (art. 6, par. 1, point f) |
 | Statistiques d'utilisation | Notre intérêt légitime à comprendre et améliorer l'Application (art. 6, par. 1, point f) |
+| Mesure de nos propres campagnes publicitaires (attribution Apple Ads) | Notre intérêt légitime à savoir lesquelles de nos annonces amènent des utilisateurs vers l'Application (art. 6, par. 1, point f) |
 | Réponse à vos messages | Notre intérêt légitime à vous répondre (art. 6, par. 1, point f) |
 
 ## Vos choix en matière de consentement
